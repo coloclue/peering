@@ -5,8 +5,8 @@ Current Peering Policy: [![Build Status](https://travis-ci.org/coloclue/peering.
 
 ## What is Coloclue? ##
 
-Coloclue (AS 8283) is a non-profit foundation based in the Netherlands, serving
-a very specific market segment: the foundation is run by, and for, network
+Coloclue (AS 8283) is a non-profit association based in the Netherlands, serving
+a very specific market segment: the association is run by, and for, network
 engineers from the Dutch ISP scene, entirely driven by volunteers.
 
 These engineers prefer to host their gear at some other place than their
