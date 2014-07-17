@@ -37,3 +37,11 @@ AS9143:
         - 2001:7f8:1::a500:9143:1
         - 195.69.144.181
         - 2001:7f8:1::a500:9143:2
+
+AS12713:
+    description: OTEGLOBE
+    import: as-oteglobe
+    export: AS-COLOCLUE
+    peerings:
+        - 195.69.144.179
+        - 2001:7f8:1::a501:2713:1
