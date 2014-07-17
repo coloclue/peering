@@ -54,3 +54,10 @@ AS13285:
         - 195.69.145.34
         - 2001:7f8:1::a501:3285:1
 
+AS6939:
+    description: Hurricane Electric
+    import: AS-HURRICANE
+    export: AS-COLOCLUE
+    peerings:
+        - 195.69.145.150
+        - 2001:7f8:1::a500:6939:1
