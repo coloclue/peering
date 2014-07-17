@@ -45,3 +45,12 @@ AS12713:
     peerings:
         - 195.69.144.179
         - 2001:7f8:1::a501:2713:1
+
+AS13285:
+    description: TalkTalk
+    import: AS-OPAL
+    export: AS-COLOCLUE
+    peerings:
+        - 195.69.145.34
+        - 2001:7f8:1::a501:3285:1
+
