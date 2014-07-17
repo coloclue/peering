@@ -61,3 +61,11 @@ AS6939:
     peerings:
         - 195.69.145.150
         - 2001:7f8:1::a500:6939:1
+
+AS42473:
+    description: ANEXIA Internetdienstleistungs GmbH
+    import: AS-ANEXIA
+    export: AS-COLOCLUE
+    peerings:
+        - 195.69.147.58
+        - 2001:7f8:1::a504:2473:1
