@@ -1,4 +1,4 @@
-6777:
+AS6777:
     description: AMS-IX Routeservers
     import: AS-AMS-IX-RS-SETS
     export: AS-COLOCLUE
@@ -8,7 +8,7 @@
         - 2001:7f8:1::a500:6777:1
         - 2001:7f8:1::a500:6777:2
 
-3265:
+AS3265:
     description: XS4ALL
     import: AS-ACCESSFORALL
     export: AS-COLOCLUE
@@ -18,7 +18,7 @@
         - 195.69.144.48
         - 2001:7f8:1::a500:3265:2
 
-9143:
+AS9143:
     description: Ziggo
     import: AS-BENELUX
     export: AS-COLOCLUE
