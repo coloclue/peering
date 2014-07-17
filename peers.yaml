@@ -75,7 +75,7 @@ AS16298:
     import: AS-INTERBOX
     export: AS-COLOCLUE
     peerings:
-        - 195.69.144.183.
+        - 195.69.144.183
         - 2001:7f8:1::a501:6298:1
 
 AS41692:
