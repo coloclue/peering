@@ -69,3 +69,12 @@ AS42473:
     peerings:
         - 195.69.147.58
         - 2001:7f8:1::a504:2473:1
+
+AS16298:
+    description: InterBox Internet
+    import: AS-INTERBOX
+    export: AS-COLOCLUE
+    peerings:
+        - 195.69.144.183.
+        - 2001:7f8:1::a501:6298:1
+
