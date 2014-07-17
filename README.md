@@ -1,6 +1,8 @@
 Coloclue (AS8283) Peering Relation Repository
 ==============================================
 
+Current Peering Policy: [![Build Status](https://travis-ci.org/coloclue/peering.svg?branch=master)](https://travis-ci.org/coloclue/peering)
+
 ## What is Coloclue? ##
 
 Coloclue (AS 8283) is a non-profit foundation based in the Netherlands, serving
