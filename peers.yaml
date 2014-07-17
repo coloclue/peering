@@ -85,3 +85,10 @@ AS41692:
     peerings:
         - 195.69.145.221
         - 2001:7f8:1::a504:1692:1
+
+AS21478:
+    description: Plex
+    import: AS-PLEX
+    export: AS-COLOCLUE
+    peerings:
+        - 195.69.144.216
