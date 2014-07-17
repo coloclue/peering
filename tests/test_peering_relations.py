@@ -41,7 +41,7 @@ for asn in peerings:
         for ixp in connected_ixps:
             for subnet in connected_ixps[ixp]:
                 if ipaddr.IPAddress(peer) in subnet:
-                    print "OK: found %s in %s" % (peer, ixp)
+                    print "OK: found %s (%s) in %s" % (peer, asn, ixp)
                     found = True
         if not found:
             print "ERROR: AS 8283 cannot reach %s through %s, either a typo \
