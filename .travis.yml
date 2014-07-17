@@ -4,4 +4,4 @@ before_install:
     - sudo apt-get install python-pip
     - sudo pip install ipaddr requests pyyaml
 
-script: python ./test_peering_relations.py
+script: python ./tests/test_peering_relations.py

@@ -15,7 +15,12 @@ import sys
 
 peering_flat = open('peers.yaml').read()
 
-peerings = yaml.safe_load(peering_flat)
+try:
+    peerings = yaml.safe_load(peering_flat)
+except:
+    print "ERROR: the peers.yaml file could not be parsed... please check \
+your syntax"
+    sys.exit(2)
 
 # IXPs coloclue is connected to
 
