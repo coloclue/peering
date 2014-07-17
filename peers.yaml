@@ -10,7 +10,7 @@ AS1200:
     
 AS6777:
     description: AMS-IX Routeservers
-    import: AS-AMS-IX-RS-SETS
+    import: AS-AMS-IX-RS-SETS AS-AMS-IX-RS-SETS-V6
     export: AS-COLOCLUE
     peerings: 
         - 195.69.144.255
@@ -78,3 +78,10 @@ AS16298:
         - 195.69.144.183.
         - 2001:7f8:1::a501:6298:1
 
+AS41692:
+    description: OpenCarrier
+    import: AS-OPENCARRIER AS-OPENCARRIER6
+    export: AS-COLOCLUE
+    peerings:
+        - 195.69.145.221
+        - 2001:7f8:1::a504:1692:1
