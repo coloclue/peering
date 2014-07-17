@@ -1,3 +1,13 @@
+AS1200:
+    description: AMS-IX Office
+    import: AS1200
+    export: AS-COLOCLUE
+    peerings:
+        - 195.69.144.1
+        - 195.69.145.1
+        - 2001:7f8:1:0:0:a500:1200:1
+        - 2001:7f8:1:0:0:a500:1200:2
+    
 AS6777:
     description: AMS-IX Routeservers
     import: AS-AMS-IX-RS-SETS
