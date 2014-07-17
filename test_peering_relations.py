@@ -1,4 +1,13 @@
 #!/usr/bin/env python
+# test_peering_relations.py
+#
+# Purpose:
+#   Simple peers.yaml parser to do some basic checks this is useful
+#   to give immediate feedback to the pull requester when obvious
+#   things are wrong.
+#
+# Author: Job Snijders <job@instituut.net>
+# License: BSD 2-Clause
 
 import ipaddr
 import yaml
@@ -35,7 +44,10 @@ or we are not connected to the same internet exchange" \
                 % (peer, " ".join(connected_ixps))
             sys.exit(2)
 
-    if not peerings[asn]['export'] in ['AS-COLOCLUE', 'NOT ANY', 'none']:
+    acceptable_exports = ['AS-COLOCLUE', 'NOT ANY', 'none']
+    if not peerings[asn]['export'] in acceptable_exports:
         print "ERROR: export must be one of the following: %s" \
-            % " ".join(['AS-COLOCLUE', 'NOT ANY', 'none'])
+            % " ".join(acceptable_exports)
         sys.exit(2)
+
+print "HOORAY: All is good, thanks for peering!"
