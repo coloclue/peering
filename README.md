@@ -33,7 +33,7 @@ not hesitate to contact routers@coloclue.net.
     NOC:   routers@coloclue.net
 
     IXP:   AMS-IX
-    IPv4:  195.69.147.161/22
+    IPv4:  195.69.147.161
     IPv6:  2001:7f8:1::a500:8283:1
 ```
 
@@ -44,4 +44,5 @@ non-traditional routing policy:
     
     * All peers' prefixes are filtered based on strict RPSL
     * Same local preference for peers/downstream/upstream
+    * Prefix filters facing peers are updated every 12 hours from RADB
 

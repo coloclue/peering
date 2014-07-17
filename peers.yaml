@@ -1,0 +1,29 @@
+6777:
+    description: AMS-IX Routeservers
+    import: AS-AMS-IX-RS-SETS
+    export: AS-COLOCLUE
+    peerings: 
+        - 195.69.144.255
+        - 195.69.145.0
+        - 2001:7f8:1::a500:6777:1
+        - 2001:7f8:1::a500:6777:2
+
+3265:
+    description: XS4ALL
+    import: AS-ACCESSFORALL
+    export: AS-COLOCLUE
+    peerings:
+        - 195.69.144.166
+        - 2001:7f8:1::a500:3265:1
+        - 195.69.144.48
+        - 2001:7f8:1::a500:3265:2
+
+9143:
+    description: Ziggo
+    import: AS-BENELUX
+    export: AS-COLOCLUE
+    peerings:
+        - 195.69.144.103
+        - 2001:7f8:1::a500:9143:1
+        - 195.69.144.181
+        - 2001:7f8:1::a500:9143:2
