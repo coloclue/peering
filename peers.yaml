@@ -96,7 +96,7 @@ AS21478:
 AS8282:
     description: Fido
     import: AS-FIDONET
+    export: AS-COLOCLUE
     peerings:
         - 195.69.147.39
         - 2001:7f8:1::a500:8282:1
-        
