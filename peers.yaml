@@ -144,9 +144,18 @@ AS25091:
         - 2001:7F8:1::A502:5091:1
 
 AS51185:
-    description: Mainsoft
-    import: AS-MAINSOFT
-    export: AS-COLOCLUE
-    peerings:
-        - 195.69.146.163
-        - 2001:7F8:1::A505:1185:1
+	description: Mainsoft
+	import: AS-MAINSOFT
+	export: AS-COLOCLUE
+	peerings:
+		- 195.69.146.163
+		- 2001:7F8:1::A505:1185:1
+		
+AS61349:
+	description: MaxiTEL
+	import: AS-MAXITEL
+	export: AS-COLOCLUE
+	peerings:
+		- 195.69.147.28
+		- 2001:7f8:1::a506:1349:1
+
