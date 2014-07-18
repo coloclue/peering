@@ -158,3 +158,11 @@ AS20953:
     peerings:
         - 195.69.144.203
         - 2001:7F8:1::A502:953:1
+
+AS20953:
+    description: MaxiTEL
+    import: AS-MAXITEL
+    export: AS-COLOCLUE
+    peerings:
+        - 195.69.147.28
+        - 2001:7f8:1::a506:1349:1
