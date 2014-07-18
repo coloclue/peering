@@ -3,7 +3,7 @@ AS260:
    import: AS-XCONNECT24
    export: AS-COLOCLUE
    peerings:
-       - 195.69.145.15
+       - 195.69.147.15
        - 2001:7f8:1::a500:260:1
        
 AS1200:
