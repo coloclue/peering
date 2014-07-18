@@ -166,3 +166,11 @@ AS61349:
     peerings:
         - 195.69.147.28
         - 2001:7f8:1::a506:1349:1
+
+AS50763:
+    description: MCKAYCOM Ltd
+    import: AS-MCKAY
+    export: AS-COLOCLUE
+    peerings:
+        - 195.69.146.99
+        - 2001:7f8:1::a505:763:1
