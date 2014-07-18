@@ -120,7 +120,7 @@ AS13101:
         - 2001:7f8:1::a501:3101:1
 
 AS48200:
-    descripotion: Opteamax
+    description: Opteamax
     import: AS-OPTEAMAX-v4 AS-OPTEAMAX
     export: AS-COLOCLUE
     peerings:
