@@ -26,6 +26,17 @@ our routers within an hour or so.
 The `peers.yaml` format should be fairly self-explanatory, but when in doubt do
 not hesitate to contact routers@coloclue.net.
 
+Example stanza:
+
+```AS1200:
+    description: A really cool ISP
+    import: AS-RANDOMISP
+    export: AS-COLOCLUE
+    peerings:
+        - 195.69.147.39
+        - 2001:7f8:1::a500:8282:1
+```
+
 ### Technical details ###
 
 ```
