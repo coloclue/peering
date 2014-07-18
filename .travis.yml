@@ -8,6 +8,6 @@ notifications:
     channels:
       - "openirc.snt.utwente.nl#ccrouters"
     template:
-      - "%{commit} (%{commit_message}) by %{author}): %{message}"
+      - "%{commit} (%{commit_message}) by %{author}: %{message}"
     use_notice: true
     skip_join: true
