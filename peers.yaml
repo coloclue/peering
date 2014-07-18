@@ -110,3 +110,12 @@ AS12859:
         - 195.69.144.200
         - 2001:7f8:1::a501:2859:1
         - 2001:7f8:1::a501:2859:2
+
+AS13101:
+    description: TNG
+    import: AS-TNG AS-TNG-IPV6
+    export: AS-COLOCLUE
+    peerings:
+        - 195.69.145.119
+        - 2001:7f8:1::a501:3101:1
+
