@@ -26,6 +26,9 @@ our routers within an hour or so.
 The `peers.yaml` format should be fairly self-explanatory, but when in doubt do
 not hesitate to contact routers@coloclue.net.
 
+**Note**: `peers.yaml` is indented by **4** spaces. This needs to be used
+consistently across the file. Failing to do so will result in invalid YAML.
+
 Example stanza:
 
 ```AS1200:
