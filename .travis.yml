@@ -1,5 +1,12 @@
 language: python
-install:
-    - "pip install ipaddr requests pyyaml"
+install: "pip install ipaddr requests pyyaml"
 
 script: python ./tests/test_peering_relations.py
+
+notifications:
+  irc:
+    channels:
+      - "openirc.snt.utwente.nl#ccrouters"
+    template:
+      - "#%{build_number} (%{commit} : %{author}): %{message}"
+    use_notice: true
