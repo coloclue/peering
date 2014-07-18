@@ -100,3 +100,13 @@ AS8282:
     peerings:
         - 195.69.147.39
         - 2001:7f8:1::a500:8282:1
+
+AS12859:
+    description: BIT
+    import: AS-BIT AS-BIT6
+    export: AS-COLOCLUE
+    peerings:
+        - 195.69.144.35
+        - 195.69.144.200
+        - 2001:7f8:1::a501:2859:1
+        - 2001:7f8:1::a501:2859:2
