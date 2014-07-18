@@ -110,3 +110,11 @@ AS12859:
         - 195.69.144.200
         - 2001:7f8:1::a501:2859:1
         - 2001:7f8:1::a501:2859:2
+
+AS48200:
+    descripotion: Opteamax
+    import: AS-OPTEAMAX-v4 AS-OPTEAMAX
+    export: AS-COLOCLUE
+    peerings:
+        - 195.69.147.172
+        - 2001:7f8:1::A504:8200:1 
