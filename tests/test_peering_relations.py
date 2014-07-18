@@ -29,6 +29,11 @@ connected_ixps = {
               ipaddr.IPNetwork('2001:7f8:1::/64')]}
 
 for asn in peerings:
+    for keyword in ['export', 'import', 'description', 'peerings']:
+        if keyword not in peerings[asn]:
+            print "ERROR: missing %s statement in stanza %s" % (keyword, asn)
+            sys.exit(2)
+
     for peer in peerings[asn]['peerings']:
         try:
             peer_ip = ipaddr.IPAddress(peer)
