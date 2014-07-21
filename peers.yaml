@@ -221,3 +221,11 @@ AS41095:
     export: AS-COLOCLUE
     peerings:
         - 195.69.145.196
+
+AS58291:
+    description: Colocenter.nl
+    import: AS-COLOCENTER
+    export: AS-COLOCLUE
+    peerings:
+        - 195.69.147.77
+
