@@ -206,3 +206,11 @@ AS30844:
     peerings:
         - 195.69.147.45
         - 2001:7f8:1::a503:0844:1
+
+AS8365:
+    description: MANDA
+    import: AS-MANDA
+    export: AS-COLOCLUE
+    peerings:
+        - 195.69.145.217
+        - 2001:7f8:1::a500:8365:1
