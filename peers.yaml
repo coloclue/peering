@@ -174,3 +174,19 @@ AS50763:
     peerings:
         - 195.69.146.99
         - 2001:7f8:1::a505:763:1
+
+AS42:
+    description: Packet Clearing House
+    import: AS-PCH
+    export: AS-COLOCLUE
+    peerings:
+        - 195.69.144.250
+        - 2001:7f8:1::a500:42:1
+
+AS3856:
+    description: Packet Clearing House
+    import: AS-PCH
+    export: AS-COLOCLUE
+    peerings:
+        - 195.69.145.250
+        - 2001:7f8:1::a500:3856:1
