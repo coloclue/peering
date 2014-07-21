@@ -188,5 +188,5 @@ AS3856:
     import: AS-PCH
     export: AS-COLOCLUE
     peerings:
-        - 195.69.144.250
+        - 195.69.145.250
         - 2001:7f8:1::a500:3856:1
