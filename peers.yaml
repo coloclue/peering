@@ -190,3 +190,11 @@ AS3856:
     peerings:
         - 195.69.145.250
         - 2001:7f8:1::a500:3856:1
+
+AS3267:
+    description: RUNNet
+    import: AS-RUNNET
+    export: AS-COLOCLUE
+    peerings:
+        - 195.69.145.75
+        - 2001:7f8:1::a500:3267:1
