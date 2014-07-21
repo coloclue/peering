@@ -229,3 +229,11 @@ AS58291:
     peerings:
         - 195.69.147.77
 
+AS196752:
+    description: Tilaa
+    import: AS-TILAA
+    export: AS-COLOCLUE
+    peerings:
+        - 195.69.147.247
+        - 2001:7f8:1::a500:19:6752:1
+
