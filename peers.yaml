@@ -166,3 +166,19 @@ AS20953:
     peerings:
         - 195.69.147.28
         - 2001:7f8:1::a506:1349:1
+
+AS42:
+    description: Packet Clearing House
+    import: AS-PCH
+    export: AS-COLOCLUE
+    peerings:
+        - 195.69.144.250
+        - 2001:7f8:1::a500:42:1
+
+AS3856:
+    description: Packet Clearing House
+    import: AS-PCH
+    export: AS-COLOCLUE
+    peerings:
+        - 195.69.144.250
+        - 2001:7f8:1::a500:3856:1
