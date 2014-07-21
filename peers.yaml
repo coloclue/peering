@@ -159,13 +159,21 @@ AS20953:
         - 195.69.144.203
         - 2001:7F8:1::A502:953:1
 
-AS20953:
+AS61349:
     description: MaxiTEL
     import: AS-MAXITEL
     export: AS-COLOCLUE
     peerings:
         - 195.69.147.28
         - 2001:7f8:1::a506:1349:1
+
+AS50763:
+    description: MCKAYCOM Ltd
+    import: AS-MCKAY
+    export: AS-COLOCLUE
+    peerings:
+        - 195.69.146.99
+        - 2001:7f8:1::a505:763:1
 
 AS42:
     description: Packet Clearing House
