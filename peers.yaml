@@ -198,3 +198,11 @@ AS3267:
     peerings:
         - 195.69.145.75
         - 2001:7f8:1::a500:3267:1
+
+AS30844:
+    description: Liquid Telecom
+    import: AS-LIQUID
+    export: AS-COLOCLUE
+    peerings:
+        - 195.69.147.45
+        - 2001:7f8:1::a503:0844:1
