@@ -254,3 +254,13 @@ AS1140:
     peerings:
         - 195.69.144.49
         - 2001:7f8:1::a500:1140:1
+
+AS20562:
+    description: OpenPeering
+    import: AS-OPENPEERING
+    export: AS-COLOCLUE
+    peerings:
+        - 195.69.144.189
+        - 195.69.145.197
+        - 2001:7f8:1::a502:562:1
+        - 2001:7f8:1::a502:562:2
