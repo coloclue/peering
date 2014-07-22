@@ -246,3 +246,11 @@ AS9150:
         - 195.69.144.139
         - 2001:7f8:1::A500:9150:2
         - 2001:7f8:1::A500:9150:1
+
+AS1140:
+    description: SIDN
+    import: AS-SIDN
+    export: AS-COLOCLUE
+    peerings:
+        - 195.69.144.49
+        - 2001:7f8:1::a500:1140:1
