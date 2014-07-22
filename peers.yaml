@@ -236,3 +236,13 @@ AS196752:
     peerings:
         - 195.69.147.247
         - 2001:7f8:1:0:a500:19:6752:1
+
+AS9150:
+    description: Interconnect Services
+    import: AS-INTERCONNECT
+    export: AS-COLOCLUE
+    peerings:
+        - 195.69.145.179
+        - 195.69.144.139
+        - 2001:7f8:1::A500:9150:2
+        - 2001:7f8:1::A500:9150:1
