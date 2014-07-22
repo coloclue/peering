@@ -264,3 +264,10 @@ AS20562:
         - 195.69.145.197
         - 2001:7f8:1::a502:562:1
         - 2001:7f8:1::a502:562:2
+
+AS47065:
+    description: GENI BGPMUX
+    import: AS47065
+    export: AS-COLOCLUE
+    peerings:
+        - 195.69.144.45
