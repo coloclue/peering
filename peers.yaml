@@ -48,7 +48,7 @@ AS9143:
 
 AS12713:
     description: OTEGLOBE
-    import: as-oteglobe
+    import: AS-OTEGLOBE
     export: AS-COLOCLUE
     peerings:
         - 195.69.144.179
@@ -145,7 +145,7 @@ AS25091:
 
 AS51185:
     description: Mainsoft
-    import: AS-MAINSOFT
+    import: AS-MAINSOFT AS-MAINSOFT-V6
     export: AS-COLOCLUE
     peerings:
         - 195.69.146.163
