@@ -271,3 +271,13 @@ AS47065:
     export: AS-COLOCLUE
     peerings:
         - 195.69.144.45
+
+AS12414:
+    description: Solcon
+    import: AS-SOLCON AS-SOLCON6
+    export: AS-COLOCLUE
+    peerings:
+        - 195.69.144.165
+        - 195.69.145.165
+        - 2001:7f8:1::a501:2414:1
+        - 2001:7f8:1::a501:2414:2
