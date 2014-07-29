@@ -285,7 +285,7 @@ AS12414:
 AS29396:
     description: UNET
     import: AS-UNET
-    export: AS-COLOLUE
+    export: AS-COLOCLUE
     peerings:
         - 195.69.145.166
         - 195.69.144.154
