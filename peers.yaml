@@ -292,7 +292,7 @@ AS29396:
         - 2001:7F8:1::A502:9396:1
         - 2001:7f8:1::A502:9396:2
 
-AS366892:
+AS36692:
     description: OpenDNS
     import: AS-OPENDNS
     export: AS-COLOCLUE
