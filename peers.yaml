@@ -310,3 +310,11 @@ AS20940:
         - 2001:7f8:1::a502:940:1
         - 195.69.145.208
         - 2001:7f8:1::a502:940:2
+
+AS12654:
+   description: RIPE NCC RIS Project
+   import: AS12654:RS-RIS
+   export: AS-COLOCLUE
+   peerings:
+      - 195.69.144.69
+      - 2001:7f8:1::a501:2654:1
