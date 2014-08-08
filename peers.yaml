@@ -292,3 +292,11 @@ AS36692:
     peerings:
         - 195.69.144.88
         - 2001:7F8:1::A503:6692:1
+
+AS286:
+   description: KPN
+   import: AS-KPN
+   export: AS-COLOCLUE
+   peerings:
+   - 195.69.146.108
+   - 2001:7f8:1::a500:0286:1
