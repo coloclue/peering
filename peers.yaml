@@ -318,3 +318,11 @@ AS12654:
    peerings:
       - 195.69.144.69
       - 2001:7f8:1::a501:2654:1
+
+AS19151:
+    description: BroadbandONE
+    import: AS-BBOI
+    export: AS-COLOCLUE
+    peerings:
+        - 195.69.145.58
+        - 2001:7f8:1::a501:9151:1 
