@@ -326,3 +326,13 @@ AS19151:
     peerings:
         - 195.69.145.58
         - 2001:7f8:1::a501:9151:1 
+
+AS2906:
+    description: Netflix
+    import: as-nflx
+    export: AS-COLOCLUE
+    peerings:
+        - 195.69.146.250
+        - 195.69.147.250
+        - 2001:7f8:1::a500:2906:1 
+        - 2001:7f8:1::a500:2906:2
