@@ -336,3 +336,11 @@ AS2906:
         - 195.69.147.250
         - 2001:7f8:1::a500:2906:1 
         - 2001:7f8:1::a500:2906:2
+
+AS251:
+    description: Kaia Global Networks
+    import: AS-KAIAGLOBAL
+    export: AS-COLOCLUE
+    peerings:
+        - 195.69.145.103
+        - 2001:7f8:1::a500:251:1
