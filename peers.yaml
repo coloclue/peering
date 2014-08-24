@@ -344,3 +344,11 @@ AS251:
     peerings:
         - 195.69.145.103
         - 2001:7f8:1::a500:251:1
+
+AS44654:
+    description: Media Network Services
+    import: AS-MNS
+    export: AS-COLOCLUE
+    peerings:
+        - 195.69.144.176
+        - 2001:7f8:1::A504:4654:1
