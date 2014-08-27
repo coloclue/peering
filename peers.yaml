@@ -295,7 +295,7 @@ AS36692:
 
 AS286:
    description: KPN
-   import: AS-KPN
+   import: ANY
    export: AS-COLOCLUE
    peerings:
         - 195.69.146.108
