@@ -360,3 +360,11 @@ AS8657:
     peerings:
         - 195.69.144.217
         - 2001:7F8:1::A500:8657:1
+
+AS2914:
+    description: NTT
+    import: AS2914:AS-GLOBAL
+    export: AS-COLOCLUE
+    peerings:
+        - 195.69.144.36
+        - 2001:7f8:1::a500:2914:1
