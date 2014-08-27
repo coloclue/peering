@@ -363,7 +363,7 @@ AS8657:
 
 AS2914:
     description: NTT
-    import: AS2914
+    import: AS2914:AS-GLOBAL
     export: AS-COLOCLUE
     peerings:
         - 195.69.144.36
