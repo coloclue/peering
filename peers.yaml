@@ -368,3 +368,11 @@ AS2914:
     peerings:
         - 195.69.144.36
         - 2001:7f8:1::a500:2914:1
+
+AS1101:
+    description: Surfnet
+    import: AS1101
+    export: AS-COLOCLUE
+    peerings:
+        - 195.69.146.65
+        - 2001:7f8:1::a500:1101:1
