@@ -18,7 +18,7 @@ AS1200:
     
 AS6777:
     description: AMS-IX Routeservers
-    import: AS-AMS-IX-RS-SETS AS-AMS-IX-RS-SETS-V6
+    import: ANY
     export: AS-COLOCLUE
     peerings: 
         - 195.69.144.255
