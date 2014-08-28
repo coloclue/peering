@@ -384,3 +384,15 @@ AS5524:
     peerings:
         - 195.69.145.104 
         - 2001:7f8:1::a500:5524:1 
+
+AS16265:
+    description: FiberRing Backbone
+    import: AS-FIBERRING-BB
+    export: AS-COLOCLUE
+    peerings:
+        - 195.69.144.215
+        - 195.69.145.215
+        - 195.69.147.127
+        - 2001:7f8:1::a501:6265:1
+        - 2001:7f8:1::a501:6265:2
+        - 2001:7f8:1::a501:6265:3
