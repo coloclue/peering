@@ -376,3 +376,11 @@ AS1101:
     peerings:
         - 195.69.146.65
         - 2001:7f8:1::a500:1101:1
+
+AS5524:
+    description: Breedband Nederland
+    import: AS-BREEDBANDNEDERLAND
+    export: AS-COLOCLUE
+    peerings:
+        - 195.69.145.104 
+        - 2001:7f8:1::a500:5524:1 
