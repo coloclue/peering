@@ -422,3 +422,31 @@ AS31477:
         - 2001:7f8:13::a503:1477:1
         - 2001:7f8:1::A503:1477:1 
         - 195.69.145.98
+
+AS34968:
+    description: Iunxi
+    import: AS-IUNXI
+    export: AS-COLOCLUE
+    peerings:
+        - 195.69.145.81
+        - 193.239.116.146
+        - 2001:7f8:1::a503:4968:1
+        - 2001:7f8:13::a503:4968:1 
+
+AS35332:
+    description: Dataweb
+    import: AS-DATAWEB
+    export: AS-COLOCLUE
+    peerings:
+        - 193.239.116.10
+        - 2001:7f8:13::a503:5332:1
+
+AS6724:
+    description: Strato
+    import: AS-STRATORZ
+    export: AS-COLOCLUE
+    peerings:
+        - 195.69.146.180
+        - 193.239.116.37
+        - 2001:7f8:1::a500:6724:1
+        - 2001:7f8:13::a500:6724:1
