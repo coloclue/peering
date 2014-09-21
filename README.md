@@ -15,8 +15,8 @@ neutral environment.
 
 ## How to peer? ##
 
-If you are connected to AMS-IX you can set up BGP sessions with AS 8283. Make
-sure you accept `AS-COLOCLUE` (50 prefixes max).
+If you are connected to AMS-IX or NL-IX you can set up BGP sessions with AS8283.
+Make sure you accept `AS-COLOCLUE` (50 prefixes max).
 
 Add yourself to the `peers.yaml` file and submit a pull request to this
 repository. Once a network engineer validates your pull request and merges it
@@ -51,6 +51,11 @@ Example stanza:
     IXP:   AMS-IX
     IPv4:  195.69.147.161
     IPv6:  2001:7f8:1::a500:8283:1
+    
+    IXP:   NL-IX
+    IPv4:  193.239.117.111
+    IPv6:  2001:7f8:13::a500:8283:1 
+
 ```
 
 ## Routing Policy ##

@@ -26,7 +26,9 @@ your syntax"
 
 connected_ixps = {
     "amsix": [ipaddr.IPNetwork('195.69.144.0/22'),
-              ipaddr.IPNetwork('2001:7f8:1::/64')]}
+              ipaddr.IPNetwork('2001:7f8:1::/64')],
+    "nlix": [ipaddr.IPNetwork('193.239.116.0/23'),
+             ipaddr.IPNetwork('2001:7f8:13:0:0:0:0:0/64')]}
 
 for asn in peerings:
     for keyword in ['export', 'import', 'description', 'peerings']:
@@ -54,7 +56,7 @@ or we are not connected to the same internet exchange" \
                 % (peer, " ".join(connected_ixps))
             sys.exit(2)
 
-    acceptable_exports = ['AS-COLOCLUE', 'NOT ANY', 'none']
+    acceptable_exports = ['AS-COLOCLUE', 'NOT ANY', 'ANY']
     if not peerings[asn]['export'] in acceptable_exports:
         print "ERROR: export must be one of the following: %s" \
             % " ".join(acceptable_exports)
