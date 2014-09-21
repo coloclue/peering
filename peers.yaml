@@ -399,7 +399,7 @@ AS16265:
 
 AS13030:
     description: Init7
-    import: AS13030:AS-INIT7
+    import: ANY
     export: AS-COLOCLUE
     peerings:
         - 195.69.144.210
