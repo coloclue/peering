@@ -464,6 +464,7 @@ AS34307:
 AS197731:
     description: Tuxis Internet Engineering
     import: AS-TUXIS
+    export: AS-COLOCLUE
     peerings:
         - 193.239.116.56
         - 2001:7f8:13::a519:7731:1
