@@ -460,3 +460,10 @@ AS34307:
         - 193.239.117.0
         - 2001:7f8:13::a503:4307:1
         - 2001:7f8:13::a503:4307:2
+
+AS197731:
+    description: Tuxis Internet Engineering
+    import: AS-TUXIS
+    peerings:
+        - 193.239.116.56
+        - 2001:7f8:13::a519:7731:1
