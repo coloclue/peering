@@ -84,7 +84,9 @@ AS16298:
     export: AS-COLOCLUE
     peerings:
         - 195.69.144.183
+        - 193.239.116.187
         - 2001:7f8:1::a501:6298:1
+        - 2001:7f8:13::a501:6298:1
 
 AS41692:
     description: OpenCarrier
