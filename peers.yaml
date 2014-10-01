@@ -150,8 +150,10 @@ AS20953:
     import: AS-INFO
     export: AS-COLOCLUE
     peerings:
+        - 193.239.116.77
         - 195.69.144.203
         - 2001:7F8:1::A502:953:1
+        - 2001:7F8:13::A502:953:1
 
 AS61349:
     description: MaxiTEL
