@@ -3,7 +3,6 @@ AS260:
    import: AS-XCONNECT24
    export: AS-COLOCLUE
    peerings:
-       - 195.69.147.15
        - 80.249.211.15
        - 2001:7f8:1::a500:260:1
        
@@ -12,9 +11,7 @@ AS1200:
     import: AS1200
     export: AS-COLOCLUE
     peerings:
-        - 195.69.144.1
         - 80.249.208.1
-        - 195.69.145.1
         - 80.249.209.1
         - 2001:7f8:1:0:0:a500:1200:1
         - 2001:7f8:1:0:0:a500:1200:2
@@ -24,9 +21,7 @@ AS6777:
     import: ANY
     export: AS-COLOCLUE
     peerings: 
-        - 195.69.144.255
         - 80.249.208.255
-        - 195.69.145.0
         - 80.249.209.0
         - 2001:7f8:1::a500:6777:1
         - 2001:7f8:1::a500:6777:2
@@ -36,10 +31,8 @@ AS3265:
     import: AS-ACCESSFORALL
     export: AS-COLOCLUE
     peerings:
-        - 195.69.144.166
         - 80.249.208.166
         - 2001:7f8:1::a500:3265:1
-        - 195.69.144.48
         - 80.249.208.48
         - 2001:7f8:1::a500:3265:2
 
@@ -48,10 +41,8 @@ AS9143:
     import: AS-BENELUX
     export: AS-COLOCLUE
     peerings:
-        - 195.69.144.103
         - 80.249.208.103
         - 2001:7f8:1::a500:9143:1
-        - 195.69.144.181
         - 80.249.208.181
         - 2001:7f8:1::a500:9143:2
 
@@ -60,7 +51,6 @@ AS12713:
     import: AS-OTEGLOBE
     export: AS-COLOCLUE
     peerings:
-        - 195.69.144.179
         - 80.249.208.179
         - 2001:7f8:1::a501:2713:1
 
@@ -69,7 +59,6 @@ AS13285:
     import: AS-OPAL
     export: AS-COLOCLUE
     peerings:
-        - 195.69.145.34
         - 80.249.209.34
         - 2001:7f8:1::a501:3285:1
 
@@ -78,7 +67,6 @@ AS6939:
     import: AS-HURRICANE
     export: AS-COLOCLUE
     peerings:
-        - 195.69.145.150
         - 80.249.209.150
         - 2001:7f8:1::a500:6939:1
 
@@ -87,7 +75,6 @@ AS42473:
     import: AS-ANEXIA
     export: AS-COLOCLUE
     peerings:
-        - 195.69.147.58
         - 80.249.211.58
         - 2001:7f8:1::a504:2473:1
 
@@ -96,7 +83,6 @@ AS16298:
     import: AS-INTERBOX
     export: AS-COLOCLUE
     peerings:
-        - 195.69.144.183
         - 80.249.208.183
         - 193.239.116.187
         - 2001:7f8:1::a501:6298:1
@@ -107,7 +93,6 @@ AS41692:
     import: AS-OPENCARRIER AS-OPENCARRIER6
     export: AS-COLOCLUE
     peerings:
-        - 195.69.145.221
         - 80.249.209.221
         - 2001:7f8:1::a504:1692:1
 
@@ -116,7 +101,6 @@ AS21478:
     import: AS-PLEX
     export: AS-COLOCLUE
     peerings:
-        - 195.69.144.216
         - 80.249.208.216
         
 AS8282:
@@ -124,7 +108,6 @@ AS8282:
     import: AS-FIDONET
     export: AS-COLOCLUE
     peerings:
-        - 195.69.147.39
         - 80.249.211.39
         - 2001:7f8:1::a500:8282:1
 
@@ -133,9 +116,7 @@ AS12859:
     import: AS-BIT AS-BIT6
     export: AS-COLOCLUE
     peerings:
-        - 195.69.144.35
         - 80.249.208.35
-        - 195.69.144.200
         - 80.249.208.200
         - 193.239.116.19
         - 193.239.116.33
@@ -149,7 +130,6 @@ AS13101:
     import: AS-TNG AS-TNG-IPV6
     export: AS-COLOCLUE
     peerings:
-        - 195.69.145.119
         - 80.249.209.119
         - 2001:7f8:1::a501:3101:1
 
@@ -158,7 +138,6 @@ AS48200:
     import: AS-OPTEAMAX-v4 AS-OPTEAMAX
     export: AS-COLOCLUE
     peerings:
-        - 195.69.147.172
         - 80.249.211.172
         - 2001:7f8:1::A504:8200:1 
 
@@ -167,7 +146,6 @@ AS25091:
     import: AS-IP-MAX
     export: AS-COLOCLUE
     peerings:
-        - 195.69.146.135
         - 80.249.210.135
         - 2001:7F8:1::A502:5091:1
 
@@ -177,7 +155,6 @@ AS20953:
     export: AS-COLOCLUE
     peerings:
         - 193.239.116.77
-        - 195.69.144.203
         - 80.249.208.203
         - 2001:7F8:1::A502:953:1
         - 2001:7F8:13::A502:953:1
@@ -187,7 +164,6 @@ AS61349:
     import: AS-MAXITEL
     export: AS-COLOCLUE
     peerings:
-        - 195.69.147.28
         - 80.249.211.28
         - 2001:7f8:1::a506:1349:1
 
@@ -196,7 +172,6 @@ AS50763:
     import: AS-MCKAY
     export: AS-COLOCLUE
     peerings:
-        - 195.69.146.99
         - 80.249.210.99
         - 2001:7f8:1::a505:763:1
 
@@ -205,7 +180,6 @@ AS42:
     import: AS-PCH
     export: AS-COLOCLUE
     peerings:
-        - 195.69.144.250
         - 2001:7f8:1::a500:42:1
 
 AS3856:
@@ -213,7 +187,6 @@ AS3856:
     import: AS-PCH
     export: AS-COLOCLUE
     peerings:
-        - 195.69.145.250
         - 80.249.209.250
         - 2001:7f8:1::a500:3856:1
 
@@ -222,7 +195,6 @@ AS3267:
     import: AS-RUNNET
     export: AS-COLOCLUE
     peerings:
-        - 195.69.145.75
         - 80.249.209.75
         - 2001:7f8:1::a500:3267:1
 
@@ -231,7 +203,6 @@ AS30844:
     import: AS-LIQUID
     export: AS-COLOCLUE
     peerings:
-        - 195.69.147.45
         - 80.249.210.45
         - 2001:7f8:1::a503:0844:1
 
@@ -240,7 +211,6 @@ AS8365:
     import: AS-MANDA
     export: AS-COLOCLUE
     peerings:
-        - 195.69.145.217
         - 80.249.209.217
         - 2001:7f8:1::a500:8365:1
 
@@ -249,7 +219,6 @@ AS58291:
     import: AS-COLOCENTER
     export: AS-COLOCLUE
     peerings:
-        - 195.69.147.77
         - 80.249.211.77
 
 AS196752:
@@ -257,7 +226,6 @@ AS196752:
     import: AS-TILAA
     export: AS-COLOCLUE
     peerings:
-        - 195.69.147.247
         - 80.249.211.247
         - 2001:7f8:1:0:a500:19:6752:1
 
@@ -266,9 +234,7 @@ AS9150:
     import: AS-INTERCONNECT
     export: AS-COLOCLUE
     peerings:
-        - 195.69.145.179
         - 80.249.209.179
-        - 195.69.144.139
         - 80.249.208.139
         - 193.239.116.109
         - 2001:7f8:1::A500:9150:2
@@ -280,7 +246,6 @@ AS1140:
     import: AS-SIDN
     export: AS-COLOCLUE
     peerings:
-        - 195.69.144.49
         - 80.249.208.49
         - 2001:7f8:1::a500:1140:1
 
@@ -289,9 +254,7 @@ AS20562:
     import: AS-OPENPEERING
     export: AS-COLOCLUE
     peerings:
-        - 195.69.144.189
         - 80.249.208.189
-        - 195.69.145.197
         - 80.249.209.197
         - 2001:7f8:1::a502:562:1
         - 2001:7f8:1::a502:562:2
@@ -301,7 +264,6 @@ AS47065:
     import: AS47065
     export: AS-COLOCLUE
     peerings:
-        - 195.69.144.45
         - 80.249.208.45
 
 AS12414:
@@ -309,9 +271,7 @@ AS12414:
     import: AS-SOLCON AS-SOLCON6
     export: AS-COLOCLUE
     peerings:
-        - 195.69.144.165
         - 80.249.208.165
-        - 195.69.145.165
         - 80.249.209.165
         - 2001:7f8:1::a501:2414:1
         - 2001:7f8:1::a501:2414:2
@@ -321,9 +281,7 @@ AS29396:
     import: AS-UNET
     export: AS-COLOCLUE
     peerings:
-        - 195.69.145.166
         - 80.249.209.166
-        - 195.69.144.154
         - 80.249.208.154
         - 2001:7F8:1::A502:9396:1
         - 2001:7f8:1::A502:9396:2
@@ -333,7 +291,6 @@ AS36692:
     import: AS-OPENDNS
     export: AS-COLOCLUE
     peerings:
-        - 195.69.144.88
         - 80.249.208.88
         - 2001:7F8:1::A503:6692:1
 
@@ -342,7 +299,6 @@ AS286:
    import: ANY
    export: AS-COLOCLUE
    peerings:
-        - 195.69.146.108
         - 80.249.210.108
         - 2001:7f8:1::a500:0286:1
 
@@ -351,10 +307,8 @@ AS20940:
    import: AS-AKAMAI
    export: AS-COLOCLUE
    peerings:
-        - 195.69.144.168
         - 80.249.208.168
         - 2001:7f8:1::a502:940:1
-        - 195.69.145.208
         - 80.249.209.208
         - 2001:7f8:1::a502:940:2
 
@@ -363,7 +317,6 @@ AS12654:
    import: AS12654:RS-RIS
    export: AS-COLOCLUE
    peerings:
-      - 195.69.144.69
       - 80.249.208.69
       - 2001:7f8:1::a501:2654:1
 
@@ -372,7 +325,6 @@ AS19151:
     import: AS-BBOI
     export: AS-COLOCLUE
     peerings:
-        - 195.69.145.58
         - 80.249.209.58
         - 2001:7f8:1::a501:9151:1 
 
@@ -381,9 +333,7 @@ AS2906:
     import: as-nflx
     export: AS-COLOCLUE
     peerings:
-        - 195.69.146.250
         - 80.249.210.250
-        - 195.69.147.250
         - 80.249.211.250
         - 2001:7f8:1::a500:2906:1 
         - 2001:7f8:1::a500:2906:2
@@ -393,7 +343,6 @@ AS251:
     import: AS-KAIAGLOBAL
     export: AS-COLOCLUE
     peerings:
-        - 195.69.145.103
         - 80.249.209.103
         - 2001:7f8:1::a500:251:1
 
@@ -402,7 +351,6 @@ AS44654:
     import: AS-MNS
     export: AS-COLOCLUE
     peerings:
-        - 195.69.144.176
         - 80.249.208.176
         - 2001:7f8:1::A504:4654:1
 
@@ -411,7 +359,6 @@ AS8657:
     import: AS-CPRM
     export: AS-COLOCLUE
     peerings:
-        - 195.69.144.217
         - 80.249.208.217
         - 2001:7F8:1::A500:8657:1
 
@@ -420,7 +367,6 @@ AS2914:
     import: ANY
     export: AS-COLOCLUE
     peerings:
-        - 195.69.144.36
         - 80.249.208.36
         - 2001:7f8:1::a500:2914:1
 
@@ -429,7 +375,6 @@ AS1101:
     import: AS1101
     export: AS-COLOCLUE
     peerings:
-        - 195.69.146.65
         - 80.249.210.65
         - 2001:7f8:1::a500:1101:1
 
@@ -438,7 +383,6 @@ AS5524:
     import: AS-BREEDBANDNEDERLAND
     export: AS-COLOCLUE
     peerings:
-        - 195.69.145.104 
         - 80.249.209.104
         - 2001:7f8:1::a500:5524:1 
 
@@ -447,11 +391,8 @@ AS16265:
     import: AS-FIBERRING-BB
     export: AS-COLOCLUE
     peerings:
-        - 195.69.144.215
         - 80.249.208.215
-        - 195.69.145.215
         - 80.249.209.215
-        - 195.69.147.127
         - 193.239.116.221
         - 193.239.117.52
         - 2001:7f8:1::a501:6265:1
@@ -465,9 +406,7 @@ AS13030:
     import: ANY
     export: AS-COLOCLUE
     peerings:
-        - 195.69.144.210
         - 80.249.208.210
-        - 195.69.146.210
         - 80.249.210.210
         - 2001:7f8:1::a501:3030:1
         - 2001:7f8:1::a501:3030:2
@@ -477,9 +416,7 @@ AS714:
     import: AS714 AS6185
     export: AS-COLOCLUE
     peerings:
-        - 195.69.147.160
         - 80.249.211.160
-        - 195.69.147.183
         - 80.249.211.183
         - 2001:7f8:1::A500:0714:1
         - 2001:7f8:1::A500:0714:2
@@ -492,7 +429,6 @@ AS31477:
         - 193.239.116.132
         - 2001:7f8:13::a503:1477:1
         - 2001:7f8:1::A503:1477:1 
-        - 195.69.145.98
         - 80.249.209.90
 
 AS34968:
@@ -500,7 +436,6 @@ AS34968:
     import: AS-IUNXI
     export: AS-COLOCLUE
     peerings:
-        - 195.69.145.81
         - 80.249.209.81
         - 193.239.116.146
         - 2001:7f8:1::a503:4968:1
@@ -519,7 +454,6 @@ AS6724:
     import: AS-STRATORZ
     export: AS-COLOCLUE
     peerings:
-        - 195.69.146.180
         - 80.249.210.180
         - 193.239.116.37
         - 2001:7f8:1::a500:6724:1
@@ -548,9 +482,7 @@ AS15435:
     import: AS-KABELFOON
     export: AS-COLOCLUE
     peerings:
-        - 195.69.145.173
         - 80.249.209.173
-        - 195.69.144.149
         - 80.249.208.149
         - 193.239.116.55
         - 193.239.116.29
