@@ -506,3 +506,12 @@ AS29119:
     peerings:
         - 80.249.211.91
         - 2001:7f8:1::A502:9119:1
+
+AS2852:
+    description: CESNET z.s.p.o.
+    import: AS-CESNET
+    export: AS-COLOCLUE
+    peerings:
+        - 80.249.209.106
+        - 2001:7F8:1::A500:2852:1
+
