@@ -26,6 +26,7 @@ your syntax"
 
 connected_ixps = {
     "amsix": [ipaddr.IPNetwork('195.69.144.0/22'),
+              ipaddr.IPNetwork('80.249.208.0/21'),
               ipaddr.IPNetwork('2001:7f8:1::/64')],
     "nlix": [ipaddr.IPNetwork('193.239.116.0/23'),
              ipaddr.IPNetwork('2001:7f8:13:0:0:0:0:0/64')]}
