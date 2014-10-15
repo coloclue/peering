@@ -523,3 +523,12 @@ AS31334:
         - 80.249.209.249
         - 2001:7F8:1::A503:1334:1
 
+AS6805:
+    description: Telefonica DE
+    import: AS-TDDE
+    export: AS-COLOCLUE
+    peerings:
+        - 80.249.208.91
+        - 80.249.208.199
+        - 2001:7f8:1::a500:6805:1
+        - 2001:7f8:1::a500:6805:2
