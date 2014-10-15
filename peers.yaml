@@ -515,3 +515,11 @@ AS2852:
         - 80.249.209.106
         - 2001:7F8:1::A500:2852:1
 
+AS31334:
+    description: Kabel Deutschland
+    import: AS-KDG
+    export: AS-COLOCLUE
+    peerings:
+        - 80.249.209.249
+        - 2001:7F8:1::A503:1334:1
+
