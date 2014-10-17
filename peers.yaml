@@ -538,7 +538,7 @@ AS6805:
 
 AS714:
     description: Apple
-    import: AS714 AS6185
+    import: AS-APPLE
     export: AS-COLOCLUE
     peerings:
         - 2001:7f8:1::A500:0714:1
