@@ -498,6 +498,8 @@ AS2603:
     peerings:
         - 80.249.209.203
         - 2001:7f8:1::a500:2603:1
+        - 193.239.116.53
+        - 2001:7f8:13::a500:2603:1
 
 AS29119:
     description: Aire Networks del Mediterraneo S.L.U.
