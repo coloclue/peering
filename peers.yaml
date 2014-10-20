@@ -535,3 +535,11 @@ AS6805:
         - 80.249.208.199
         - 2001:7f8:1::a500:6805:1
         - 2001:7f8:1::a500:6805:2
+
+AS35432:
+    description: Cablenet Communication Systems Ltd.
+    import: AS-WAVESPEED
+    export: AS-COLOCLUE
+    peerings:
+        - 80.249.210.178
+        - 2001:7F8:1::A503:5432:1
