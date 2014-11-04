@@ -557,3 +557,11 @@ AS30132:
         - 2001:7F8:1::A503:132:2
         - 2001:7F8:13::A503:132:1
         - 2001:7F8:13::A503:132:2
+
+AS2119:
+    description: Telenor
+    import: AS-TELENOR
+    export: AS-COLOCLUE
+    peerings:
+        - 80.249.209.192
+        - 2001:7f8:1::A500:2119:1
