@@ -565,3 +565,13 @@ AS2119:
     peerings:
         - 80.249.209.192
         - 2001:7f8:1::A500:2119:1
+
+AS50266:
+    description: Wiericke
+    import: AS-WIERICKE
+    export: AS-COLOCLUE
+    peerings:
+        - 80.249.211.171
+        - 80.249.211.184
+        - 2001:7f8:1::a505:266:1
+        - 2001:7f8:1::a505:266:2
