@@ -582,4 +582,3 @@ AS8966:
     export: AS-COLOCLUE
     peerings:
         - 80.249.209.89
-        - 2001:7f8:1::a500:8966:1
