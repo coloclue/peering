@@ -575,3 +575,11 @@ AS50266:
         - 80.249.211.184
         - 2001:7f8:1::a505:266:1
         - 2001:7f8:1::a505:266:2
+
+AS8966:
+    description: Emirates Telecommunications Corporation
+    import: AS-EMIX
+    export: AS-COLOCLUE
+    peerings:
+        - 80.249.209.89
+        - 2001:7f8:1::a500:8966:1
