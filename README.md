@@ -36,7 +36,7 @@ Example stanza:
     import: AS-RANDOMISP
     export: AS-COLOCLUE
     peerings:
-        - 195.69.147.39
+        - 80.249.208.1
         - 2001:7f8:1::a500:8282:1
 ```
 
@@ -49,7 +49,7 @@ Example stanza:
     NOC:   routers@coloclue.net
 
     IXP:   AMS-IX
-    IPv4:  195.69.147.161
+    IPv4:  80.249.211.161
     IPv6:  2001:7f8:1::a500:8283:1
     
     IXP:   NL-IX
