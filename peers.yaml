@@ -582,3 +582,13 @@ AS8966:
     export: AS-COLOCLUE
     peerings:
         - 80.249.209.89
+
+AS43190:
+    description: Gelderland Internet Exchange
+    import: AS-GLIX
+    export: AS-COLOCLUE
+    peerings:
+        - 80.249.208.157
+        - 193.239.117.59
+        - 2001:7f8:1::A504:3190:1
+        - 2001:7F8:13::A504:3190:1
