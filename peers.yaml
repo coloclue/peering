@@ -604,3 +604,13 @@ AS12041:
         - 2001:7F8:1::A501:2041:1
         - 193.239.116.185
         - 2001:7f8:13::a501:2041:1
+
+AS30781:
+    description: Jaguar Network
+    import: AS-JAGUAR AS-JAGUAR-V6
+    export: AS-COLOCLUE
+    peerings:
+        - 80.249.209.239
+        - 2001:7F8:1::A503:0781:1
+        - 193.239.116.170
+        - 2001:7F8:13::A503:0781:1
