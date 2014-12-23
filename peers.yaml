@@ -614,3 +614,11 @@ AS30781:
         - 2001:7F8:1::A503:0781:1
         - 193.239.116.170
         - 2001:7F8:13::A503:0781:1
+
+AS51852:
+    description: Private Layer
+    import: AS51852
+    export: AS-COLOCLUE
+    peerings:
+        - 80.249.211.144
+        - 2001:7f8:1::a505:1852:1
