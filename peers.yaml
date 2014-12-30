@@ -630,3 +630,10 @@ AS12552:
     peerings:
         - 80.249.209.235
         - 2001:7f8:1::A501:2552:1
+
+AS51088:
+    description: A2B Internet
+    import: AS-A2B
+    export: AS-COLOCLUE
+    peerings:
+        - 80.249.208.209
