@@ -622,3 +622,11 @@ AS51852:
     peerings:
         - 80.249.211.144
         - 2001:7f8:1::a505:1852:1
+
+AS12552:
+    description: IP-Only
+    import: AS-IPO
+    export: AS-COLOCLUE
+    peerings:
+        - 80.249.209.235
+        - 2001:7f8:1::A501:2552:1
