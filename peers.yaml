@@ -655,3 +655,10 @@ AS8674:
         - 2001:7f8:13::a500:8674:1
         - 193.239.117.43
         - 2001:7f8:13::a500:8674:2
+AS20857:
+    description: TransIP
+    import: AS-TRANSIP
+    export: AS-COLOCLUE
+    peerings:
+        - 80.249.208.244
+        - 2001:7f8:1::a502:0857:1
