@@ -664,3 +664,11 @@ AS20857:
     peerings:
         - 80.249.208.244
         - 2001:7f8:1::a502:0857:1
+        
+AS20621:
+   description: OpenIT
+   import: AS-OPENIT
+   export: AS-COLOCLUE
+   peerings:
+       - 80.249.211.168
+       - 2001:7f8:1::a502:0621:1
