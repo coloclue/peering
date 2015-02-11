@@ -672,3 +672,11 @@ AS20621:
    peerings:
        - 80.249.211.168
        - 2001:7f8:1::a502:0621:1
+
+AS6677:
+   description: Iceland Telecom Ltd.
+   import: AS-ICENET
+   export: AS-COLOCLUE
+   peerings:
+       - 80.249.210.138
+       - 2001:7f8:1::a500:6677:1
