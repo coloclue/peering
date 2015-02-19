@@ -680,3 +680,11 @@ AS6677:
    peerings:
        - 80.249.210.138
        - 2001:7f8:1::a500:6677:1
+
+AS31122:
+    description: Viatel Ltd
+    import: AS-DIGIWEB
+    export: AS-COLOCLUE
+    peerings:
+       - 80.249.209.161
+       - 2001:7f8:1::a503:1122:1
