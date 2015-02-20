@@ -688,3 +688,13 @@ AS31122:
     peerings:
        - 80.249.209.161
        - 2001:7f8:1::a503:1122:1
+
+AS49685:
+    description: IT-Ernity Internet Services B.V.
+    import: AS-ITIS
+    export: AS-COLOCLUE
+    peerings:
+        - 80.249.209.148
+        - 2001:7f8:1::a504:9685:1
+        - 80.249.209.149
+        - 2001:7f8:1::a504:9685:2
