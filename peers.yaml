@@ -64,7 +64,7 @@ AS13285:
 
 AS6939:
     description: Hurricane Electric
-    import: AS-HURRICANE
+    import: AS-ANY
     export: AS-COLOCLUE
     peerings:
         - 80.249.209.150
