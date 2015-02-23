@@ -1,6 +1,6 @@
 AS260:
    description: Xconnect24
-   import: AS-XCONNECT24
+   import: ANY
    export: AS-COLOCLUE
    peerings:
        - 80.249.211.15
@@ -8,7 +8,7 @@ AS260:
        
 AS1200:
     description: AMS-IX Office
-    import: AS1200
+    import: ANY
     export: AS-COLOCLUE
     peerings:
         - 80.249.208.1
@@ -28,7 +28,7 @@ AS6777:
 
 AS3265:
     description: XS4ALL
-    import: AS-ACCESSFORALL
+    import: ANY
     export: AS-COLOCLUE
     peerings:
         - 80.249.208.166
@@ -38,7 +38,7 @@ AS3265:
 
 AS9143:
     description: Ziggo
-    import: AS-BENELUX
+    import: ANY
     export: AS-COLOCLUE
     peerings:
         - 80.249.208.103
@@ -48,7 +48,7 @@ AS9143:
 
 AS12713:
     description: OTEGLOBE
-    import: AS-OTEGLOBE
+    import: ANY
     export: AS-COLOCLUE
     peerings:
         - 80.249.208.179
@@ -56,7 +56,7 @@ AS12713:
 
 AS13285:
     description: TalkTalk
-    import: AS-OPAL
+    import: ANY
     export: AS-COLOCLUE
     peerings:
         - 80.249.209.34
@@ -72,7 +72,7 @@ AS6939:
 
 AS42473:
     description: ANEXIA Internetdienstleistungs GmbH
-    import: AS-ANEXIA
+    import: ANY
     export: AS-COLOCLUE
     peerings:
         - 80.249.211.58
@@ -80,7 +80,7 @@ AS42473:
 
 AS16298:
     description: InterBox Internet
-    import: AS-INTERBOX
+    import: ANY
     export: AS-COLOCLUE
     peerings:
         - 80.249.208.183
@@ -90,7 +90,7 @@ AS16298:
 
 AS41692:
     description: OpenCarrier
-    import: AS-OPENCARRIER AS-OPENCARRIER6
+    import: ANY
     export: AS-COLOCLUE
     peerings:
         - 80.249.209.221
@@ -98,14 +98,14 @@ AS41692:
 
 AS21478:
     description: Plex
-    import: AS-PLEX
+    import: ANY
     export: AS-COLOCLUE
     peerings:
         - 80.249.208.216
         
 AS8282:
     description: Fido
-    import: AS-FIDONET
+    import: ANY
     export: AS-COLOCLUE
     peerings:
         - 80.249.211.39
@@ -113,7 +113,7 @@ AS8282:
 
 AS12859:
     description: BIT
-    import: AS-BIT AS-BIT6
+    import: ANY
     export: AS-COLOCLUE
     peerings:
         - 80.249.208.35
@@ -127,7 +127,7 @@ AS12859:
 
 AS13101:
     description: TNG
-    import: AS-TNG AS-TNG-IPV6
+    import: ANY
     export: AS-COLOCLUE
     peerings:
         - 80.249.209.119
@@ -135,7 +135,7 @@ AS13101:
 
 AS48200:
     description: Opteamax
-    import: AS-OPTEAMAX-v4 AS-OPTEAMAX
+    import: ANY
     export: AS-COLOCLUE
     peerings:
         - 80.249.211.172
@@ -143,7 +143,7 @@ AS48200:
 
 AS25091:
     description: IP-Max SA
-    import: AS-IP-MAX
+    import: ANY
     export: AS-COLOCLUE
     peerings:
         - 80.249.210.135
@@ -151,7 +151,7 @@ AS25091:
 
 AS20953:
     description: info.nl
-    import: AS-INFO
+    import: ANY
     export: AS-COLOCLUE
     peerings:
         - 193.239.116.77
@@ -161,7 +161,7 @@ AS20953:
 
 AS61349:
     description: MaxiTEL
-    import: AS-MAXITEL
+    import: ANY
     export: AS-COLOCLUE
     peerings:
         - 80.249.211.28
@@ -169,7 +169,7 @@ AS61349:
 
 AS50763:
     description: MCKAYCOM Ltd
-    import: AS-MCKAY
+    import: ANY
     export: AS-COLOCLUE
     peerings:
         - 80.249.210.99
@@ -177,14 +177,14 @@ AS50763:
 
 AS42:
     description: Packet Clearing House
-    import: AS-PCH
+    import: ANY
     export: AS-COLOCLUE
     peerings:
         - 2001:7f8:1::a500:42:1
 
 AS3856:
     description: Packet Clearing House
-    import: AS-PCH
+    import: ANY
     export: AS-COLOCLUE
     peerings:
         - 80.249.209.250
@@ -192,7 +192,7 @@ AS3856:
 
 AS3267:
     description: RUNNet
-    import: AS-RUNNET
+    import: ANY
     export: AS-COLOCLUE
     peerings:
         - 80.249.209.75
@@ -200,7 +200,7 @@ AS3267:
 
 AS30844:
     description: Liquid Telecom
-    import: AS-LIQUID
+    import: ANY
     export: AS-COLOCLUE
     peerings:
         - 80.249.210.45
@@ -208,7 +208,7 @@ AS30844:
 
 AS8365:
     description: MANDA
-    import: AS-MANDA
+    import: ANY
     export: AS-COLOCLUE
     peerings:
         - 80.249.209.217
@@ -216,14 +216,14 @@ AS8365:
 
 AS58291:
     description: Colocenter.nl
-    import: AS-COLOCENTER
+    import: ANY
     export: AS-COLOCLUE
     peerings:
         - 80.249.211.77
 
 AS196752:
     description: Tilaa
-    import: AS-TILAA
+    import: ANY
     export: AS-COLOCLUE
     peerings:
         - 80.249.211.247
@@ -231,7 +231,7 @@ AS196752:
 
 AS9150:
     description: Interconnect Services
-    import: AS-INTERCONNECT
+    import: ANY
     export: AS-COLOCLUE
     peerings:
         - 80.249.209.179
@@ -243,7 +243,7 @@ AS9150:
 
 AS1140:
     description: SIDN
-    import: AS-SIDN
+    import: ANY
     export: AS-COLOCLUE
     peerings:
         - 80.249.208.49
@@ -251,7 +251,7 @@ AS1140:
 
 AS20562:
     description: OpenPeering
-    import: AS-OPENPEERING
+    import: ANY
     export: AS-COLOCLUE
     peerings:
         - 80.249.208.189
@@ -261,14 +261,14 @@ AS20562:
 
 AS47065:
     description: GENI BGPMUX
-    import: AS47065
+    import: ANY
     export: AS-COLOCLUE
     peerings:
         - 80.249.208.45
 
 AS12414:
     description: Solcon
-    import: AS-SOLCON AS-SOLCON6
+    import: ANY
     export: AS-COLOCLUE
     peerings:
         - 80.249.208.165
@@ -278,7 +278,7 @@ AS12414:
 
 AS29396:
     description: UNET
-    import: AS-UNET
+    import: ANY
     export: AS-COLOCLUE
     peerings:
         - 80.249.209.166
@@ -288,7 +288,7 @@ AS29396:
 
 AS36692:
     description: OpenDNS
-    import: AS-OPENDNS
+    import: ANY
     export: AS-COLOCLUE
     peerings:
         - 80.249.208.88
@@ -306,7 +306,7 @@ AS286:
 
 AS20940:
    description: Akamai
-   import: AS-AKAMAI
+   import: ANY
    export: AS-COLOCLUE
    peerings:
         - 80.249.208.168
@@ -318,7 +318,7 @@ AS20940:
 
 AS12654:
    description: RIPE NCC RIS Project
-   import: AS12654:RS-RIS
+   import: ANY
    export: ANY
    peerings:
       - 80.249.208.69
@@ -326,7 +326,7 @@ AS12654:
 
 AS19151:
     description: BroadbandONE
-    import: AS-BBOI
+    import: ANY
     export: AS-COLOCLUE
     peerings:
         - 80.249.209.58
@@ -334,7 +334,7 @@ AS19151:
 
 AS2906:
     description: Netflix
-    import: as-nflx
+    import: ANY
     export: AS-COLOCLUE
     peerings:
         - 80.249.210.250
@@ -348,7 +348,7 @@ AS2906:
 
 AS251:
     description: Kaia Global Networks
-    import: AS-KAIAGLOBAL
+    import: ANY
     export: AS-COLOCLUE
     peerings:
         - 80.249.209.103
@@ -356,7 +356,7 @@ AS251:
 
 AS44654:
     description: Media Network Services
-    import: AS-MNS
+    import: ANY
     export: AS-COLOCLUE
     peerings:
         - 80.249.208.176
@@ -364,7 +364,7 @@ AS44654:
 
 AS8657:
     description: PT Comunicacoes S.A.
-    import: AS-CPRM
+    import: ANY
     export: AS-COLOCLUE
     peerings:
         - 80.249.208.217
@@ -380,7 +380,7 @@ AS2914:
 
 AS1101:
     description: Surfnet
-    import: AS1101
+    import: ANY
     export: AS-COLOCLUE
     peerings:
         - 80.249.210.65
@@ -388,7 +388,7 @@ AS1101:
 
 AS5524:
     description: Breedband Nederland
-    import: AS-BREEDBANDNEDERLAND
+    import: ANY
     export: AS-COLOCLUE
     peerings:
         - 80.249.209.104
@@ -396,7 +396,7 @@ AS5524:
 
 AS16265:
     description: FiberRing Backbone
-    import: AS-FIBERRING-BB
+    import: ANY
     export: AS-COLOCLUE
     peerings:
         - 80.249.208.215
@@ -422,7 +422,7 @@ AS13030:
 
 AS714:
     description: Apple Inc
-    import: AS714 AS6185
+    import: ANY
     export: AS-COLOCLUE
     peerings:
         - 80.249.211.160
@@ -432,7 +432,7 @@ AS714:
 
 AS31477:
     description: Duocast
-    import: AS-DUOCAST
+    import: ANY
     export: AS-COLOCLUE
     peerings:
         - 193.239.116.132
@@ -442,7 +442,7 @@ AS31477:
 
 AS34968:
     description: Iunxi
-    import: AS-IUNXI
+    import: ANY
     export: AS-COLOCLUE
     peerings:
         - 80.249.209.81
@@ -452,7 +452,7 @@ AS34968:
 
 AS35332:
     description: Dataweb
-    import: AS-DATAWEB
+    import: ANY
     export: AS-COLOCLUE
     peerings:
         - 193.239.116.10
@@ -460,7 +460,7 @@ AS35332:
 
 AS6724:
     description: Strato
-    import: AS-STRATORZ
+    import: ANY
     export: AS-COLOCLUE
     peerings:
         - 80.249.210.180
@@ -480,7 +480,7 @@ AS34307:
 
 AS197731:
     description: Tuxis Internet Engineering
-    import: AS-TUXIS
+    import: ANY
     export: AS-COLOCLUE
     peerings:
         - 193.239.116.56
@@ -488,7 +488,7 @@ AS197731:
 
 AS15435:
     description: CAIW
-    import: AS-KABELFOON
+    import: ANY
     export: AS-COLOCLUE
     peerings:
         - 80.249.209.173
@@ -502,7 +502,7 @@ AS15435:
 
 AS2603:
     description: NORDUNet
-    import: AS-NORDUNET
+    import: ANY
     export: AS-COLOCLUE
     peerings:
         - 80.249.209.203
@@ -512,7 +512,7 @@ AS2603:
 
 AS29119:
     description: Aire Networks del Mediterraneo S.L.U.
-    import: AS-SERVIHOSTING
+    import: ANY
     export: AS-COLOCLUE
     peerings:
         - 80.249.211.91
@@ -520,7 +520,7 @@ AS29119:
 
 AS2852:
     description: CESNET z.s.p.o.
-    import: AS-CESNET
+    import: ANY
     export: AS-COLOCLUE
     peerings:
         - 80.249.209.106
@@ -528,7 +528,7 @@ AS2852:
 
 AS31334:
     description: Kabel Deutschland
-    import: AS-KDG
+    import: ANY
     export: AS-COLOCLUE
     peerings:
         - 80.249.209.249
@@ -536,7 +536,7 @@ AS31334:
 
 AS6805:
     description: Telefonica DE
-    import: AS-TDDE
+    import: ANY
     export: AS-COLOCLUE
     peerings:
         - 80.249.208.91
@@ -546,7 +546,7 @@ AS6805:
 
 AS35432:
     description: Cablenet Communication Systems Ltd.
-    import: AS-WAVESPEED
+    import: ANY
     export: AS-COLOCLUE
     peerings:
         - 80.249.210.178
@@ -554,7 +554,7 @@ AS35432:
 
 AS30132:
     description: Internet Systems Consortium, F-Root Operator
-    import: AS30132:AS-SET
+    import: ANY
     export: AS-COLOCLUE
     peerings:
         - 80.249.208.111
@@ -568,7 +568,7 @@ AS30132:
 
 AS2119:
     description: Telenor
-    import: AS-TELENOR
+    import: ANY
     export: AS-COLOCLUE
     peerings:
         - 80.249.209.192
@@ -576,7 +576,7 @@ AS2119:
 
 AS50266:
     description: Wiericke
-    import: AS-WIERICKE
+    import: ANY
     export: AS-COLOCLUE
     peerings:
         - 80.249.211.171
@@ -586,14 +586,14 @@ AS50266:
 
 AS8966:
     description: Emirates Telecommunications Corporation
-    import: AS-EMIX
+    import: ANY
     export: AS-COLOCLUE
     peerings:
         - 80.249.209.89
 
 AS43190:
     description: Gelderland Internet Exchange
-    import: AS-GLIX
+    import: ANY
     export: AS-COLOCLUE
     peerings:
         - 80.249.208.157
@@ -603,7 +603,7 @@ AS43190:
 
 AS12041:
     description: Afilias
-    import: AS12041:AS-AFILIAS
+    import: ANY
     export: AS-COLOCLUE
     peerings:
         - 80.249.208.190
@@ -613,7 +613,7 @@ AS12041:
 
 AS30781:
     description: Jaguar Network
-    import: AS-JAGUAR AS-JAGUAR-V6
+    import: ANY
     export: AS-COLOCLUE
     peerings:
         - 80.249.209.239
@@ -623,7 +623,7 @@ AS30781:
 
 AS51852:
     description: Private Layer
-    import: AS51852
+    import: ANY
     export: AS-COLOCLUE
     peerings:
         - 80.249.211.144
@@ -631,7 +631,7 @@ AS51852:
 
 AS12552:
     description: IP-Only
-    import: AS-IPO
+    import: ANY
     export: AS-COLOCLUE
     peerings:
         - 80.249.209.235
@@ -639,14 +639,14 @@ AS12552:
 
 AS51088:
     description: A2B Internet
-    import: AS-A2B
+    import: ANY
     export: AS-COLOCLUE
     peerings:
         - 80.249.208.209
 
 AS8674:
     description: Netnod
-    import: AS-NETNOD
+    import: ANY
     export: AS-COLOCLUE
     peerings:
         - 80.249.209.92
@@ -659,7 +659,7 @@ AS8674:
         - 2001:7f8:13::a500:8674:2
 AS20857:
     description: TransIP
-    import: AS-TRANSIP
+    import: ANY
     export: AS-COLOCLUE
     peerings:
         - 80.249.208.244
@@ -667,7 +667,7 @@ AS20857:
         
 AS20621:
    description: OpenIT
-   import: AS-OPENIT
+   import: ANY
    export: AS-COLOCLUE
    peerings:
        - 80.249.211.168
@@ -675,7 +675,7 @@ AS20621:
 
 AS6677:
    description: Iceland Telecom Ltd.
-   import: AS-ICENET
+   import: ANY
    export: AS-COLOCLUE
    peerings:
        - 80.249.210.138
@@ -683,7 +683,7 @@ AS6677:
 
 AS31122:
     description: Viatel Ltd
-    import: AS-DIGIWEB
+    import: ANY
     export: AS-COLOCLUE
     peerings:
        - 80.249.209.161
@@ -691,7 +691,7 @@ AS31122:
 
 AS49685:
     description: IT-Ernity Internet Services B.V.
-    import: AS-ITIS
+    import: ANY
     export: AS-COLOCLUE
     peerings:
         - 80.249.209.148
