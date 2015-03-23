@@ -719,3 +719,11 @@ AS8359:
     peerings:
         - 80.249.209.188
         - 2001:7f8:1::a500:8359:1
+
+AS31595:
+    description: Redraw Internet
+    import: AS-AWELL
+    export: AS-COLOCLUE
+    peerings:
+        - 80.249.209.96
+        - 2001:7f8:1::A503:1595:1
