@@ -727,3 +727,11 @@ AS31595:
     peerings:
         - 80.249.209.96
         - 2001:7f8:1::A503:1595:1
+
+AS3292:
+    description: TDC A/S
+    import: AS-TDCNET AS-TDCNET-IPV6
+    export: AS-COLOCLUE
+    peerings:
+        - 80.249.208.104
+        - 2001:7f8:1::a500:3292:1
