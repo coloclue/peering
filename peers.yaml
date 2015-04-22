@@ -739,3 +739,11 @@ AS3292:
     peerings:
         - 80.249.208.104
         - 2001:7f8:1::a500:3292:1
+        
+AS57866:
+    description: Fusix Networks
+    import: AS-FUSIX
+    export: AS-COLOCLUE
+    peerings:
+        - 80.249.209.248
+        - 2001:7f8:1::a505:7866:1
