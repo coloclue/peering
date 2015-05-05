@@ -747,3 +747,11 @@ AS57866:
     peerings:
         - 80.249.209.248
         - 2001:7f8:1::a505:7866:1
+
+AS8560:
+    description: 1 and 1 internet
+    import: AS-1AND1
+    export: AS-COLOCLUE
+    peerings:
+        - 80.249.208.220
+        - 2001:7f8:1::a500:8560:1
