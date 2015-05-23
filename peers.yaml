@@ -20,6 +20,8 @@ AS6777:
     description: AMS-IX Routeservers
     import: AS-AMS-IX-RS-SETS AS-AMS-IX-RS-SETS-V6
     export: AS-COLOCLUE
+    ipv4_limit: 100000
+    ipv6_limit: 15000
     peerings: 
         - 80.249.208.255
         - 80.249.209.0
@@ -66,6 +68,8 @@ AS6939:
     description: Hurricane Electric
     import: AS-HURRICANE
     export: AS-COLOCLUE
+    ipv4_limit: 120000
+    ipv6_limit: 15000
     peerings:
         - 80.249.209.150
         - 2001:7f8:1::a500:6939:1
@@ -382,6 +386,8 @@ AS2914:
     description: NTT
     import: AS2914:AS-GLOBAL
     export: AS-COLOCLUE
+    ipv4_limit: 200000
+    ipv6_limit: 10000
     peerings:
         - 80.249.208.36
         - 2001:7f8:1::a500:2914:1
