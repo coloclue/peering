@@ -490,6 +490,8 @@ AS34307:
     description: NL-IX Routeservers
     import: ANY
     export: AS-COLOCLUE
+    ipv4_limit: 35000
+    ipv6_limit: 3000
     peerings:
         - 193.239.116.255
         - 193.239.117.0
