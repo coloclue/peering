@@ -18,7 +18,7 @@ AS1200:
     
 AS6777:
     description: AMS-IX Routeservers
-    import: ANY
+    import: AS-AMS-IX-RS-SETS AS-AMS-IX-RS-SETS-V6
     export: AS-COLOCLUE
     peerings: 
         - 80.249.208.255
@@ -64,7 +64,7 @@ AS13285:
 
 AS6939:
     description: Hurricane Electric
-    import: ANY
+    import: AS-HURRICANE
     export: AS-COLOCLUE
     peerings:
         - 80.249.209.150
@@ -304,7 +304,7 @@ AS36692:
 
 AS286:
    description: KPN
-   import: ANY
+   import: AS-KPN
    export: AS-COLOCLUE
    peerings:
         - 80.249.210.108
@@ -380,7 +380,7 @@ AS8657:
 
 AS2914:
     description: NTT
-    import: ANY
+    import: AS2914:AS-GLOBAL
     export: AS-COLOCLUE
     peerings:
         - 80.249.208.36
@@ -420,7 +420,7 @@ AS16265:
 
 AS13030:
     description: Init7
-    import: ANY
+    import: AS-INIT7
     export: AS-COLOCLUE
     peerings:
         - 80.249.208.210
