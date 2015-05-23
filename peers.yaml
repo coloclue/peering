@@ -330,7 +330,7 @@ AS20940:
 
 AS12654:
    description: RIPE NCC RIS Project
-   import: AS12654 AS12654:RS-RIS
+   import: AS12654
    export: ANY
    peerings:
       - 80.249.208.69
