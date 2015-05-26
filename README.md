@@ -65,5 +65,5 @@ Coloclue (AS8283) has a fairly open peering policy, but we do have a
 non-traditional routing policy:
     
     * All peers' prefixes are filtered based on strict RPSL
-    * Prefix filters facing peers are updated every 12 hours from RADB
+    * Prefix filters facing peers are updated every 12 hours from `rr.ntt.net`
 
