@@ -31,7 +31,8 @@ consistently across the file. Failing to do so will result in invalid YAML.
 
 Example stanza:
 
-```AS1200:
+```
+AS12345:
     description: A really cool ISP
     import: AS-RANDOMISP
     export: AS-COLOCLUE
