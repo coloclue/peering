@@ -20,7 +20,7 @@ AS6777:
     description: AMS-IX Routeservers
     import: AS-AMS-IX-RS-SETS AS-AMS-IX-RS-SETS-V6
     export: AS-COLOCLUE
-    ipv4_limit: 100000
+    ipv4_limit: 150000
     ipv6_limit: 15000
     peerings: 
         - 80.249.208.255
