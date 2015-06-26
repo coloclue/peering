@@ -783,3 +783,10 @@ AS16509:
         - 2001:7f8:1::a501:6509:2
         - 193.239.116.110
         - 2001:7f8:13::a501:6509:1
+
+AS5089:
+    description: Virgin Media
+    import: AS-NTLI
+    export: AS-COLOCLUE
+    peerings:
+        - 80.249.209.253
