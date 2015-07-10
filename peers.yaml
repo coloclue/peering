@@ -802,3 +802,13 @@ AS3257:
         - 2001:7f8:1::a500:3257:1
         - 193.239.116.130
         - 2001:7f8:13::A500:3257:1
+
+AS5400:
+    description: BT
+    import: AS-BT-EU
+    export: AS-COLOCLUE
+    ipv4_limit: 5000
+    ipv6_limit: 200
+    peerings:
+        - 80.249.208.108
+        - 2001:7F8:1::A500:5400:1
