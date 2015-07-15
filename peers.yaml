@@ -814,3 +814,11 @@ AS5400:
     peerings:
         - 80.249.208.108
         - 2001:7F8:1::A500:5400:1
+
+AS33891:
+    description: Core Backbone GmbH
+    import: AS-CORE-BACKBONE
+    export: AS-COLOCLUE
+    peerings:
+        - 80.249.209.128
+        - 2001:7f8:1::a503:3891:1
