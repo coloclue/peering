@@ -822,3 +822,11 @@ AS33891:
     peerings:
         - 80.249.209.128
         - 2001:7f8:1::a503:3891:1
+
+AS43996:
+    description: Booking.com
+    import: AS-BOOKING
+    export: AS-COLOCLUE
+    peerings:
+        - 80.249.210.198
+        - 2001:7f8:1::a504:3996:1
