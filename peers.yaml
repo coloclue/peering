@@ -838,3 +838,11 @@ AS855:
     peerings:
         - 80.249.210.209
         - 2001:7f8:1::a500:0855:1
+        
+AS3491:
+    descriotion: PCCW Global
+    import: AS-CAIS
+    export: AS-COLOCLUE
+    peerings:
+        - 80.249.209.37
+        - 2001:7F8:1::A500:3491:1
