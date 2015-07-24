@@ -840,7 +840,7 @@ AS855:
         - 2001:7f8:1::a500:0855:1
         
 AS3491:
-    descriotion: PCCW Global
+    description: PCCW Global
     import: AS-CAIS
     export: AS-COLOCLUE
     peerings:
