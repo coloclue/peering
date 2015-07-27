@@ -211,7 +211,7 @@ AS30844:
     import: AS-LIQUID
     export: AS-COLOCLUE
     peerings:
-        - 80.249.210.45
+        - 80.249.211.45
         - 2001:7f8:1::a503:0844:1
 
 AS8365:
