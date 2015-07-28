@@ -853,6 +853,8 @@ AS47065:
     description: BGPMUX / PEERING TestBed
     import: AS47065
     export: ANY
+    ipv4_limit: 50
+    ipv6_limit: 50
     type: downstream
     peerings:
         - 80.249.208.45
