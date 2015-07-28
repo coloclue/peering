@@ -848,3 +848,12 @@ AS3491:
     peerings:
         - 80.249.209.37
         - 2001:7F8:1::A500:3491:1
+
+AS47065:
+    description: BGPMUX / PEERING TestBed
+    import: AS47065
+    export: ANY
+    type: downstream
+    peerings:
+        - 80.249.208.45
+        - 2001:7f8:1::a504:7065:1
