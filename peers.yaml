@@ -849,6 +849,16 @@ AS3491:
         - 80.249.209.37
         - 2001:7F8:1::A500:3491:1
 
+AS47065:
+    description: BGPMUX / PEERING TestBed
+    import: AS47065
+    export: ANY
+    ipv4_limit: 50
+    ipv6_limit: 50
+    type: downstream
+    peerings:
+        - 80.249.208.45
+        
 AS39138:
     description: rrbone
     import: AS-OPENAP
