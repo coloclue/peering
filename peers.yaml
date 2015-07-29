@@ -866,3 +866,13 @@ AS39138:
     peerings:
         - 80.249.211.245
         - 2001:7f8:1::A503:9138:1
+
+AS112:
+    description: AS112 Project (Hosted by RIPE NCC at AMS-IX)
+    import: AS112
+    export: AS-COLOCLUE
+    ipv4_limit: 5
+    ipv6_limit: 5
+    peerings:
+        - 80.249.208.39
+        - 2001:7f8:1::a500:112:1
