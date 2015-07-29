@@ -848,3 +848,11 @@ AS3491:
     peerings:
         - 80.249.209.37
         - 2001:7F8:1::A500:3491:1
+
+AS39138:
+    description: rrbone
+    import: AS-OPENAP
+    export: AS-COLOCLUE
+    peerings:
+        - 80.249.211.245
+        - 2001:7f8:1::A503:9138:1
