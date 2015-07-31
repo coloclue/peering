@@ -888,3 +888,11 @@ AS8426:
         - 80.249.208.82
         - 2001:7F8:1::A500:8426:1
         - 2001:7F8:1::A500:8426:2
+
+AS47232:
+    description: ISP Alliance a.s.
+    import: AS-ISPALLIANCE-CZ
+    export: AS-COLOCLUE
+    peerings:
+        - 193.239.117.185
+        - 2001:7f8:13::a504:7232:1
