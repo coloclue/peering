@@ -876,3 +876,15 @@ AS112:
     peerings:
         - 80.249.208.39
         - 2001:7f8:1::a500:112:1
+        
+AS8426:
+    description: Claranet Ltd.
+    import: AS-CLARANET
+    export: AS-COLOCLUE
+    ipv4_limit: 800
+    ipv6_limit: 400
+    peerings:
+        - 80.249.209.228
+        - 80.249.208.82
+        - 2001:7F8:1::A500:8426:1
+        - 2001:7F8:1::A500:8426:2
