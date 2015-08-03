@@ -273,10 +273,11 @@ AS20562:
 
 AS47065:
     description: GENI BGPMUX
-    import: AS47065
+    import: AS8283:AS-BGPMUX-TESTBED
     export: AS-COLOCLUE
     peerings:
         - 80.249.208.45
+        - 2001:7f8:1::a504:7065:1
 
 AS12414:
     description: Solcon
