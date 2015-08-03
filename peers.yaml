@@ -891,7 +891,7 @@ AS47232:
         - 193.239.117.185
         - 2001:7f8:13::a504:7232:1
 
-AS8068:
+AS8075:
     description: Microsoft
     import: AS-MICROSOFT
     export: AS-COLOCLUE
