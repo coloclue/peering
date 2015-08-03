@@ -582,3 +582,12 @@ AS8966:
     export: AS-COLOCLUE
     peerings:
         - 80.249.209.89
+
+AS12854:
+    description: Pine Digital Security B.V.
+    import: AS-PINE
+    export: AS-COLOCLUE
+    peerings:
+        - 193.239.116.131
+        - 2001:7f8:13::a501:2854:1
+
