@@ -910,3 +910,13 @@ AS12854:
     peerings:
         - 193.239.116.131
         - 2001:7f8:13::a501:2854:1
+
+AS14413:
+    description: Linkedin
+    import: AS-LINKEDIN
+    export: AS-COLOCLUE
+    peerings:
+        - 193.239.117.184
+        - 2001:7f8:13::a501:4413:1
+        - 80.249.211.185
+        - 2001:7f8:1::a500:0019:7612:1
