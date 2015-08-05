@@ -920,3 +920,13 @@ AS14413:
         - 2001:7f8:13::a501:4413:1
         - 80.249.211.185
         - 2001:7f8:1::a500:0019:7612:1
+
+AS1764:
+    description: Nextlayer.at
+    import: AS-NEXTLAYER AS-NEXTLAYER-V6
+    export: AS-COLOCLUE
+    ipv4_limit: 3000
+    ipv6_limit: 1000
+    peerings:
+        - 80.249.211.123
+        - 2001:7f8:1::a500:1764:1
