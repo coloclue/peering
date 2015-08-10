@@ -161,6 +161,7 @@ AS20953:
     description: info.nl
     import: AS-INFO
     export: AS-COLOCLUE
+    gtsm: yes
     peerings:
         - 193.239.116.77
         - 80.249.208.203
