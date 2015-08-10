@@ -36,6 +36,25 @@ for asn in peerings:
             print "ERROR: missing %s statement in stanza %s" % (keyword, asn)
             sys.exit(2)
 
+    if 'gtsm' in peerings[asn]:
+        if peerings[asn]['gtsm'] not in ["yes", "no"]:
+            print "ERROR: gtsm value can be either 'yes' or 'no' - default is 'no'"
+            print peerings[asn]
+            sys.exit(2)
+
+    for limit in ["ipv4_limit", "ipv6_limit"]:
+        if limit in peerings[asn]:
+            try:
+                l = int(peerings[asn][limit])
+            except ValueError:
+                print "ERROR: %s must be a positive integer" % limit
+                print peerings[asn]
+                sys.exit(2)
+            if not l > 0:
+                print "ERROR: %s must be larger then 1" % limit
+                print peerings[asn]
+                sys.exit(2)
+
     for peer in peerings[asn]['peerings']:
         try:
             peer_ip = ipaddr.IPAddress(peer)
