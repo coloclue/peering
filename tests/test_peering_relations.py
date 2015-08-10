@@ -37,7 +37,7 @@ for asn in peerings:
             sys.exit(2)
 
     if 'gtsm' in peerings[asn]:
-        if peerings[asn]['gtsm'] not in ["yes", "no"]:
+        if not peerings[asn]['gtsm'] in [True, False]:
             print "ERROR: gtsm value can be either 'yes' or 'no' - default is 'no'"
             print peerings[asn]
             sys.exit(2)
