@@ -938,3 +938,11 @@ AS50673:
         - 2001:7F8:13::A505:673:1
         - 193.239.117.58
         - 2001:7F8:13::A506:196:1
+
+AS43821:
+    description: Wikimedia Foundation
+    import: AS-WIKIMEDIA
+    export: AS-COLOCLUE
+    peerings:
+        - 80.249.209.176
+        - 2001:7f8:1::a504:3821:1
