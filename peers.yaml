@@ -946,3 +946,11 @@ AS43821:
     peerings:
         - 80.249.209.176
         - 2001:7f8:1::a504:3821:1
+
+AS29140:
+    description: Hostserver.de
+    import: AS-HOSTSERVER
+    export: AS-COLOCLUE
+    peerings:
+        - 80.249.210.17
+        - 2001:7f8:1::a502:9140:1
