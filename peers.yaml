@@ -954,3 +954,13 @@ AS29140:
     peerings:
         - 80.249.210.17
         - 2001:7f8:1::a502:9140:1
+
+AS2635:
+    description: Automattic Inc.
+    import: AS2635
+    export: AS-COLOCLUE
+    peerings:
+        - 80.249.211.212
+        - 193.239.117.171
+        - 2001:7f8:1::a500:2635:1
+        - 2001:7f8:13::a500:2635:1
