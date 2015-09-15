@@ -974,3 +974,11 @@ AS2484:
         - 2001:7f8:1::a500:2484:1
         - 193.239.116.211
         - 2001:7f8:13::a500:2484:1
+
+AS3303:
+    description: Swisscom
+    import: AS-SWCMGLOBAL
+    export: AS-COLOCLUE
+    peerings:
+        - 80.249.208.100
+        - 2001:7f8:1::A500:3303:1
