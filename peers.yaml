@@ -693,8 +693,8 @@ AS20621:
    import: AS-OPENIT
    export: AS-COLOCLUE
    peerings:
-       - 80.249.211.168
-       - 2001:7f8:1::a502:0621:1
+        - 80.249.211.168
+        - 2001:7f8:1::a502:0621:1
 
 AS6677:
    description: Iceland Telecom Ltd.
