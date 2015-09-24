@@ -1013,7 +1013,7 @@ AS1273:
     description: Vodafone Group
     import: AS1273:AS-CWW AS1273:AS-CWW-V6
     export: AS-COLOCLUE
-    ipv4_limit: 65000
+    ipv4_limit: 90000
     peerings:
         - 80.249.209.144
         - 2001:7f8:1::a500:1273:1
