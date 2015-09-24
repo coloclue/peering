@@ -1008,3 +1008,14 @@ AS49544:
         - 2001:7f8:13::a504:9544:1
         - 193.239.117.77
         - 2001:7f8:13::a504:9544:2
+
+AS1273:
+    description: Vodafone Group
+    import: AS1273:AS-CWW AS1273:AS-CWW-V6
+    export: AS-COLOCLUE
+    ipv4_limit: 65000
+    peerings:
+        - 80.249.209.144
+        - 2001:7f8:1::a500:1273:1
+        - 193.239.116.232
+        - 2001:7f8:13::a500:1273:1
