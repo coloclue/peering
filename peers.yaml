@@ -1017,7 +1017,7 @@ AS1273:
         - 2001:7f8:13::a500:1273:1
 
 AS12759:
-    decsription: SOCO Network Solutions GmbH
+    description: SOCO Network Solutions GmbH
     import: AS-SOCO
     export: AS-COLOCLUE
     ipv4_limit: 50
