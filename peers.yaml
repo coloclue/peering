@@ -1015,3 +1015,12 @@ AS1273:
         - 2001:7f8:1::a500:1273:1
         - 193.239.116.232
         - 2001:7f8:13::a500:1273:1
+
+AS12759:
+    description: SOCO Network Solutions GmbH
+    import: AS-SOCO
+    export: AS-COLOCLUE
+    ipv4_limit: 50
+    peerings:
+        - 80.249.209.59
+        - 2001:7f8:1::a501:2759:1
