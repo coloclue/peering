@@ -1024,3 +1024,16 @@ AS12759:
     peerings:
         - 80.249.209.59
         - 2001:7f8:1::a501:2759:1
+
+
+AS25596:
+    description: Cambrium
+    import: AS-CAMBRIUM
+    export: AS-COLOCLUE
+    ipv4_limit: 10
+    peerings:
+        - 80.249.208.159
+        - 2001:7f8:1::a502:5596:1
+        - 80.249.209.169
+        - 2001:7f8:1::a502:5596:2
+
