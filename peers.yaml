@@ -1037,7 +1037,7 @@ AS25596:
 
 AS8218:
     description: Zayo France
-    import: AS8218:AS-CUSTOMERS
+    import: AS-NEOT AS-NEOT6 AS8218:AS-CUSTOMERS
     export: AS-COLOCLUE
     ipv4_limit: 4000
     ipv6_limit: 500
