@@ -1035,3 +1035,12 @@ AS25596:
         - 80.249.209.169
         - 2001:7f8:1::a502:5596:2
 
+AS8218:
+    description: Zayo France
+    import: AS8218:AS-CUSTOMERS
+    export: AS-COLOCLUE
+    ipv4_limit: 4000
+    ipv6_limit: 500
+    peerings:
+        - 80.249.209.53
+        - 2001:7f8:1::a500:8218:2
