@@ -1044,3 +1044,11 @@ AS8218:
     peerings:
         - 80.249.209.53
         - 2001:7f8:1::a500:8218:2
+
+AS13335:
+    description: Cloudflare
+    import: AS13335
+    export: AS-COLOCLUE
+    peerings:
+        - 80.249.211.140
+        - 2001:7f8:1::a501:3335:1
