@@ -1069,3 +1069,13 @@ AS32934:
         - 2001:7f8:13::a503:2934:1
         - 2001:7f8:13::a503:2934:2
 
+AS8608:
+    description: Esprit Telecom
+    import: AS-QINIP
+    export: AS-COLOCLUE
+    peerings:
+        - 80.249.208.90
+        - 80.249.209.90
+        - 2001:7F8:1::A500:8608:1
+        - 2001:7F8:1::A500:8608:2
+        
