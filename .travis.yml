@@ -1,4 +1,5 @@
 language: python
+sudo: false
 install: "pip install ipaddr requests pyyaml"
 
 script: python ./tests/test_peering_relations.py
