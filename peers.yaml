@@ -1090,3 +1090,13 @@ AS6830:
         - 2001:7f8:1::a500:6830:1
         - 2001:7f8:1::a500:6830:2
         - 2001:7f8:1::a500:6830:3
+
+AS6461:
+    description: Zayo / Abovenet
+    import: AS-MFNX
+    export: AS-COLOCLUE
+    ipv4_limit: 50000
+    ipv6_limit: 5000
+    peerings:
+        - 80.249.208.122
+        - 2001:7f8:1::a500:6461:1
