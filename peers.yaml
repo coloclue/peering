@@ -1100,3 +1100,13 @@ AS6461:
     peerings:
         - 80.249.208.122
         - 2001:7f8:1::a500:6461:1
+
+AS3320:
+    description: Deutsche Telekom
+    import: AS3320:AS-DTAG
+    export: AS-COLOCLUE
+    ipv4_limit: 30000
+    ipv6_limit: 2000
+    peerings:
+        - 80.249.209.211
+        - 2001:7f8:1::a500:3320:1
