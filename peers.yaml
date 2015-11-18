@@ -1116,7 +1116,7 @@ AS1299:
     import: AS-TELIANET AS-TELIANET-V6
     export: AS-COLOCLUE
     ipv4_limit: 300000
-    ipv6_limit: 3000
+    ipv6_limit: 10000
     peerings:
         - 62.115.144.32
         - 2001:2000:3080:0EBC::1
