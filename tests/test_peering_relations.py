@@ -28,7 +28,10 @@ connected_ixps = {
     "amsix": [ipaddr.IPNetwork('80.249.208.0/21'),
               ipaddr.IPNetwork('2001:7f8:1::/64')],
     "nlix": [ipaddr.IPNetwork('193.239.116.0/23'),
-             ipaddr.IPNetwork('2001:7f8:13:0:0:0:0:0/64')]}
+             ipaddr.IPNetwork('2001:7f8:13:0:0:0:0:0/64')],
+    "private-eun": [ipaddr.IPNetwork('62.115.144.32/31'),
+                    ipaddr.IPNetwork('2001:2000:3080:0EBC::/126')]
+}
 
 for asn in peerings:
     for keyword in ['export', 'import', 'description', 'peerings']:
