@@ -1110,3 +1110,13 @@ AS3320:
     peerings:
         - 80.249.209.211
         - 2001:7f8:1::a500:3320:1
+
+AS1299:
+    description: TeliaSonera International Carrier
+    import: AS-TELIANET AS-TELIANET-V6
+    export: AS-COLOCLUE
+    ipv4_limit: 1000000
+    ipv6_limit: 50000
+    peerings:
+        - 62.115.144.32
+        - 2001:2000:3080:0EBC::2
