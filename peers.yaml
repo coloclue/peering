@@ -1103,7 +1103,7 @@ AS6461:
 
 AS3320:
     description: Deutsche Telekom
-    import: AS3320:AS-DTAG
+    import: AS3320:AS-DTAG AS3320:AS-CUSTOMERS-V6
     export: AS-COLOCLUE
     ipv4_limit: 30000
     ipv6_limit: 2000
