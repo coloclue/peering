@@ -1120,3 +1120,12 @@ AS1299:
     peerings:
         - 62.115.144.32
         - 2001:2000:3080:0EBC::1
+
+AS61955:
+    description: ColocationIX
+    import: AS-COLOCATIONIX
+    export: AS-COLOCLUE
+    ipv4_limit: 1000
+    ipv6_limit: 1000
+    peerings:
+        - 80.249.211.155 
