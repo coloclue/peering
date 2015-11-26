@@ -1129,3 +1129,19 @@ AS61955:
     ipv6_limit: 1000
     peerings:
         - 80.249.211.155 
+
+AS43350:
+    description: NFOrce Entertainment B.V.
+    import: AS-NFORCE
+    export: AS-COLOCLUE
+    ipv4_limit: 1000
+    ipv6_limit: 1000
+    peerings:
+        - 80.249.208.228
+        - 80.249.210.175
+        - 2001:7f8:1::a504:3350:1
+        - 2001:7f8:1::a504:3350:2
+        - 193.239.116.214
+        - 193.239.116.142
+        - 2001:7F8:13::A504:3350:2
+        - 2001:7F8:13::A504:3350:1
