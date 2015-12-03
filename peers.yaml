@@ -1145,3 +1145,11 @@ AS43350:
         - 193.239.116.142
         - 2001:7F8:13::A504:3350:2
         - 2001:7F8:13::A504:3350:1
+
+AS48519:
+    description: Knipp Medien und Kommunikation GmbH
+    import: AS-IRONDNS AS-IRONDNS-v6
+    export: AS-COLOCLUE
+    peerings:
+        - 80.249.212.99
+        - 2001:7f8:1::a504:8519:1
