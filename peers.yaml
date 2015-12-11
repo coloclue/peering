@@ -1153,3 +1153,23 @@ AS48519:
     peerings:
         - 80.249.212.99
         - 2001:7f8:1::a504:8519:1
+
+AS200023:
+    description: Qonnected B.V.
+    import: AS200023
+    export: AS-COLOCLUE
+    peerings:
+        - 80.249.212.103
+        - 2001:7f8:1:0:a500:20:23:1
+        - 193.239.117.132
+        - 2001:7f8:13::a520:23:1
+
+AS41913:
+    description: Computerline Group
+    import: AS-COMPUTERLINE
+    export: AS-COLOCLUE
+    peerings:
+        - 80.249.211.177
+        - 2001:7f8:1::a504:1913:1
+        - 193.239.116.47
+        - 2001:7f8:13::a504:1913:1
