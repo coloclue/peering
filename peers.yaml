@@ -1129,6 +1129,7 @@ AS61955:
     ipv6_limit: 1000
     peerings:
         - 80.249.211.155 
+        - 2001:7f8:1::A506:1955:1
 
 AS43350:
     description: NFOrce Entertainment B.V.
