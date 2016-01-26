@@ -1174,3 +1174,13 @@ AS41913:
         - 2001:7f8:1::a504:1913:1
         - 193.239.116.47
         - 2001:7f8:13::a504:1913:1
+
+AS3356:
+    description: Level3
+    import: ANY
+    export: AS-COLOCLUE
+    ipv4_limit: 250000
+    ipv6_limit: 25000
+    peerings:
+        - 80.249.208.110
+        - 2001:7f8:1::a500:3356:1
