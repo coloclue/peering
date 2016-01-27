@@ -1182,7 +1182,10 @@ AS3356:
     export: AS-COLOCLUE
     ipv4_limit: 300000
     ipv6_limit: 25000
-    multihop: yes
     peerings:
-        - 2001:1900::4:35
-        - 4.68.4.43
+        - 80.249.208.110
+        - 2001:7f8:1::a500:3356:1
+        - 4.68.4.43:
+            - multihop: yes
+        - 2001:1900::4:35:
+            - multihop: yes
