@@ -189,6 +189,7 @@ AS42:
     import: AS-PCH
     export: AS-COLOCLUE
     peerings:
+        - 80.249.208.250
         - 2001:7f8:1::a500:42:1
 
 AS3856:
