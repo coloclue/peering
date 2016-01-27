@@ -30,7 +30,9 @@ connected_ixps = {
     "nlix": [ipaddr.IPNetwork('193.239.116.0/23'),
              ipaddr.IPNetwork('2001:7f8:13:0:0:0:0:0/64')],
     "private-eun": [ipaddr.IPNetwork('62.115.144.32/31'),
-                    ipaddr.IPNetwork('2001:2000:3080:0EBC::/126')]
+                    ipaddr.IPNetwork('2001:2000:3080:0EBC::/126')],
+    "multihop-eun": [ipaddr.IPNetwork('4.68.4.43/32'),
+                     ipaddr.IPNetwork('2001:1900::4:35/128')]
 }
 
 for asn in peerings:
@@ -42,6 +44,12 @@ for asn in peerings:
     if 'gtsm' in peerings[asn]:
         if not peerings[asn]['gtsm'] in [True, False]:
             print "ERROR: gtsm value can be either 'yes' or 'no' - default is 'no'"
+            print peerings[asn]
+            sys.exit(2)
+
+    if 'multihop' in peerings[asn]:
+        if not peerings[asn]['multihop'] in [True, False]:
+            print "ERROR: multihop value can be either 'yes' or 'no' - default is 'no'"
             print peerings[asn]
             sys.exit(2)
 
