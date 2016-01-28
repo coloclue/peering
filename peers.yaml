@@ -1180,7 +1180,7 @@ AS3356:
     description: Level3
     import: ANY
     export: AS-COLOCLUE
-    ipv4_limit: 300000
+    ipv4_limit: 330000
     ipv6_limit: 25000
     multihop: yes
     peerings:
