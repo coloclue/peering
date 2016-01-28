@@ -1186,3 +1186,11 @@ AS3356:
     peerings:
         - 4.68.4.43
         - 2001:1900::4:35
+
+AS38880:
+    description: Micron21
+    import: AS38880
+    export: AS-COLOCLUE
+    peerings:
+        - 80.249.212.75
+        - 2001:7f8:1::a503:8880:1
