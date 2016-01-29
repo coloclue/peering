@@ -1194,3 +1194,13 @@ AS38880:
     peerings:
         - 80.249.212.75
         - 2001:7f8:1::a503:8880:1
+
+AS1239:
+    description: Sprint
+    import: ANY
+    export: AS-COLOCLUE
+    ipv4_limit: 100000
+    ipv6_limit: 10000
+    peerings:
+        - 80.249.209.214
+        - 2001:7f8:1::a500:1239:1
