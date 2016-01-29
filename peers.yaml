@@ -1204,3 +1204,13 @@ AS1239:
     peerings:
         - 80.249.209.214
         - 2001:7f8:1::a500:1239:1
+
+AS46489:
+    description: Twitch / Justin.tv
+    import: AS-TWITCH
+    export: AS-COLOCLUE
+    peerings:
+        - 80.249.210.197
+        - 80.249.211.27
+        - 193.239.117.158
+        - 193.239.117.161
