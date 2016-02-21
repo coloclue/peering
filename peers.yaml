@@ -229,7 +229,7 @@ AS58291:
     import: AS-COLOCENTER
     export: AS-COLOCLUE
     peerings:
-        - 80.249.211.77
+        - 80.249.212.148
 
 AS196752:
     description: Tilaa
