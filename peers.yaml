@@ -1214,3 +1214,11 @@ AS46489:
         - 80.249.211.27
         - 193.239.117.158
         - 193.239.117.161
+
+AS31500:
+    description: Global Network Management
+    import: AS-GLOBAL-NET
+    export: AS-COLOCLUE
+    peerings:
+        - 80.249.209.157
+        - 2001:7F8:1::A503:1500:1
