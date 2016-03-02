@@ -1222,3 +1222,10 @@ AS31500:
     peerings:
         - 80.249.209.157
         - 2001:7F8:1::A503:1500:1
+AS49605:
+    description: Digital Telecommunication Services S.r.l.
+    import: AS-AS-DTSRETEIVO
+    export: AS-COLOCLUE
+    peerings:
+        - 80.249.212.150
+        - 2001:7f8:1::a504:9605:1
