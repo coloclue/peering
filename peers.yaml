@@ -1222,6 +1222,7 @@ AS31500:
     peerings:
         - 80.249.209.157
         - 2001:7F8:1::A503:1500:1
+
 AS49605:
     description: Digital Telecommunication Services S.r.l.
     import: AS-AS-DTSRETEIVO
