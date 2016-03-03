@@ -817,14 +817,6 @@ AS43996:
         - 80.249.210.198
         - 2001:7f8:1::a504:3996:1
 
-AS855:
-    description: Bell Aliant
-    import: AS855:AS-CUSTOMERS
-    export: AS-COLOCLUE
-    peerings:
-        - 80.249.210.209
-        - 2001:7f8:1::a500:0855:1
-        
 AS3491:
     description: PCCW Global
     import: AS-CAIS
