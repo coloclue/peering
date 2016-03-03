@@ -1225,7 +1225,7 @@ AS31500:
 
 AS49605:
     description: Digital Telecommunication Services S.r.l.
-    import: AS-AS-DTSRETEIVO
+    import: AS-DTSRETEIVO
     export: AS-COLOCLUE
     ipv4_limit: 50
     ipv6_limit: 50
