@@ -484,18 +484,6 @@ AS6724:
         - 2001:7f8:1::a500:6724:1
         - 2001:7f8:13::a500:6724:1
 
-AS34307:
-    description: NL-IX Routeservers
-    import: ANY
-    export: AS-COLOCLUE
-    ipv4_limit: 35000
-    ipv6_limit: 3000
-    peerings:
-        - 193.239.116.255
-        - 193.239.117.0
-        - 2001:7f8:13::a503:4307:1
-        - 2001:7f8:13::a503:4307:2
-
 AS197731:
     description: Tuxis Internet Engineering
     import: AS-TUXIS
