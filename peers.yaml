@@ -1227,7 +1227,7 @@ AS1103:
 
 AS8928:
     description: Interoute
-    import: RS-INTEROUTE
+    import: AS-INTEROUTE
     export: AS-COLOCLUE
     peerings:
         - 80.249.208.81
