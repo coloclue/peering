@@ -68,8 +68,8 @@ AS6939:
     description: Hurricane Electric
     import: AS-HURRICANE
     export: AS-COLOCLUE
-    ipv4_limit: 120000
-    ipv6_limit: 15000
+    ipv4_limit: 152000
+    ipv6_limit: 37000
     peerings:
         - 80.249.209.150
         - 2001:7f8:1::a500:6939:1
