@@ -1254,3 +1254,13 @@ AS24875:
         - 80.249.210.182
         - 2001:7f8:1::a502:4875:1
         - 2001:7f8:1::a502:4875:2
+
+AS2828:
+    description: XO
+    import: AS-XO
+    export: AS-COLOCLUE
+    ipv4_limit: 80000
+    ipv6_limit: 4000
+    peerings:
+        - 80.249.209.200
+        - 2001:7f8:1::a500:2828:1
