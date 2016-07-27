@@ -1259,10 +1259,11 @@ AS24875:
 
 AS2828:
     description: XO
-    import: ANY
+    import: AS-XO
     export: AS-COLOCLUE
     ipv4_limit: 80000
     ipv6_limit: 4000
+    irr_order: ARIN,RIPE,AFRINIC,APNIC,NTTCOM,JPIRR,RADB,SAVVIS,TC,GT,BELL,LEVEL3,BBOI,ALTDB,RGNET
     peerings:
         - 80.249.209.200
         - 2001:7f8:1::a500:2828:1
