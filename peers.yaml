@@ -1259,7 +1259,7 @@ AS24875:
 
 AS2828:
     description: XO
-    import: AS-XO
+    import: ANY
     export: AS-COLOCLUE
     ipv4_limit: 80000
     ipv6_limit: 4000
