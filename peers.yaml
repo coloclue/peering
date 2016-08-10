@@ -115,23 +115,19 @@ AS8282:
         - 80.249.211.39
         - 2001:7f8:1::a500:8282:1
 
-# BIT sessions are now manually configured
-# to allow easier leaking of coloclue prefixes
-# between NL-IX and AMS-IX in case our backbone
-# link fails. Job 22/05/2015
-# AS12859:
-#    description: BIT
-#    import: AS-BIT AS-BIT6
-#    export: AS-COLOCLUE
-#    peerings:
-#        - 80.249.208.35
-#        - 80.249.208.200
-#        - 193.239.116.19
-#        - 193.239.116.33
-#        - 2001:7f8:1::a501:2859:1
-#        - 2001:7f8:1::a501:2859:2
-#        - 2001:7f8:13::a501:2859:1
-#        - 2001:7f8:13::a501:2859:2
+AS12859:
+   description: BIT
+   import: AS-BIT AS-BIT6
+   export: AS-COLOCLUE
+   peerings:
+       - 80.249.208.35
+       - 80.249.208.200
+       - 193.239.116.19
+       - 193.239.116.33
+       - 2001:7f8:1::a501:2859:1
+       - 2001:7f8:1::a501:2859:2
+       - 2001:7f8:13::a501:2859:1
+       - 2001:7f8:13::a501:2859:2
 
 AS13101:
     description: TNG
