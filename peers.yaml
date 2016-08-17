@@ -1283,3 +1283,11 @@ AS10310:
         - 2001:7f8:1::a501:310:1
         - 80.249.209.163
         - 2001:7f8:1::a501:310:2
+
+AS48635:
+    description: PCextreme
+    import: AS-PCEXTREME
+    export: AS-COLOCLUE
+    peerings:
+        - 193.239.117.68
+        - 2001:7f8:13::a504:8635:1
