@@ -1291,3 +1291,14 @@ AS48635:
     peerings:
         - 193.239.117.68
         - 2001:7f8:13::a504:8635:1
+
+AS6774:
+    description: Belgacom International Carrier Services (aka BICS)
+    import: AS6774:AS-BICS-TRANSIT
+    export: AS-COLOCLUE
+    peerings:
+        - 80.249.208.87
+        - 80.249.209.76
+        - 2001:7f8:1::a500:6774:1
+        - 2001:7f8:1::a500:6774:2
+        
