@@ -379,8 +379,8 @@ AS2914:
     description: NTT
     import: AS2914:AS-GLOBAL
     export: AS-COLOCLUE
-    ipv4_limit: 200000
-    ipv6_limit: 10000
+    ipv4_limit: 250000
+    ipv6_limit: 20000
     peerings:
         - 80.249.208.36
         - 2001:7f8:1::a500:2914:1
