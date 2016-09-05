@@ -1058,6 +1058,7 @@ AS6830:
     description: Liberty Global
     import: AS-AORTA AS-AORTA6
     export: AS-COLOCLUE
+    ipv4_limit: 15000
     peerings:
         - 80.249.208.106
         - 80.249.208.174
