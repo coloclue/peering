@@ -1307,6 +1307,8 @@ AS15169:
     description: Google
     import: AS-GOOGLE
     export: AS-COLOCLUE
+    ipv4_limit: 15000
+    ipv6_limit: 1000
     peerings:
         - 80.249.208.247
         - 2001:7f8:1::a501:5169:1
