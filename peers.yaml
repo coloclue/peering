@@ -1318,3 +1318,11 @@ AS15169:
         - 2001:7f8:13::a501:5169:1
         - 193.239.117.141
         - 2001:7f8:13::a501:5169:2
+
+AS203319:
+    description: Opticnetworks
+    import: AS203319
+    export: AS-COLOCLUE
+    peerings:
+        - 193.239.116.99
+        - 2001:7f8:13::a520:3319:1
