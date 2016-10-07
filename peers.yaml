@@ -1326,3 +1326,11 @@ AS203319:
     peerings:
         - 193.239.116.99
         - 2001:7f8:13::a520:3319:1
+
+AS59605:
+    description: Zain Group
+    import: AS-ZAINGP
+    export: AS-COLOCLUE
+    peerings:
+        - 80.249.210.78
+        - 2001:7f8:1::a505:9605:1
