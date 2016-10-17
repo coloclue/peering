@@ -1336,3 +1336,15 @@ AS59605:
     peerings:
         - 80.249.210.78
         - 2001:7f8:1::a505:9605:1
+
+AS20932:
+    description: SIG-Telecom
+    import: AS-SIG-TELECOM AS-SIG-TELECOM-V6
+    export: AS-COLOCLUE
+    ipv4_limit: 100
+    ipv6_limit: 10
+    peerings:
+        - 80.249.208.234
+        - 2001:7F8:1::A502:932:1
+        - 193.239.116.144
+        - 2001:7F8:13::A502:932:1
