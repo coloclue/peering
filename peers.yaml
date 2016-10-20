@@ -143,7 +143,9 @@ AS48200:
     export: AS-COLOCLUE
     peerings:
         - 80.249.211.172
+        - 193.239.117.252
         - 2001:7f8:1::A504:8200:1 
+        - 2001:7f8:13::a504:8200:1
 
 AS25091:
     description: IP-Max SA
