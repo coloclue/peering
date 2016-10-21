@@ -1350,3 +1350,13 @@ AS20932:
         - 2001:7F8:1::A502:932:1
         - 193.239.116.144
         - 2001:7F8:13::A502:932:1
+
+AS25369:
+    description: Bandwidth Technologies
+    import: AS-BANDWIDTH
+    export: AS-COLOCLUE
+    ipv4_limit: 600
+    ipv6_limit: 200
+    peerings:
+        - 80.249.212.219
+        - 2001:7f8:1::a502:5369:1
