@@ -760,13 +760,6 @@ AS16509:
         - 193.239.117.227
         - 2001:7f8:13::a501:6509:2
 
-AS5089:
-    description: Virgin Media
-    import: AS-NTLI
-    export: AS-COLOCLUE
-    peerings:
-        - 80.249.209.253
-
 AS3257:
     description: GTT
     import: AS-TINET
