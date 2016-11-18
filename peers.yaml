@@ -1353,3 +1353,12 @@ AS25369:
     peerings:
         - 80.249.212.219
         - 2001:7f8:1::a502:5369:1
+
+
+AS34942:
+   description: Vivor
+   import: AS-VIVOR
+   export: AS-COLOCLUE
+   peerings:
+         - 193.239.116.121
+         - 2001:7F8:13::A503:4942:1
