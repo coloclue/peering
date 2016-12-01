@@ -1361,3 +1361,13 @@ AS34942:
     peerings:
         - 193.239.116.121
         - 2001:7F8:13::A503:4942:1
+
+AS6453:
+    description: Tata
+    import: AS-GLOBEINTERNET
+    export: AS-COLOCLUE
+    ipv4_limit: 200000
+    ipv6_limit: 20000
+    peerings:
+        - 80.249.209.167
+        - 2001:7f8:1::a500:6453:1
