@@ -810,7 +810,7 @@ AS3491:
 
 AS47065:
     description: BGPMUX / PEERING TestBed
-    import: AS8283:AS-BGPMUX-TESTBED
+    import: AS-PEERING-TESTBED
     export: ANY
     ipv4_limit: 50
     ipv6_limit: 50
