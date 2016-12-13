@@ -1371,3 +1371,11 @@ AS6453:
     peerings:
         - 80.249.209.167
         - 2001:7f8:1::a500:6453:1
+
+AS37353:
+    description: MacroLan
+    import: AS-MACROLAN
+    export: AS8283:AS-COLOCLUE
+    peerings:
+        - 193.239.116.160
+        - 2001:7f8:13::a503:7353:1
