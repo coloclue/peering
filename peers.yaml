@@ -1379,3 +1379,11 @@ AS37353:
     peerings:
         - 193.239.116.160
         - 2001:7f8:13::a503:7353:1
+
+AS1257:
+    description: Tele2 SWIPNet
+    import: AS-TELE2
+    export: AS8283:AS-COLOCLUE
+    peering:
+        - 80.249.209.139
+        - 2001:7f8:1::a500:1257:1
