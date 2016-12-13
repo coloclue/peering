@@ -1384,6 +1384,6 @@ AS1257:
     description: Tele2 SWIPNet
     import: AS-TELE2
     export: AS8283:AS-COLOCLUE
-    peering:
+    peerings:
         - 80.249.209.139
         - 2001:7f8:1::a500:1257:1
