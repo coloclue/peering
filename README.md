@@ -16,7 +16,7 @@ neutral environment.
 ## How to peer? ##
 
 If you are connected to AMS-IX or NL-IX you can set up BGP sessions with AS8283.
-Make sure you accept `AS-COLOCLUE` (50 prefixes max).
+Make sure you accept `AS8283:AS-COLOCLUE` (50 prefixes max).
 
 Add yourself to the `peers.yaml` file and submit a pull request to this
 repository. Once a network engineer validates your pull request and merges it
@@ -35,7 +35,7 @@ Example stanza:
 AS12345:
     description: A really cool ISP
     import: AS-RANDOMISP
-    export: AS-COLOCLUE
+    export: AS8283:AS-COLOCLUE
     peerings:
         - 80.249.208.1
         - 2001:7f8:1::a500:8282:1
@@ -46,7 +46,7 @@ AS12345:
 ```
     Name:  Netwerkvereniging Coloclue
     ASN:   AS8283
-    Macro: AS-COLOCLUE
+    Macro: AS8283:AS-COLOCLUE
     NOC:   routers@coloclue.net
 
     IXP:   AMS-IX

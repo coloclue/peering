@@ -86,7 +86,7 @@ or we are not connected to the same internet exchange" \
                 % (peer, " ".join(connected_ixps))
             sys.exit(2)
 
-    acceptable_exports = ['AS-COLOCLUE', 'NOT ANY', 'ANY']
+    acceptable_exports = ['AS8283:AS-COLOCLUE', 'NOT ANY', 'ANY']
     if not peerings[asn]['export'] in acceptable_exports:
         print "ERROR: export must be one of the following: %s" \
             % " ".join(acceptable_exports)
