@@ -1391,7 +1391,7 @@ AS1257:
 AS198203:
     description: Weservit B.V.
     import: AS-ROUTELABEL
-    export: AS8283:AS-COLOCLUE
+    export: "AS8283:AS-COLOCLUE"
     peerings:
         - 193.239.117.116
         - 2001:7f8:13::a519:8203:1
