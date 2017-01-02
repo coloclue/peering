@@ -353,14 +353,6 @@ AS2906:
         - 2001:7f8:13::a500:2906:1
         - 2001:7f8:13::a500:2906:2
 
-AS251:
-    description: Kaia Global Networks
-    import: AS-KAIAGLOBAL
-    export: "AS8283:AS-COLOCLUE"
-    peerings:
-        - 80.249.209.103
-        - 2001:7f8:1::a500:251:1
-
 AS44654:
     description: Media Network Services
     import: AS-MNS
