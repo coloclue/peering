@@ -329,7 +329,7 @@ AS20940:
 
 AS12654:
    description: RIPE NCC RIS Project
-   import: AS12654
+   import: AS12654:RS-RIS
    export: ANY
    peerings:
       - 80.249.208.69
@@ -400,8 +400,8 @@ AS5524:
         - 2001:7f8:1::a500:5524:1 
 
 AS16265:
-    description: FiberRing Backbone
-    import: AS-FIBERRING-BB
+    description: Leaseweb
+    import: AS-LEASEWEB
     export: "AS8283:AS-COLOCLUE"
     peerings:
         - 80.249.208.215
@@ -428,7 +428,7 @@ AS13030:
 
 AS714:
     description: Apple Inc
-    import: AS714 AS6185
+    import: AS-APPLE
     export: "AS8283:AS-COLOCLUE"
     peerings:
         - 80.249.211.160
@@ -1015,7 +1015,7 @@ AS8218:
 
 AS13335:
     description: Cloudflare
-    import: AS13335
+    import: AS-CLOUDFLARE
     export: "AS8283:AS-COLOCLUE"
     peerings:
         - 80.249.211.140
@@ -1155,7 +1155,7 @@ AS3356:
 
 AS38880:
     description: Micron21
-    import: AS38880
+    import: AS-M21
     export: "AS8283:AS-COLOCLUE"
     peerings:
         - 80.249.212.75
@@ -1237,7 +1237,7 @@ AS15542:
 
 AS24875:
     description: NovoServe
-    import: AS-AVIRA
+    import: AS-NOVOSERVE
     export: "AS8283:AS-COLOCLUE"
     peerings:
         - 80.249.208.126
@@ -1328,7 +1328,7 @@ AS59605:
 
 AS20932:
     description: SIG-Telecom
-    import: AS-SIG-TELECOM AS-SIG-TELECOM-V6
+    import: AS-SIG-TELECOM
     export: "AS8283:AS-COLOCLUE"
     ipv4_limit: 100
     ipv6_limit: 10
