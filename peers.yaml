@@ -575,8 +575,8 @@ AS2119:
         - 2001:7f8:1::A500:2119:1
 
 AS50266:
-    description: Wiericke
-    import: AS-WIERICKE
+    description: T-mobile thuis
+    import: AS-PROJECTJAGUAR
     export: "AS8283:AS-COLOCLUE"
     peerings:
         - 80.249.211.171
