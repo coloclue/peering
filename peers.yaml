@@ -1254,18 +1254,6 @@ AS2828:
         - 80.249.209.200
         - 2001:7f8:1::a500:2828:1
 
-AS5580:
-    description: Hibernia
-    import: AS-HIBERNIA
-    export: "AS8283:AS-COLOCLUE"
-    ipv4_limit: 25000
-    ipv6_limit: 1250
-    peerings:
-        - 80.249.208.229
-        - 2001:7f8:1::a500:5580:1
-        - 80.249.209.229
-        - 2001:7f8:1::a500:5580:2
-
 AS10310:
     description: Yahoo
     import: AS-YAHOO
