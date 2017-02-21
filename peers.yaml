@@ -978,7 +978,7 @@ AS1273:
     import: AS1273:AS-CWW AS1273:AS-CWW-V6
     export: "AS8283:AS-COLOCLUE"
     ipv4_limit: 90000
-    ipv6_limit: 3500
+    ipv6_limit: 4500
     peerings:
         - 80.249.209.144
         - 2001:7f8:1::a500:1273:1
