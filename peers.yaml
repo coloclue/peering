@@ -1377,3 +1377,11 @@ AS198203:
     peerings:
         - 193.239.117.116
         - 2001:7f8:13::a519:8203:1
+
+AS54113:
+    description: Fastly
+    import: AS-FASTLY
+    export: "AS8283:AS-COLOCLUE"
+    peerings:
+        - 80.249.212.183
+        - 80.249.212.184
