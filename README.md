@@ -36,10 +36,13 @@ AS12345:
     description: A really cool ISP
     import: AS-RANDOMISP
     export: AS8283:AS-COLOCLUE
-    peerings:
-        - 80.249.208.1
-        - 2001:7f8:1::a500:8282:1
 ```
+
+The relevant IPv4 and IPv6 addresses are pulled from PeeringDB. If you add a
+new connection in PeeringDB, and we have an Internet Exchange in common,
+our software will automatically set up BGP peering sessions towards your
+new connection. Likewise, if you remove an connection from your PeeringDB
+record, our software will remove the respective BGP sessions.
 
 ### Technical details ###
 
@@ -65,7 +68,8 @@ AS12345:
 
 Coloclue (AS8283) has a fairly open peering policy, but we do have a
 non-traditional routing policy:
-    
-    * All peers' prefixes are filtered based on strict RPSL
-    * Prefix filters facing peers are updated every 12 hours from `rr.ntt.net`
 
+    * If your IXP connection is NOT in PeeringDB, we WILL NOT peer with you.
+    * All peers' prefixes are filtered based on strict IRR.
+    * All peers' prefixes are filtered based on strict RPKI.
+    * Prefix filters facing peers are updated every 12 hours from `rr.ntt.net`.
