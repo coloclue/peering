@@ -69,7 +69,7 @@ record, our software will remove the respective BGP sessions.
 Coloclue (AS8283) has a fairly open peering policy, but we do have a
 non-traditional routing policy:
 
-    * If your IXP connection is NOT in PeeringDB, we WILL NOT peer with you.
+    * If your IXP connection is NOT in PeeringDB, changes will need to be handled manually
     * All peers' prefixes are filtered based on strict IRR.
     * All peers' prefixes are filtered based on strict RPKI.
     * Prefix filters facing peers are updated every 12 hours from `rr.ntt.net`.
