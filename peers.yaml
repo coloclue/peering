@@ -188,11 +188,6 @@ AS12654:
    import: AS12654:RS-RIS
    export: ANY
 
-AS19151:
-    description: BroadbandONE
-    import: AS-BBOI
-    export: "AS8283:AS-COLOCLUE"
-
 AS2906:
     description: Netflix
     import: as-nflx
@@ -448,11 +443,6 @@ AS47065:
     ipv4_limit: 50
     ipv6_limit: 50
     type: downstream
-
-AS39138:
-    description: rrbone
-    import: AS-OPENAP
-    export: "AS8283:AS-COLOCLUE"
 
 AS112:
     description: AS112 Project (Hosted by RIPE NCC at AMS-IX)
