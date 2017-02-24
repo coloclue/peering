@@ -594,8 +594,12 @@ AS3320:
     description: Deutsche Telekom
     import: AS3320:AS-DTAG AS3320:AS-CUSTOMERS-V6
     export: "AS8283:AS-COLOCLUE"
+    ignore_peeringdb: True
     ipv4_limit: 30000
     ipv6_limit: 2000
+    only_with:
+        - 80.249.209.211
+        - 2001:7f8:1::a500:3320:1
 
 AS1299:
     description: TeliaSonera International Carrier
@@ -644,6 +648,7 @@ AS3356:
     ipv4_limit: 330000
     ipv6_limit: 25000
     multihop: yes
+    ignore_peeringdb: True
     private_peerings:
         - 4.68.4.43
         - 2001:1900::4:35
