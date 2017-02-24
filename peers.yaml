@@ -603,6 +603,7 @@ AS1299:
     export: "AS8283:AS-COLOCLUE"
     ipv4_limit: 300000
     ipv6_limit: 16000
+    ignore_peeringdb: True
     private_peerings:
         - 62.115.144.32
         - 2001:2000:3080:0EBC::1
@@ -761,6 +762,10 @@ AS6453:
     export: "AS8283:AS-COLOCLUE"
     ipv4_limit: 200000
     ipv6_limit: 20000
+    ignore_peeringdb: True
+    only_with:
+        - 80.249.209.167
+        - 2001:7f8:1::a500:6453:1
 
 AS37353:
     description: MacroLan

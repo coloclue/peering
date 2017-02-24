@@ -9,9 +9,25 @@
 # Author: Job Snijders <job@instituut.net>
 # License: BSD 2-Clause
 
+import json
 import ipaddr
+import requests
 import yaml
 import sys
+
+netixlan = 'https://peeringdb.com/api/netixlan'
+pdb_data = json.loads(requests.get(url=netixlan).text)
+pdb = {}
+for connection in pdb_data['data']:
+    asn = connection['asn']
+    v4 = connection['ipaddr4']
+    v6 = connection['ipaddr6']
+    if not asn in pdb:
+        pdb[asn] = []
+    if v4:
+        pdb[asn].append(v4)
+    if v6:
+        pdb[asn].append(v6)
 
 peering_flat = open('peers.yaml').read()
 
@@ -35,8 +51,12 @@ connected_ixps = {
                      ipaddr.IPNetwork('2001:1900::4:35/128')]
 }
 
+problem = False
+found = 0
+
 for asn in peerings:
-    for keyword in ['export', 'import', 'description', 'peerings']:
+    as_number = int(asn[2:])
+    for keyword in ['export', 'import', 'description']:
         if keyword not in peerings[asn]:
             print "ERROR: missing %s statement in stanza %s" % (keyword, asn)
             sys.exit(2)
@@ -66,30 +86,47 @@ for asn in peerings:
                 print peerings[asn]
                 sys.exit(2)
 
-    for peer in peerings[asn]['peerings']:
-        try:
-            peer_ip = ipaddr.IPAddress(peer)
-        except ValueError:
-            print "ERROR: %s in %s is not a valid IP" % (peer, asn)
-            sys.exit(2)
-
-        # search if we can reach the peer
-        found = False
-        for ixp in connected_ixps:
-            for subnet in connected_ixps[ixp]:
-                if ipaddr.IPAddress(peer) in subnet:
-                    print "OK: found %s (%s) in %s" % (peer, asn, ixp)
-                    found = True
-        if not found:
-            print "ERROR: AS 8283 cannot reach %s through %s, either a typo \
-or we are not connected to the same internet exchange" \
-                % (peer, " ".join(connected_ixps))
-            sys.exit(2)
+    # check whether the manually configured peerings are
+    # valid IP addresses
+    for keyword in ['only_with', 'private_peering']:
+        if keyword in peerings[asn]:
+            for peer in peerings[asn][keyword]:
+                try:
+                    peer_ip = ipaddr.IPAddress(peer)
+                except ValueError:
+                    print "ERROR: %s in %s is not a valid IP" % (peer, asn)
+                    sys.exit(2)
 
     acceptable_exports = ['AS8283:AS-COLOCLUE', 'NOT ANY', 'ANY']
     if not peerings[asn]['export'] in acceptable_exports:
         print "ERROR: export must be one of the following: %s" \
             % " ".join(acceptable_exports)
-        sys.exit(2)
+        problem += 1
+
+
+    # loop over all our peering partners as described in the yaml
+    if as_number not in pdb:
+        if 'ignore_peeringdb' in peerings[asn]:
+            if peerings[asn]['ignore_peeringdb']:
+                continue
+        print "ERROR: %s does not have a PeeringDB record" % asn
+        problem += 1
+        continue
+
+    for session in pdb[as_number]:
+        # search if we can reach the peer
+        for ixp in connected_ixps:
+            for subnet in connected_ixps[ixp]:
+                if ipaddr.IPAddress(session) in subnet:
+                    print "OK: found %s %s on %s" % (asn, session, ixp)
+                    found += 1
+
+if found < 50:
+    print "ERROR: too few peers, aborting"
+    problem += 1
+
+if problem:
+    print "ERROR: detected %s problems" % problem
+    sys.exit(2)
 
 print "HOORAY: All is good, thanks for peering!"
