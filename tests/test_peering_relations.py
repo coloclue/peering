@@ -113,13 +113,18 @@ for asn in peerings:
         problem += 1
         continue
 
+    anything = 0
     for session in pdb[as_number]:
         # search if we can reach the peer
         for ixp in connected_ixps:
             for subnet in connected_ixps[ixp]:
                 if ipaddr.IPAddress(session) in subnet:
                     print "OK: found %s %s on %s" % (asn, session, ixp)
+                    anything += 1
                     found += 1
+    if not anything:
+        print "ERROR: no common IXP with %s" % asn
+        problem += 1
 
 if found < 50:
     print "ERROR: too few peers, aborting"
