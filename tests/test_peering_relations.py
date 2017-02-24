@@ -56,6 +56,10 @@ found = 0
 
 for asn in peerings:
     as_number = int(asn[2:])
+
+    if 'ignore_peeringdb' not in peerings[asn]:
+        peerings[asn]['ignore_peeringdb'] = False
+
     for keyword in ['export', 'import', 'description']:
         if keyword not in peerings[asn]:
             print "ERROR: missing %s statement in stanza %s" % (keyword, asn)
@@ -106,9 +110,8 @@ for asn in peerings:
 
     # loop over all our peering partners as described in the yaml
     if as_number not in pdb:
-        if 'ignore_peeringdb' in peerings[asn]:
-            if peerings[asn]['ignore_peeringdb']:
-                continue
+        if peerings[asn]['ignore_peeringdb']:
+            continue
         print "ERROR: %s does not have a PeeringDB record" % asn
         problem += 1
         continue
@@ -122,7 +125,7 @@ for asn in peerings:
                     print "OK: found %s %s on %s" % (asn, session, ixp)
                     anything += 1
                     found += 1
-    if not anything:
+    if not anything and not peerings[asn]['ignore_peeringdb']:
         print "ERROR: no common IXP with %s" % asn
         problem += 1
 
