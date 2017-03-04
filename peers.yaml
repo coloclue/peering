@@ -787,3 +787,4 @@ AS3910:
     import: AS3910 AS209
     export: "AS8283:AS-COLOCLUE"
     ipv4_limit: 30000
+    ipv6_limit: 3000
