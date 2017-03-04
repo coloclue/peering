@@ -784,7 +784,7 @@ AS54113:
 
 AS3910:
     description: Centurylink
-    import: AS3910 AS209
+    import: ANY
     export: "AS8283:AS-COLOCLUE"
-    ipv4_limit: 30000
+    ipv4_limit: 60000
     ipv6_limit: 3000
