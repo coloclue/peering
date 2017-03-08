@@ -339,6 +339,7 @@ AS12552:
     description: IP-Only
     import: AS-IPO
     export: "AS8283:AS-COLOCLUE"
+    ipv4_limit: 3000
 
 AS51088:
     description: A2B Internet
