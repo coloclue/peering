@@ -468,11 +468,6 @@ AS8075:
     import: AS-MICROSOFT
     export: "AS8283:AS-COLOCLUE"
 
-AS12854:
-    description: Pine Digital Security B.V.
-    import: AS-PINE
-    export: "AS8283:AS-COLOCLUE"
-
 AS14413:
     description: Linkedin
     import: AS-LINKEDIN
