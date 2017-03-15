@@ -783,3 +783,8 @@ AS3910:
     export: "AS8283:AS-COLOCLUE"
     ipv4_limit: 80000
     ipv6_limit: 4000
+
+AS37271:
+    description: Workonline
+    import: AS-WOLCOMM
+    export: "AS8283:AS-COLOCLUE"
