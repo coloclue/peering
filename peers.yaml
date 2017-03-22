@@ -630,13 +630,12 @@ AS3356:
     description: Level3
     import: ANY
     export: "AS8283:AS-COLOCLUE"
-    ipv4_limit: 330000
-    ipv6_limit: 25000
-    multihop: yes
+    ipv4_limit: 700000
+    ipv6_limit: 50000
     ignore_peeringdb: True
     private_peerings:
-        - 4.68.4.43
-        - 2001:1900::4:35
+        - 4.68.73.169
+        - 2001:1900:5:3::191
 
 AS38880:
     description: Micron21
