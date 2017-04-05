@@ -787,3 +787,8 @@ AS37271:
     description: Workonline
     import: AS-WOLCOMM
     export: "AS8283:AS-COLOCLUE"
+
+AS49206:
+   description: PeakFactory
+   import: AS-PEAKFACTORY
+   export: "AS8283:AS-COLOCLUE"
