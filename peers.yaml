@@ -792,3 +792,8 @@ AS49206:
    description: PeakFactory
    import: AS-PEAKFACTORY
    export: "AS8283:AS-COLOCLUE"
+
+AS56647:
+   description: FusionMediaLimited
+   import: FUSIONMEDIA
+   export: "AS8283:AS-COLOCLUE"
