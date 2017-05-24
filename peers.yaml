@@ -123,6 +123,13 @@ AS3267:
     import: AS-RUNNET
     export: "AS8283:AS-COLOCLUE"
 
+AS30870:
+    description: Trans-iX
+    import: AS-TRANSIX
+    export: "AS8283:AS-COLOCLUE"
+    ipv4_limit: 50
+    ipv6_limit: 20
+    
 AS30844:
     description: Liquid Telecom
     import: AS-LIQUID
