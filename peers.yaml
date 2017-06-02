@@ -805,3 +805,8 @@ AS56647:
    description: FusionMediaLimited
    import: FUSIONMEDIA
    export: "AS8283:AS-COLOCLUE"
+
+AS23393:
+    description: ISPrime
+    import: AS-ISPRIME
+    export: "AS8283:AS-COLOCLUE"
