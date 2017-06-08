@@ -810,3 +810,10 @@ AS23393:
     description: ISPrime
     import: AS-ISPRIME
     export: "AS8283:AS-COLOCLUE"
+
+AS6762:
+    description: Telecom Italia Sparkle
+    import: AS-SEABONE
+    export: "AS8283:AS-COLOCLUE"
+    ipv4_limit: 160000
+    ipv6_limit: 10000
