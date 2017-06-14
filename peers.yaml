@@ -817,3 +817,8 @@ AS6762:
     export: "AS8283:AS-COLOCLUE"
     ipv4_limit: 160000
     ipv6_limit: 10000
+    
+AS34968:
+   description: iunxi BV
+   import: AS-IUNXI
+   export: "AS8283:AS-COLOCLUE"
