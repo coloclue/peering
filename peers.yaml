@@ -184,6 +184,8 @@ AS286:
    description: KPN
    import: AS-KPN
    export: "AS8283:AS-COLOCLUE"
+   ipv4_limit: 15000
+   ipv6_limit: 1500
 
 AS20940:
    description: Akamai
