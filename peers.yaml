@@ -826,6 +826,6 @@ AS34968:
    export: "AS8283:AS-COLOCLUE"
 
 AS54825:
-    description: packet.net
-    import: AS54825
-    export: "AS8283:AS-COLOCLUE"
+   description: packet.net
+   import: AS54825
+   export: "AS8283:AS-COLOCLUE"
