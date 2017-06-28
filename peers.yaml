@@ -824,3 +824,8 @@ AS34968:
    description: iunxi BV
    import: AS-IUNXI
    export: "AS8283:AS-COLOCLUE"
+
+AS54825:
+    description: packet.net
+    import: AS54825
+    export: "AS8283:AS-COLOCLUE"
