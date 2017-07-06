@@ -219,10 +219,10 @@ AS2914:
     ipv4_limit: 250000
     ipv6_limit: 20000
 
-# AS1101:
-#     description: Surfnet
-#     import: AS1101
-#     export: "AS8283:AS-COLOCLUE"
+AS1101:
+    description: Surfnet
+    import: AS1101
+    export: "AS8283:AS-COLOCLUE"
 
 AS5524:
     description: Breedband Nederland
