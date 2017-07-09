@@ -1,13 +1,13 @@
 AS260:
-   description: Xconnect24
-   import: AS-XCONNECT24
-   export: "AS8283:AS-COLOCLUE"
-       
+    description: Xconnect24
+    import: AS-XCONNECT24
+    export: "AS8283:AS-COLOCLUE"
+
 AS1200:
     description: AMS-IX Office
     import: AS1200
     export: "AS8283:AS-COLOCLUE"
-    
+
 AS6777:
     description: AMS-IX Routeservers
     import: AS-AMS-IX-RS-SETSFALCON AS-AMS-IX-RS-SETSFALCON-V6
@@ -66,16 +66,16 @@ AS21478:
     description: Plex
     import: AS-PLEX
     export: "AS8283:AS-COLOCLUE"
-        
+
 AS8282:
     description: Fido
     import: AS-FIDONET
     export: "AS8283:AS-COLOCLUE"
 
 AS12859:
-   description: BIT
-   import: AS-BIT AS-BIT6
-   export: "AS8283:AS-COLOCLUE"
+    description: BIT
+    import: AS-BIT AS-BIT6
+    export: "AS8283:AS-COLOCLUE"
 
 AS13101:
     description: TNG
@@ -129,7 +129,7 @@ AS30870:
     export: "AS8283:AS-COLOCLUE"
     ipv4_limit: 50
     ipv6_limit: 20
-    
+
 AS30844:
     description: Liquid Telecom
     import: AS-LIQUID
@@ -181,21 +181,21 @@ AS36692:
     export: "AS8283:AS-COLOCLUE"
 
 AS286:
-   description: KPN
-   import: AS-KPN
-   export: "AS8283:AS-COLOCLUE"
-   ipv4_limit: 15000
-   ipv6_limit: 1500
+    description: KPN
+    import: AS-KPN
+    export: "AS8283:AS-COLOCLUE"
+    ipv4_limit: 15000
+    ipv6_limit: 1500
 
 AS20940:
-   description: Akamai
-   import: AS-AKAMAI
-   export: "AS8283:AS-COLOCLUE"
+    description: Akamai
+    import: AS-AKAMAI
+    export: "AS8283:AS-COLOCLUE"
 
 AS12654:
-   description: RIPE NCC RIS Project
-   import: AS12654:RS-RIS
-   export: ANY
+    description: RIPE NCC RIS Project
+    import: AS12654:RS-RIS
+    export: ANY
 
 AS2906:
     description: Netflix
@@ -363,16 +363,16 @@ AS20857:
     description: TransIP
     import: AS-TRANSIP
     export: "AS8283:AS-COLOCLUE"
-        
+
 AS20621:
-   description: OpenIT
-   import: AS-OPENIT
-   export: "AS8283:AS-COLOCLUE"
+    description: OpenIT
+    import: AS-OPENIT
+    export: "AS8283:AS-COLOCLUE"
 
 AS6677:
-   description: Iceland Telecom Ltd.
-   import: AS-ICENET
-   export: "AS8283:AS-COLOCLUE"
+    description: Iceland Telecom Ltd.
+    import: AS-ICENET
+    export: "AS8283:AS-COLOCLUE"
 
 AS31122:
     description: Viatel Ltd
@@ -799,14 +799,14 @@ AS37271:
     export: "AS8283:AS-COLOCLUE"
 
 AS49206:
-   description: PeakFactory
-   import: AS-PEAKFACTORY
-   export: "AS8283:AS-COLOCLUE"
+    description: PeakFactory
+    import: AS-PEAKFACTORY
+    export: "AS8283:AS-COLOCLUE"
 
 AS56647:
-   description: FusionMediaLimited
-   import: FUSIONMEDIA
-   export: "AS8283:AS-COLOCLUE"
+    description: FusionMediaLimited
+    import: FUSIONMEDIA
+    export: "AS8283:AS-COLOCLUE"
 
 AS23393:
     description: ISPrime
@@ -819,13 +819,13 @@ AS6762:
     export: "AS8283:AS-COLOCLUE"
     ipv4_limit: 160000
     ipv6_limit: 10000
-    
+
 AS34968:
-   description: iunxi BV
-   import: AS-IUNXI
-   export: "AS8283:AS-COLOCLUE"
+    description: iunxi BV
+    import: AS-IUNXI
+    export: "AS8283:AS-COLOCLUE"
 
 AS54825:
-   description: packet.net
-   import: AS54825
-   export: "AS8283:AS-COLOCLUE"
+    description: packet.net
+    import: AS54825
+    export: "AS8283:AS-COLOCLUE"
