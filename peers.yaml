@@ -806,7 +806,7 @@ AS49206:
 
 AS56647:
     description: FusionMediaLimited
-    import: FUSIONMEDIA
+    import: AS56647
     export: "AS8283:AS-COLOCLUE"
 
 AS23393:
