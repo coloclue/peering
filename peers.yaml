@@ -830,3 +830,13 @@ AS54825:
     description: packet.net
     import: AS54825
     export: "AS8283:AS-COLOCLUE"
+
+AS12956:
+    description: Telxius
+    import: AS-TDATANET
+    export: "AS8283:AS-COLOCLUE"
+    ipv4_limit: 25000
+    ipv6_limit: 10000
+    only_with:
+        - 80.249.208.208
+        - 2001:7f8:1::a501:2956:1
