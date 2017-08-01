@@ -55,12 +55,16 @@ record, our software will remove the respective BGP sessions.
     IXP:   AMS-IX
     IPv4:  80.249.211.161
     IPv6:  2001:7f8:1::a500:8283:1
-    
+
     IXP:   NL-IX
     IPv4:  193.239.117.111
            193.239.117.203
     IPv6:  2001:7f8:13::a500:8283:1 
            2001:7f8:13::a500:8283:2
+
+    IXP:   Asteroid Amsterdam
+    IPv4:  185.1.94.15
+    IPv6:  2001:7f8:b6::205b:1
 
 ```
 
