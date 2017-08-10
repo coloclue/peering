@@ -13,8 +13,6 @@ AS6777:
     description: AMS-IX Routeservers
     import: AS-AMS-IX-RS-SETSFALCON AS-AMS-IX-RS-SETSFALCON-V6
     export: "AS8283:AS-COLOCLUE"
-    ipv4_limit: 150000
-    ipv6_limit: 15000
     only_with: 
         - 80.249.210.255
         - 2001:7f8:1::a500:6777:3
@@ -45,8 +43,6 @@ AS6939:
     description: Hurricane Electric
     import: AS-HURRICANE
     export: "AS8283:AS-COLOCLUE"
-    ipv4_limit: 152000
-    ipv6_limit: 37000
 
 AS42473:
     description: ANEXIA Internetdienstleistungs GmbH
@@ -123,8 +119,6 @@ AS30870:
     description: Trans-iX
     import: AS-TRANSIX
     export: "AS8283:AS-COLOCLUE"
-    ipv4_limit: 50
-    ipv6_limit: 20
 
 AS30844:
     description: Liquid Telecom
@@ -180,8 +174,6 @@ AS286:
     description: KPN
     import: AS-KPN
     export: "AS8283:AS-COLOCLUE"
-    ipv4_limit: 15000
-    ipv6_limit: 1500
 
 AS20940:
     description: Akamai
@@ -212,8 +204,6 @@ AS2914:
     description: NTT
     import: AS2914:AS-GLOBAL
     export: "AS8283:AS-COLOCLUE"
-    ipv4_limit: 250000
-    ipv6_limit: 20000
 
 AS1101:
     description: Surfnet
@@ -414,15 +404,11 @@ AS3257:
     description: GTT
     import: AS-TINET
     export: "AS8283:AS-COLOCLUE"
-    ipv4_limit: 200000
-    ipv6_limit: 10000
 
 AS5400:
     description: BT
     import: AS-BT-EU
     export: "AS8283:AS-COLOCLUE"
-    ipv4_limit: 5000
-    ipv6_limit: 200
 
 AS33891:
     description: Core Backbone GmbH
@@ -438,30 +424,22 @@ AS3491:
     description: PCCW Global
     import: AS-CAIS
     export: "AS8283:AS-COLOCLUE"
-    ipv4_limit: 80000
-    ipv6_limit: 2000
 
 AS47065:
     description: BGPMUX / PEERING TestBed
     import: AS-PEERING-TESTBED
     export: ANY
-    ipv4_limit: 50
-    ipv6_limit: 50
     type: downstream
 
 AS112:
     description: AS112 Project (Hosted by RIPE NCC at AMS-IX)
     import: AS112
     export: "AS8283:AS-COLOCLUE"
-    ipv4_limit: 5
-    ipv6_limit: 5
 
 AS8426:
     description: Claranet Ltd.
     import: AS-CLARANET
     export: "AS8283:AS-COLOCLUE"
-    ipv4_limit: 800
-    ipv6_limit: 400
 
 AS47232:
     description: ISP Alliance a.s.
@@ -482,8 +460,6 @@ AS1764:
     description: Nextlayer.at
     import: AS-NEXTLAYER AS-NEXTLAYER-V6
     export: "AS8283:AS-COLOCLUE"
-    ipv4_limit: 3000
-    ipv6_limit: 1000
 
 AS50673:
     description: Serverius
@@ -529,28 +505,21 @@ AS1273:
     description: Vodafone Group
     import: AS1273:AS-CWW AS1273:AS-CWW-V6
     export: "AS8283:AS-COLOCLUE"
-    ipv4_limit: 90000
-    ipv6_limit: 4500
 
 AS12759:
     description: SOCO Network Solutions GmbH
     import: AS-SOCO
     export: "AS8283:AS-COLOCLUE"
-    ipv4_limit: 50
-
 
 AS25596:
     description: Cambrium
     import: AS-CAMBRIUM
     export: "AS8283:AS-COLOCLUE"
-    ipv4_limit: 10
 
 AS8218:
     description: Zayo France
     import: AS-NEOT AS-NEOT6 AS8218:AS-CUSTOMERS
     export: "AS8283:AS-COLOCLUE"
-    ipv4_limit: 4000
-    ipv6_limit: 500
 
 AS13335:
     description: Cloudflare
@@ -571,15 +540,11 @@ AS6830:
     description: Liberty Global
     import: AS-AORTA AS-AORTA6
     export: "AS8283:AS-COLOCLUE"
-    ipv4_limit: 20000
-    ipv6_limit: 2000
 
 AS6461:
     description: Zayo / Abovenet
     import: AS-MFNX
     export: "AS8283:AS-COLOCLUE"
-    ipv4_limit: 50000
-    ipv6_limit: 5000
 
 AS3320:
     description: Deutsche Telekom
@@ -607,15 +572,11 @@ AS61955:
     description: ColocationIX
     import: AS-COLOCATIONIX
     export: "AS8283:AS-COLOCLUE"
-    ipv4_limit: 1000
-    ipv6_limit: 1000
 
 AS43350:
     description: NFOrce Entertainment B.V.
     import: AS-NFORCE
     export: "AS8283:AS-COLOCLUE"
-    ipv4_limit: 1000
-    ipv6_limit: 1000
 
 AS48519:
     description: Knipp Medien und Kommunikation GmbH
@@ -652,8 +613,6 @@ AS1239:
     description: Sprint
     import: ANY
     export: "AS8283:AS-COLOCLUE"
-    ipv4_limit: 100000
-    ipv6_limit: 10000
 
 AS46489:
     description: Twitch / Justin.tv
@@ -669,8 +628,6 @@ AS49605:
     description: Digital Telecommunication Services S.r.l.
     import: AS-DTSRETEIVO
     export: "AS8283:AS-COLOCLUE"
-    ipv4_limit: 50
-    ipv6_limit: 50
 
 AS1103:
     description: SURFnet
@@ -719,8 +676,6 @@ AS15169:
     description: Google
     import: AS-GOOGLE
     export: "AS8283:AS-COLOCLUE"
-    ipv4_limit: 15000
-    ipv6_limit: 1000
 
 AS203319:
     description: Opticnetworks
@@ -736,15 +691,11 @@ AS20932:
     description: SIG-Telecom
     import: AS-SIG-TELECOM
     export: "AS8283:AS-COLOCLUE"
-    ipv4_limit: 100
-    ipv6_limit: 10
 
 AS25369:
     description: Bandwidth Technologies
     import: AS-BANDWIDTH
     export: "AS8283:AS-COLOCLUE"
-    ipv4_limit: 600
-    ipv6_limit: 200
 
 AS34942:
     description: Vivor
@@ -813,8 +764,6 @@ AS6762:
     description: Telecom Italia Sparkle
     import: AS-SEABONE
     export: "AS8283:AS-COLOCLUE"
-    ipv4_limit: 160000
-    ipv6_limit: 10000
 
 AS34968:
     description: iunxi BV
