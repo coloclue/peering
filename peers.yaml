@@ -597,7 +597,7 @@ AS3356:
     description: Level3
     import: ANY
     export: "AS8283:AS-COLOCLUE"
-    ipv4_limit: 700000
+    ipv4_limit: 0
     ipv6_limit: 50000
     ignore_peeringdb: True
     private_peerings:
