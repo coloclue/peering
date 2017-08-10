@@ -759,6 +759,8 @@ AS6762:
     description: Telecom Italia Sparkle
     import: AS-SEABONE
     export: "AS8283:AS-COLOCLUE"
+    ipv4_limit: 160000
+    ipv6_limit: 10000
 
 AS34968:
     description: iunxi BV
