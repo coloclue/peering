@@ -87,8 +87,8 @@ for asn in peerings:
                 print "ERROR: %s must be a positive integer" % limit
                 print peerings[asn]
                 sys.exit(2)
-            if not l > 0:
-                print "ERROR: %s must be larger then 1" % limit
+            if not l >= 0:
+                print "ERROR: %s must be larger then or equal to 0" % limit
                 print peerings[asn]
                 sys.exit(2)
 
