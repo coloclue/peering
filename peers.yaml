@@ -713,11 +713,6 @@ AS6453:
         - 80.249.209.167
         - 2001:7f8:1::a500:6453:1
 
-AS37353:
-    description: MacroLan
-    import: AS-MACROLAN
-    export: "AS8283:AS-COLOCLUE"
-
 AS1257:
     description: Tele2 SWIPNet
     import: AS-TELE2
@@ -785,3 +780,8 @@ AS12956:
     only_with:
         - 80.249.208.208
         - 2001:7f8:1::a501:2956:1
+
+AS59964:
+    description: Asteroid Route Collector
+    import: AS-NULL
+    export: "AS8283:AS-COLOCLUE"
