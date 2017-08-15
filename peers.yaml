@@ -194,6 +194,7 @@ AS12654:
     export: ANY
     only_on:
         - dcg-1.router.nl.coloclue.net
+        - eunetworks-2.router.nl.coloclue.net
 
 AS2906:
     description: Netflix
