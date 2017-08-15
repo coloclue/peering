@@ -385,11 +385,6 @@ AS31595:
     import: AS-AWELL
     export: "AS8283:AS-COLOCLUE"
 
-AS3292:
-    description: TDC A/S
-    import: AS-TDCNET AS-TDCNET-IPV6
-    export: "AS8283:AS-COLOCLUE"
-
 AS8560:
     description: 1 and 1 internet
     import: AS-1AND1
