@@ -787,3 +787,8 @@ AS59964:
     description: Asteroid Route Collector
     import: AS-NULL
     export: "AS8283:AS-COLOCLUE"
+
+AS41693:
+    description: Asteroid MLP Route Server
+    import: AS-ASTEROID_RS_AMSTERDAM
+    export: "AS8283:AS-COLOCLUE"
