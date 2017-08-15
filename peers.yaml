@@ -192,6 +192,8 @@ AS12654:
     description: RIPE NCC RIS Project
     import: AS12654:RS-RIS
     export: ANY
+    only_on:
+        - dcg-1.router.nl.coloclue.net
 
 AS2906:
     description: Netflix
