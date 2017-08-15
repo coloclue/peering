@@ -28,6 +28,14 @@ AS9143:
     description: Ziggo
     import: AS-BENELUX
     export: "AS8283:AS-COLOCLUE"
+    ignore_peeringdb: True
+    ipv4_limit: 275
+    ipv6_limit: 15
+    only_with:
+        - 80.249.208.103
+        - 80.249.208.181
+        - 2001:7f8:1::a500:9143:1
+        - 2001:7f8:1::a500:9143:2
 
 AS12713:
     description: OTEGLOBE
