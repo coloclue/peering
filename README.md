@@ -15,8 +15,9 @@ neutral environment.
 
 ## How to peer? ##
 
-If you are connected to AMS-IX or NL-IX you can set up BGP sessions with AS8283.
-Make sure you accept `AS8283:AS-COLOCLUE` (50 prefixes max).
+If you are connected to AMS-IX, NL-IX, or Asteroid Amsterdam you can set up 
+BGP sessions with AS8283. Make sure you accept `AS8283:AS-COLOCLUE` (50 
+prefixes max).
 
 Add yourself to the `peers.yaml` file and submit a pull request to this
 repository. Once a network engineer validates your pull request and merges it
