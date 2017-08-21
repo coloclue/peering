@@ -217,8 +217,8 @@ AS2914:
     export: "AS8283:AS-COLOCLUE"
 
 AS1101:
-    description: Surfnet
-    import: AS1101
+    description: Not Surfnet
+    import: AS-NOTSURFNET
     export: "AS8283:AS-COLOCLUE"
 
 AS5524:
