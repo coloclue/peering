@@ -798,3 +798,8 @@ AS41693:
     description: Asteroid MLP Route Server
     import: AS-ASTEROID_RS_AMSTERDAM
     export: "AS8283:AS-COLOCLUE"
+
+AS37353:
+    description: MacroLan
+    import: AS-MACROLAN
+    export: "AS8283:AS-COLOCLUE"
