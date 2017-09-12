@@ -800,3 +800,8 @@ AS202120:
     description: Comsave
     import: AS-COMSAVE
     export: AS8283:AS-COLOCLUE
+
+AS49697:
+    description: Joey Network
+    import: AS-JOEYNETWORK
+    export: AS8283:AS-COLOCLUE
