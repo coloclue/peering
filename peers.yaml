@@ -805,3 +805,8 @@ AS49697:
     description: Joey Network
     import: AS-JOEYNETWORK
     export: AS8283:AS-COLOCLUE
+    
+AS12956:
+    description: Telefonica
+    import: AS-TDATANET
+    export: AS8283:AS-COLOCLUE
