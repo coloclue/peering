@@ -769,7 +769,7 @@ AS12956:
     description: Telxius
     import: AS-TDATANET
     export: "AS8283:AS-COLOCLUE"
-    ipv4_limit: 25000
+    ipv4_limit: 45000
     ipv6_limit: 10000
     ignore_peeringdb: True
     only_with:
