@@ -811,3 +811,7 @@ AS205591:
     import: AS-STEFAN6
     export: AS8283:AS-COLOCLUE
 
+AS41441:
+    description: AS-IX route server peers
+    import: AS-IX
+    export: AS8283:AS-COLOCLUE
