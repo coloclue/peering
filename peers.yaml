@@ -805,3 +805,9 @@ AS49697:
     description: Joey Network
     import: AS-JOEYNETWORK
     export: AS8283:AS-COLOCLUE
+    
+AS205591:
+    description: Stefan6 Network
+    import: AS-STEFAN6
+    export: AS8283:AS-COLOCLUE
+
