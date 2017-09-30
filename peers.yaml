@@ -819,4 +819,4 @@ AS41441:
 AS206499:
     description: M&M NETWORKS
     import: AS-IX
-    export; As8283:AS-COLOCLUE
+    export: AS8283:AS-COLOCLUE
