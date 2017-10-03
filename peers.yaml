@@ -815,3 +815,8 @@ AS41441:
     description: AS-IX route server peers
     import: AS-IX
     export: AS8283:AS-COLOCLUE
+    
+AS206499:
+    description: M&M NETWORKS
+    import: AS-MMNETWORKS
+    export: AS8283:AS-COLOCLUE
