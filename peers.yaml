@@ -820,3 +820,8 @@ AS206499:
     description: M&M NETWORKS
     import: AS-MMNETWORKS
     export: AS8283:AS-COLOCLUE
+    
+AS206479:
+    description: JPBE Network
+    import: AS-JPBE
+    export: AS8283:AS-COLOCLUE   
