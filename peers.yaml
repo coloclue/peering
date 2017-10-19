@@ -831,3 +831,9 @@ AS206313:
     import: AS-FFNW
     export: AS8283:AS-COLOCLUE   
    
+AS56662:
+    description: e-utp.net
+    import: AS-EUTPNET
+    export: AS8283:AS-COLOCLUE
+    only_with:
+        - 2001:7f8:b7::a55:6662:1
