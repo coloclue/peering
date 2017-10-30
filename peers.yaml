@@ -834,4 +834,9 @@ AS56662:
 AS63541:
     description: Chinacache
     import: AS63541
+    export: AS8283:AS-COLOCLUE   
+   
+AS44901 :
+    description: Belcloud
+    import: AS44901
     export: AS8283:AS-COLOCLUE
