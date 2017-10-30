@@ -829,4 +829,9 @@ AS206313:
 AS56662:
     description: e-utp.net
     import: AS-EUTPNET
+    export: AS8283:AS-COLOCLUE   
+   
+AS63541:
+    description: Chinacache
+    import: AS63541
     export: AS8283:AS-COLOCLUE
