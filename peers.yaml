@@ -454,7 +454,7 @@ AS50673:
     import: AS-SERVERIUS
     export: "AS8283:AS-COLOCLUE"
 
-AS14907:
+AS43821:
     description: Wikimedia Foundation
     import: AS-WIKIMEDIA
     export: "AS8283:AS-COLOCLUE"
