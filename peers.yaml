@@ -819,24 +819,29 @@ AS206499:
 AS206479:
     description: JPBE Network
     import: AS-JPBE
-    export: AS8283:AS-COLOCLUE   
+    export: AS8283:AS-COLOCLUE
    
 AS206313:
     description: Freifunk Nordwest e.V
     import: AS-FFNW
-    export: AS8283:AS-COLOCLUE   
+    export: AS8283:AS-COLOCLUE
    
 AS56662:
     description: e-utp.net
     import: AS-EUTPNET
-    export: AS8283:AS-COLOCLUE   
+    export: AS8283:AS-COLOCLUE
    
 AS63541:
     description: Chinacache
     import: AS63541
-    export: AS8283:AS-COLOCLUE   
+    export: AS8283:AS-COLOCLUE
    
 AS44901 :
     description: Belcloud
     import: AS44901
+    export: AS8283:AS-COLOCLUE
+
+AS201290:
+    description: BlackGATE BV
+    import: AS-BlackGATE
     export: AS8283:AS-COLOCLUE
