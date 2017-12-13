@@ -565,6 +565,11 @@ AS43350:
     description: NFOrce Entertainment B.V.
     import: AS-NFORCE
     export: "AS8283:AS-COLOCLUE"
+    only_with:
+      - 193.239.116.142
+      - 193.239.116.214
+      - 2001:7f8:13::a504:3350:1
+      - 2001:7f8:13::a504:3350:2
 
 AS48519:
     description: Knipp Medien und Kommunikation GmbH
