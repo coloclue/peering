@@ -31,8 +31,10 @@ AS13285:
 
 AS6939:
     description: Hurricane Electric
-    import: AS-HURRICANE
-    export: "AS8283:AS-COLOCLUE"
+    #import: AS-HURRICANE
+    #export: "AS8283:AS-COLOCLUE"
+    import: none
+    export: none
 
 AS42473:
     description: ANEXIA Internetdienstleistungs GmbH
