@@ -850,3 +850,8 @@ AS201290:
     description: BlackGATE BV
     import: AS-BlackGATE
     export: AS8283:AS-COLOCLUE
+
+AS34779:
+    description: T-2 d.o.o.
+    import: AS-T2-CUST
+    export: AS8283:AS-COLOCLUE
