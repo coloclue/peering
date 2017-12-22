@@ -860,3 +860,9 @@ AS55195:
     description: Canadian Internet Registration Authority
     import: AS55195
     export: AS8283:AS-COLOCLUE
+
+AS19679:
+    description: Dropbox Inc
+    import: AS-DROPBOX
+    export: AS8283:AS-COLOCLUE
+
