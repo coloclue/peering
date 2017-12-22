@@ -48,28 +48,28 @@ record, our software will remove the respective BGP sessions.
 ### Technical details ###
 
 ```
-    Name:  Netwerkvereniging Coloclue
-    ASN:   AS8283
-    Macro: AS8283:AS-COLOCLUE
-    NOC:   routers@coloclue.net
+Name:  Netwerkvereniging Coloclue
+ASN:   AS8283
+Macro: AS8283:AS-COLOCLUE
+NOC:   routers@coloclue.net
 
-    IXP:   AMS-IX
-    IPv4:  80.249.211.161
-    IPv6:  2001:7f8:1::a500:8283:1
+IXP:   AMS-IX
+IPv4:  80.249.211.161
+IPv6:  2001:7f8:1::a500:8283:1
 
-    IXP:   NL-IX
-    IPv4:  193.239.117.111
-           193.239.117.203
-    IPv6:  2001:7f8:13::a500:8283:1 
-           2001:7f8:13::a500:8283:2
+IXP:   NL-IX
+IPv4:  193.239.117.111
+       193.239.117.203
+IPv6:  2001:7f8:13::a500:8283:1 
+       2001:7f8:13::a500:8283:2
 
-    IXP:   Asteroid Amsterdam
-    IPv4:  185.1.94.15
-    IPv6:  2001:7f8:b6::205b:1
+IXP:   Asteroid Amsterdam
+IPv4:  185.1.94.15
+IPv6:  2001:7f8:b6::205b:1
 
-    IXP:   AS-IX
-    IPv4:  185.1.95.16
-    IPv6:  2001:7f8:b7::a500:8283:1
+IXP:   AS-IX
+IPv4:  185.1.95.16
+IPv6:  2001:7f8:b7::a500:8283:1
 
 ```
 
