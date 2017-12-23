@@ -29,10 +29,10 @@ AS13285:
     import: AS-OPAL
     export: "AS8283:AS-COLOCLUE"
 
-#AS6939:
-    #description: Hurricane Electric
-    #import: AS-HURRICANE
-    #export: "AS8283:AS-COLOCLUE"
+AS6939:
+    description: Hurricane Electric
+    import: AS-HURRICANE
+    export: "AS8283:AS-COLOCLUE"
 
 AS42473:
     description: ANEXIA Internetdienstleistungs GmbH
