@@ -866,3 +866,7 @@ AS19679:
     import: AS-DROPBOX
     export: AS8283:AS-COLOCLUE
 
+AS201701:
+    description: Freifunk Rheinland e.V.
+    import: AS-FFRL
+    export: AS8283:AS-COLOCLUE
