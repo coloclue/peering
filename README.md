@@ -15,7 +15,7 @@ neutral environment.
 
 ## How to peer? ##
 
-If you are connected to AMS-IX, NL-IX, Asteroid Amsterdam, or AS-IX you can set up 
+If you are connected to AMS-IX, NL-IX, Asteroid Amsterdam, or SPEED-IX you can set up 
 BGP sessions with AS8283. Make sure you accept `AS8283:AS-COLOCLUE` (50 
 prefixes max).
 
@@ -67,7 +67,7 @@ IXP:   Asteroid Amsterdam
 IPv4:  185.1.94.15
 IPv6:  2001:7f8:b6::205b:1
 
-IXP:   AS-IX
+IXP:   SPEED-IX
 IPv4:  185.1.95.16
 IPv6:  2001:7f8:b7::a500:8283:1
 
