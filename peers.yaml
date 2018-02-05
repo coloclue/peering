@@ -870,3 +870,8 @@ AS201701:
     description: Freifunk Rheinland e.V.
     import: AS-FFRL
     export: AS8283:AS-COLOCLUE
+    
+AS8315:
+    description: Amsio B.V.
+    import: AS8315:AS-AMSIO
+    export: AS8283:AS-COLOCLUE
