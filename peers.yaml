@@ -786,11 +786,6 @@ AS41693:
     import: AS-ASTEROID_RS_AMSTERDAM
     export: "AS8283:AS-COLOCLUE"
 
-AS37353:
-    description: MacroLan
-    import: AS-MACROLAN
-    export: "AS8283:AS-COLOCLUE"
-
 AS13414:
     description: Twitter
     import: AS-TWITTER
