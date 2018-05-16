@@ -1,9 +1,4 @@
 ---
-AS260:
-    description: Xconnect24
-    import: AS-XCONNECT24
-    export: "AS8283:AS-COLOCLUE"
-
 AS1200:
     description: AMS-IX Office
     import: AS1200
