@@ -627,11 +627,6 @@ AS1103:
     import: AS-SURFNET
     export: "AS8283:AS-COLOCLUE"
 
-AS8928:
-    description: Interoute
-    import: AS-INTEROUTE
-    export: "AS8283:AS-COLOCLUE"
-
 AS15542:
     description: ZeelandNet
     import: AS-ZEELANDNET
