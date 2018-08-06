@@ -870,3 +870,8 @@ AS24961:
     description: myLoc managed IT AG
     import: AS-MYLOC
     export: AS8283:AS-COLOCLUE
+    
+AS24961:
+    description: Redhosting BV
+    import: AS-REDHOSTING
+    export: AS39647:AS-REDHOSTING    
