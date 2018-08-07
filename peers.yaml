@@ -175,7 +175,6 @@ AS12654:
     import: AS12654:RS-RIS
     export: ANY
     only_on:
-        - dcg-1.router.nl.coloclue.net
         - eunetworks-2.router.nl.coloclue.net
 
 AS2906:
