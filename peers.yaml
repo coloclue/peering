@@ -125,10 +125,10 @@ AS58291:
     import: AS-COLOCENTER
     export: "AS8283:AS-COLOCLUE"
 
-#AS196752:
-#    description: Tilaa
-#    import: AS-TILAA
-#    export: "AS8283:AS-COLOCLUE"
+AS196752:
+    description: Tilaa
+    import: AS-TILAA
+    export: "AS8283:AS-COLOCLUE"
 
 AS9150:
     description: Interconnect Services
