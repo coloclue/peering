@@ -34,11 +34,6 @@ AS6939:
     import: AS-HURRICANE
     export: "AS8283:AS-COLOCLUE"
 
-AS42473:
-    description: ANEXIA Internetdienstleistungs GmbH
-    import: AS-ANEXIA
-    export: "AS8283:AS-COLOCLUE"
-
 AS16298:
     description: InterBox Internet
     import: AS-INTERBOX
@@ -272,11 +267,6 @@ AS6805:
     import: AS-TDDE
     export: "AS8283:AS-COLOCLUE"
 
-AS35432:
-    description: Cablenet Communication Systems Ltd.
-    import: AS-WAVESPEED
-    export: "AS8283:AS-COLOCLUE"
-
 AS30132:
     description: Internet Systems Consortium, F-Root Operator
     import: AS30132:AS-SET
@@ -310,11 +300,6 @@ AS12041:
 AS30781:
     description: Jaguar Network
     import: AS-JAGUAR AS-JAGUAR-V6
-    export: "AS8283:AS-COLOCLUE"
-
-AS51852:
-    description: Private Layer
-    import: AS51852
     export: "AS8283:AS-COLOCLUE"
 
 AS12552:
@@ -466,11 +451,6 @@ AS2635:
 AS2484:
     description: AFNIC
     import: AS-AFNIC
-    export: "AS8283:AS-COLOCLUE"
-
-AS3303:
-    description: Swisscom
-    import: AS-SWCMGLOBAL
     export: "AS8283:AS-COLOCLUE"
 
 AS16276:
@@ -659,11 +639,6 @@ AS15169:
     import: AS-GOOGLE
     export: "AS8283:AS-COLOCLUE"
 
-AS203319:
-    description: Opticnetworks
-    import: AS203319
-    export: "AS8283:AS-COLOCLUE"
-
 AS59605:
     description: Zain Group
     import: AS-ZAINGP
@@ -778,11 +753,6 @@ AS41693:
 AS13414:
     description: Twitter
     import: AS-TWITTER
-    export: AS8283:AS-COLOCLUE
-
-AS202120:
-    description: Comsave
-    import: AS-COMSAVE
     export: AS8283:AS-COLOCLUE
 
 AS49697:
