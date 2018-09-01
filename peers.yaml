@@ -844,3 +844,8 @@ AS202365:
     description: Chronos
     import: AS-CHRONOS
     export: AS8283:AS-COLOCLUE
+
+AS205523:
+    description: Servperso-Systems
+    import: AS-SERVPERSO
+    export: AS8283:AS-COLOCLUE
