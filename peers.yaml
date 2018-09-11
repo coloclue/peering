@@ -849,3 +849,8 @@ AS205523:
     description: Servperso-Systems
     import: AS-SERVPERSO
     export: AS8283:AS-COLOCLUE
+    
+AS200020:
+    description: Stichting Nationale Beheersorganisatie Internet Providers (NBIP)
+    import: AS-NBIP
+    export: AS8283:AS-COLOCLUE
