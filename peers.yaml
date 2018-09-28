@@ -847,5 +847,5 @@ AS205523:
     
 AS200020:
     description: Stichting Nationale Beheersorganisatie Internet Providers (NBIP)
-    import: AS-NBIP
+    import: AS-NBIP AS-NBIP6
     export: AS8283:AS-COLOCLUE
