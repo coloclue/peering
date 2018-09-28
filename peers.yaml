@@ -262,11 +262,6 @@ AS31334:
     import: AS-KDG
     export: "AS8283:AS-COLOCLUE"
 
-AS6805:
-    description: Telefonica DE
-    import: AS-TDDE
-    export: "AS8283:AS-COLOCLUE"
-
 AS30132:
     description: Internet Systems Consortium, F-Root Operator
     import: AS30132:AS-SET
