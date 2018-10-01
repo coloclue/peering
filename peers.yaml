@@ -555,6 +555,11 @@ AS41913:
     import: AS-COMPUTERLINE
     export: "AS8283:AS-COLOCLUE"
 
+AS31027:
+    description: Nianet A/S
+    import: AS-NIANET
+    export: "AS8283:AS-COLOCLUE"
+
 AS3356:
     description: Level3
     import: ANY
