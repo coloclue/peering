@@ -754,11 +754,6 @@ AS13414:
     description: Twitter
     import: AS-TWITTER
     export: AS8283:AS-COLOCLUE
-
-#AS49697:
-#    description: Joey Network
-#    import: AS-JOEYNETWORK
-#    export: AS8283:AS-COLOCLUE
     
 AS205591:
     description: Stefan6 Network
