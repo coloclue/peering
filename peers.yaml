@@ -849,3 +849,8 @@ AS200020:
     description: Stichting Nationale Beheersorganisatie Internet Providers (NBIP)
     import: AS-NBIP AS-NBIP6
     export: AS8283:AS-COLOCLUE
+    
+AS24940:
+    description: Hetzner Online GmbH
+    import: AS-Hetzner
+    export: AS8283:AS-COLOCLUE
