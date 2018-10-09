@@ -854,3 +854,8 @@ AS24940:
     description: Hetzner Online GmbH
     import: AS-Hetzner
     export: AS8283:AS-COLOCLUE
+
+AS32590:
+    description: Valve Corporation
+    import: RADB::AS-VALVE
+    export: AS8283:AS-COLOCLUE
