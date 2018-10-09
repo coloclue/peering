@@ -857,5 +857,5 @@ AS24940:
 
 AS32590:
     description: Valve Corporation
-    import: RADB::AS-VALVE
+    import: AS-VALVE
     export: AS8283:AS-COLOCLUE
