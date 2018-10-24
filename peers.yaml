@@ -859,3 +859,8 @@ AS32590:
     description: Valve Corporation
     import: AS-VALVE
     export: AS8283:AS-COLOCLUE
+
+AS197301:
+    description: Parknet F.M.B.A.
+    import: AS-PARKNET
+    export: AS8283:AS-COLOCLUE
