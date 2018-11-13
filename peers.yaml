@@ -9,11 +9,11 @@ AS6777:
     import: AS-AMS-IX-RS AS-AMS-IX-RS-V6 AS-AMS-IX-RS-SETS AS-AMS-IX-RS-SETS-V6 AS-AMS-IX-RS-SETSFALCON AS-AMS-IX-RS-SETSFALCON-V6
     export: "AS8283:AS-COLOCLUE"
 
-#AS34307:
-#    description: NL-IX Routeservers
-#    import: AS34307
-#    export: "AS8283:AS-COLOCLUE"
-
+AS34307:
+    description: NL-IX Routeservers
+    import: AS-NL-IX-RS
+    export: "AS8283:AS-COLOCLUE"
+    
 AS3265:
     description: XS4ALL
     import: AS-ACCESSFORALL
