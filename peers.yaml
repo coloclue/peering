@@ -681,7 +681,7 @@ AS198203:
     export: "AS8283:AS-COLOCLUE"
 
 AS54113:
-    description: Fastly
+    description: Fastly inc.
     import: AS-FASTLY
     export: "AS8283:AS-COLOCLUE"
 
@@ -873,9 +873,4 @@ AS36459:
 AS44222:
     description: CLOUDITY Network
     import: AS-CLOUDITY
-    export: AS8283:AS-COLOCLUE
-
-AS54113:
-    description: Fastly, Inc.
-    import: AS-FASTLY
     export: AS8283:AS-COLOCLUE
