@@ -874,3 +874,8 @@ AS44222:
     description: CLOUDITY Network
     import: AS-CLOUDITY
     export: AS8283:AS-COLOCLUE
+
+AS60927:
+    description: Marlinc
+    import: AS60927:AS-MARLINC
+    export: AS8283:AS-COLOCLUE
