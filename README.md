@@ -82,3 +82,5 @@ non-traditional routing policy:
     * All peers' prefixes are filtered based on strict IRR.
     * All peers' prefixes are filtered based on strict RPKI.
     * Prefix filters facing peers are updated every 12 hours from `rr.ntt.net`.
+
+We provision our configuration automatically from PeeringDB, please ensure your entry is kept up-to-date including IP addresses and number of prefixes announced.
