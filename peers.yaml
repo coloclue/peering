@@ -884,3 +884,8 @@ AS51430:
     description: AltusHost B.V.
     import: AS51430
     export: AS8283:AS-COLOCLUE
+
+AS204526:
+    description: Rick Bakker
+    import: AS-BAKKER
+    export: AS8283:AS-COLOCLUE
