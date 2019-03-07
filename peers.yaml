@@ -889,3 +889,8 @@ AS204526:
     description: Rick Bakker
     import: AS-BAKKER
     export: AS8283:AS-COLOCLUE
+
+AS64050:
+    description: BGP Consultancy Pte Ltd
+    import: AS64050
+    export: AS8283:AS-COLOCLUE
