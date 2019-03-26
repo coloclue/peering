@@ -387,6 +387,12 @@ AS3491:
     import: AS-CAIS
     export: "AS8283:AS-COLOCLUE"
 
+AS15562:
+    description: Job Snijders
+    import: AS15562:AS-SNIJDERS
+    export: ANY
+    type: downstream
+
 AS47065:
     description: BGPMUX / PEERING TestBed
     import: AS-PEERING-TESTBED
