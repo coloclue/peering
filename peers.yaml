@@ -623,8 +623,6 @@ AS2828:
     description: XO
     import: AS-XO
     export: "AS8283:AS-COLOCLUE"
-    ipv4_limit: 80000
-    ipv6_limit: 4000
     irr_order: ARIN,RIPE,AFRINIC,APNIC,NTTCOM,JPIRR,RADB,TC,BELL,LEVEL3,BBOI,ALTDB,RGNET
 
 AS10310:
@@ -671,8 +669,8 @@ AS6453:
     description: Tata
     import: AS-GLOBEINTERNET
     export: "AS8283:AS-COLOCLUE"
-    ipv4_limit: 200000
-    ipv6_limit: 20000
+    ipv4_limit: 242000
+    ipv6_limit: 18700
     ignore_peeringdb: True
     only_with:
         - 80.249.209.167
@@ -695,7 +693,7 @@ AS54113:
 
 AS3910:
     description: Centurylink
-    import: ANY
+    import: AS3919
     export: "AS8283:AS-COLOCLUE"
     ipv4_limit: 80000
     ipv6_limit: 4000
@@ -724,8 +722,6 @@ AS6762:
     description: Telecom Italia Sparkle
     import: AS-SEABONE
     export: "AS8283:AS-COLOCLUE"
-    ipv4_limit: 160000
-    ipv6_limit: 10000
 
 AS34968:
     description: iunxi BV
@@ -741,12 +737,6 @@ AS12956:
     description: Telxius
     import: AS-TDATANET
     export: "AS8283:AS-COLOCLUE"
-    ipv4_limit: 45000
-    ipv6_limit: 10000
-    ignore_peeringdb: True
-    only_with:
-        - 80.249.208.208
-        - 2001:7f8:1::a501:2956:1
 
 AS59964:
     description: Asteroid Route Collector
