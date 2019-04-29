@@ -34,8 +34,8 @@ peering_flat = open('peers.yaml').read()
 try:
     peerings = yaml.safe_load(peering_flat)
 except:
-    print "ERROR: the peers.yaml file could not be parsed... please check \
-your syntax"
+    print("ERROR: the peers.yaml file could not be parsed... please check \
+your syntax")
     sys.exit(2)
 
 # IXPs coloclue is connected to
@@ -66,19 +66,19 @@ for asn in peerings:
 
     for keyword in ['export', 'import', 'description']:
         if keyword not in peerings[asn]:
-            print "ERROR: missing %s statement in stanza %s" % (keyword, asn)
+            print("ERROR: missing %s statement in stanza %s" % (keyword, asn))
             sys.exit(2)
 
     if 'gtsm' in peerings[asn]:
         if not peerings[asn]['gtsm'] in [True, False]:
-            print "ERROR: gtsm value can be either 'yes' or 'no' - default is 'no'"
-            print peerings[asn]
+            print("ERROR: gtsm value can be either 'yes' or 'no' - default is 'no'")
+            print(peerings[asn])
             sys.exit(2)
 
     if 'multihop' in peerings[asn]:
         if not peerings[asn]['multihop'] in [True, False]:
-            print "ERROR: multihop value can be either 'yes' or 'no' - default is 'no'"
-            print peerings[asn]
+            print("ERROR: multihop value can be either 'yes' or 'no' - default is 'no'")
+            print(peerings[asn])
             sys.exit(2)
 
     for limit in ["ipv4_limit", "ipv6_limit"]:
@@ -86,12 +86,12 @@ for asn in peerings:
             try:
                 l = int(peerings[asn][limit])
             except ValueError:
-                print "ERROR: %s must be a positive integer" % limit
-                print peerings[asn]
+                print("ERROR: %s must be a positive integer" % limit)
+                print(peerings[asn])
                 sys.exit(2)
             if not l >= 0:
-                print "ERROR: %s must be larger then or equal to 0" % limit
-                print peerings[asn]
+                print("ERROR: %s must be larger then or equal to 0" % limit)
+                print(peerings[asn])
                 sys.exit(2)
 
     # check whether the manually configured peerings are
@@ -102,13 +102,13 @@ for asn in peerings:
                 try:
                     peer_ip = ipaddr.IPAddress(peer)
                 except ValueError:
-                    print "ERROR: %s in %s is not a valid IP" % (peer, asn)
+                    print("ERROR: %s in %s is not a valid IP" % (peer, asn))
                     sys.exit(2)
 
     acceptable_exports = ['AS8283:AS-COLOCLUE', 'NOT ANY', 'ANY']
     if not peerings[asn]['export'] in acceptable_exports:
-        print "ERROR: export must be one of the following: %s" \
-            % " ".join(acceptable_exports)
+        print("ERROR: export must be one of the following: %s" \
+            % " ".join(acceptable_exports))
         problem += 1
 
 
@@ -116,7 +116,7 @@ for asn in peerings:
     if as_number not in pdb:
         if peerings[asn]['ignore_peeringdb']:
             continue
-        print "ERROR: %s does not have a PeeringDB record" % asn
+        print("ERROR: %s does not have a PeeringDB record" % asn)
         problem += 1
         continue
 
@@ -126,19 +126,19 @@ for asn in peerings:
         for ixp in connected_ixps:
             for subnet in connected_ixps[ixp]:
                 if ipaddr.IPAddress(session) in subnet:
-                    print "OK: found %s %s on %s" % (asn, session, ixp)
+                    print("OK: found %s %s on %s" % (asn, session, ixp))
                     anything += 1
                     found += 1
     if not anything and not peerings[asn]['ignore_peeringdb']:
-        print "ERROR: no common IXP with %s" % asn
+        print("ERROR: no common IXP with %s" % asn)
         problem += 1
 
 if found < 50:
-    print "ERROR: too few peers, aborting"
+    print("ERROR: too few peers, aborting")
     problem += 1
 
 if problem:
-    print "ERROR: detected %s problems" % problem
+    print("ERROR: detected %s problems" % problem)
     sys.exit(2)
 
-print "HOORAY: All is good, thanks for peering!"
+print("HOORAY: All is good, thanks for peering!")
