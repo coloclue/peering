@@ -507,7 +507,7 @@ AS8608:
     import: AS-QINIP
     export: "AS8283:AS-COLOCLUE"
 
-AS6830:
+AS59976:
     description: Liberty Global
     import: AS-AORTA AS-AORTA6
     export: "AS8283:AS-COLOCLUE"
