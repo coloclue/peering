@@ -893,3 +893,10 @@ AS44684:
     import: AS-MYTHIC
     export: AS8283:AS-COLOCLUE
 
+AS48886:
+    description: CS Net
+    import: AS48886
+    export: AS8283:AS-COLOCLUE
+    ignore_peeringdb: True
+    only_with:
+      - 193.239.116.209
