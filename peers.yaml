@@ -900,3 +900,8 @@ AS48886:
     ignore_peeringdb: True
     only_with:
       - 193.239.116.209
+
+AS57782:
+    description: Cynthia Maja Revstrom
+    import: AS57782:AS-CMR
+    export: AS8283:AS-COLOCLUE
