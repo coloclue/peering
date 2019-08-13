@@ -317,10 +317,10 @@ AS20857:
     import: AS-TRANSIP
     export: "AS8283:AS-COLOCLUE"
 
-AS20621:
-    description: OpenIT
-    import: AS-OPENIT
-    export: "AS8283:AS-COLOCLUE"
+#AS20621:
+#    description: OpenIT
+#    import: AS-OPENIT
+#    export: "AS8283:AS-COLOCLUE"
 
 AS6677:
     description: Iceland Telecom Ltd.
@@ -686,12 +686,12 @@ AS54113:
     import: AS-FASTLY
     export: "AS8283:AS-COLOCLUE"
 
-AS3910:
-    description: Centurylink
-    import: AS3919
-    export: "AS8283:AS-COLOCLUE"
-    ipv4_limit: 80000
-    ipv6_limit: 4000
+#AS3910:
+#    description: Centurylink
+#    import: AS3919
+#    export: "AS8283:AS-COLOCLUE"
+#    ipv4_limit: 80000
+#    ipv6_limit: 4000
 
 AS37271:
     description: Workonline
