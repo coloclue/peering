@@ -317,11 +317,6 @@ AS20857:
     import: AS-TRANSIP
     export: "AS8283:AS-COLOCLUE"
 
-#AS20621:
-#    description: OpenIT
-#    import: AS-OPENIT
-#    export: "AS8283:AS-COLOCLUE"
-
 AS6677:
     description: Iceland Telecom Ltd.
     import: AS-ICENET
