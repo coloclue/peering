@@ -900,3 +900,8 @@ AS57782:
     description: Cynthia Maja Revstrom
     import: AS57782:AS-CMR
     export: AS8283:AS-COLOCLUE
+
+AS64404:
+    description: Stichting EventInfra
+    import: AS64404
+    export: AS8283:AS-COLOCLUE
