@@ -905,3 +905,8 @@ AS64404:
     description: Stichting EventInfra
     import: AS64404
     export: AS8283:AS-COLOCLUE
+    
+AS35709:
+    description: TRIX
+    import: AS-TRIX
+    export: AS8283:AS-COLOCLUE
