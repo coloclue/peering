@@ -895,6 +895,7 @@ AS48886:
     ignore_peeringdb: True
     only_with:
       - 193.239.116.209
+      - 193.239.117.19
 
 AS57782:
     description: Cynthia Maja Revstrom
