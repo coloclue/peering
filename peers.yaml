@@ -506,6 +506,12 @@ AS6830:
     description: Liberty Global
     import: AS-AORTA AS-AORTA6
     export: "AS8283:AS-COLOCLUE"
+    
+
+AS59776:
+    description: Liberty Global CDN
+    import: RIPE::AS59776
+    export: "AS8283:AS-COLOCLUE"
 
 AS6461:
     description: Zayo / Abovenet
