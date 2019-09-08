@@ -510,7 +510,7 @@ AS6830:
 
 AS59776:
     description: Liberty Global CDN
-    import: RIPE::AS59776
+    import: AS59776
     export: "AS8283:AS-COLOCLUE"
 
 AS6461:
