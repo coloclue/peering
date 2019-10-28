@@ -526,7 +526,7 @@ AS3320:
     export: "AS8283:AS-COLOCLUE"
     ignore_peeringdb: True
     ipv4_limit: 30000
-    ipv6_limit: 2310
+    ipv6_limit: 2750‬
     only_with:
         - 80.249.209.211
         - 2001:7f8:1::a500:3320:1
