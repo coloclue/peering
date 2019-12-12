@@ -473,6 +473,9 @@ AS25596:
     description: Cambrium
     import: AS-CAMBRIUM
     export: "AS8283:AS-COLOCLUE"
+    not_on:
+      - 185.1.95.124
+      - 2001:7f8:b7::a502:5596:1
 
 AS8218:
     description: Zayo France
