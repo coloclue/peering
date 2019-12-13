@@ -924,6 +924,11 @@ AS35709:
     description: TRIX
     import: AS-TRIX
     export: AS8283:AS-COLOCLUE
+    
+AS15133:
+    description: EdgeCast Networks Inc
+    import: AS-EDGECAST
+    export: AS8283:AS-COLOCLUE
 
 AS41887:
     description: Prolocation B.V.
