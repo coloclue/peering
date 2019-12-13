@@ -644,6 +644,9 @@ AS15169:
     description: Google
     import: AS-GOOGLE
     export: "AS8283:AS-COLOCLUE"
+    not_on:
+      - asteroid
+      - speedix
 
 AS59605:
     description: Zain Group
