@@ -473,6 +473,8 @@ AS25596:
     description: Cambrium
     import: AS-CAMBRIUM
     export: "AS8283:AS-COLOCLUE"
+    not_on:
+      - speedix
 
 AS8218:
     description: Zayo France
@@ -513,6 +515,7 @@ AS59776:
     import: AS59776
     export: "AS8283:AS-COLOCLUE"
     ipv4_limit: 15000
+    ipv6_limit: 1300
 
 AS6461:
     description: Zayo / Abovenet
@@ -525,7 +528,7 @@ AS3320:
     export: "AS8283:AS-COLOCLUE"
     ignore_peeringdb: True
     ipv4_limit: 30000
-    ipv6_limit: 2310
+    ipv6_limit: 2750
     only_with:
         - 80.249.209.211
         - 2001:7f8:1::a500:3320:1
@@ -641,6 +644,9 @@ AS15169:
     description: Google
     import: AS-GOOGLE
     export: "AS8283:AS-COLOCLUE"
+    not_on:
+      - asteroid
+      - speedix
 
 AS59605:
     description: Zain Group
@@ -835,7 +841,7 @@ AS202365:
     import: AS-CHRONOS
     export: AS8283:AS-COLOCLUE
 
-AS205523:
+AS34872:
     description: Servperso-Systems
     import: AS-SERVPERSO
     export: AS8283:AS-COLOCLUE
@@ -922,4 +928,9 @@ AS35709:
 AS15133:
     description: EdgeCast Networks Inc
     import: AS-EDGECAST
+    export: AS8283:AS-COLOCLUE
+
+AS41887:
+    description: Prolocation B.V.
+    import: AS-PROLOCATION
     export: AS8283:AS-COLOCLUE
