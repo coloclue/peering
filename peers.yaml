@@ -672,6 +672,7 @@ AS6453:
     description: Tata
     import: AS-GLOBEINTERNET
     export: "AS8283:AS-COLOCLUE"
+    ignore_peeringdb: True
     only_with:
         - 80.249.209.167
         - 2001:7f8:1::a500:6453:1
