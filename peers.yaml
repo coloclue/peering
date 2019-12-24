@@ -672,8 +672,6 @@ AS6453:
     description: Tata
     import: AS-GLOBEINTERNET
     export: "AS8283:AS-COLOCLUE"
-    ipv4_limit: 242000
-    ipv6_limit: 18700
     ignore_peeringdb: True
     only_with:
         - 80.249.209.167
