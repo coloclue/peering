@@ -125,11 +125,6 @@ AS9150:
     import: AS-INTERCONNECT
     export: "AS8283:AS-COLOCLUE"
 
-AS1140:
-    description: SIDN
-    import: AS-SIDN
-    export: "AS8283:AS-COLOCLUE"
-
 AS20562:
     description: OpenPeering
     import: AS-OPENPEERING
