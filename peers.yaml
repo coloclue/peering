@@ -624,6 +624,8 @@ AS10310:
     description: Yahoo
     import: AS-YAHOO
     export: "AS8283:AS-COLOCLUE"
+    not_on:
+      - nlix
 
 AS48635:
     description: PCextreme
