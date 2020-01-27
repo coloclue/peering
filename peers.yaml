@@ -932,5 +932,5 @@ AS49627:
 
 AS37100:
     description: Seacom
-    import: AFRINIC::AS-SET-SEACOM
+    import: AS-SET-SEACOM
     export: AS8283:AS-COLOCLUE
