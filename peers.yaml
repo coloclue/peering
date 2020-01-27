@@ -604,11 +604,6 @@ AS1103:
     import: AS-SURFNET
     export: "AS8283:AS-COLOCLUE"
 
-AS15542:
-    description: ZeelandNet
-    import: AS-ZEELANDNET
-    export: "AS8283:AS-COLOCLUE"
-
 AS24875:
     description: NovoServe
     import: AS-NOVOSERVE
