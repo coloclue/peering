@@ -934,3 +934,8 @@ AS37100:
     description: Seacom
     import: AS-SET-SEACOM
     export: AS8283:AS-COLOCLUE
+    
+AS59985:
+    description: SAM Office B.V.
+    import: AS-SAMOFFICE
+    export: AS8283:AS-COLOCLUE
