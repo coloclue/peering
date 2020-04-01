@@ -480,7 +480,6 @@ AS13335:
     description: Cloudflare
     import: AS-CLOUDFLARE
     export: "AS8283:AS-COLOCLUE"
-    ignore_peeringdb: True
     only_with:
         - 80.249.211.140
         - 2001:7f8:1::a501:3335:1
