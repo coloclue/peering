@@ -804,8 +804,8 @@ AS201701:
     export: AS8283:AS-COLOCLUE
     
 AS8315:
-    description: Amsio B.V.
-    import: AS8315:AS-AMSIO
+    description: Sentia Netherlands BV
+    import: AS8315:AS-SENTIA
     export: AS8283:AS-COLOCLUE
 
 AS24961:
