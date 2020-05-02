@@ -938,3 +938,8 @@ AS8859:
     description: OSN Online Service Nuernberg GmbH
     import: AS8859:AS-OSN
     export: AS8283:AS-COLOCLUE
+
+AS132203:
+    description: Tencent Holdings Ltd.
+    import: AS132203:AS-TENCENT
+    export: AS8283:AS-COLOCLUE
