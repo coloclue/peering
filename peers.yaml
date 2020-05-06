@@ -868,9 +868,9 @@ AS51430:
     import: AS51430
     export: AS8283:AS-COLOCLUE
 
-AS204526:
-    description: Rick Bakker
-    import: AS-BAKKER
+AS44103:
+    description: Bakker IT
+    import: AS-BAKKER-IT
     export: AS8283:AS-COLOCLUE
 
 AS64050:
