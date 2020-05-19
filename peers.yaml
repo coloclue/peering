@@ -935,3 +935,8 @@ AS132203:
     description: Tencent Holdings Ltd.
     import: AS132203:AS-TENCENT
     export: AS8283:AS-COLOCLUE
+
+AS20495:
+    description: WD6.net B.V.
+    import: AS-WEDARE
+    export: AS8283-AS-COLOCLUE
