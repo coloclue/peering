@@ -940,3 +940,8 @@ AS205668:
     description: Green Mini host BV
     import: AS205668:AS-GREENMINI
     export: AS8283:AS-COLOCLUE
+
+AS20495:
+    description: WD6.net B.V.
+    import: AS-WEDARE
+    export: AS8283-AS-COLOCLUE
