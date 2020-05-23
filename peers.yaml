@@ -944,4 +944,4 @@ AS205668:
 AS20495:
     description: WD6.net B.V.
     import: AS-WEDARE
-    export: AS8283-AS-COLOCLUE
+    export: AS8283:AS-COLOCLUE
