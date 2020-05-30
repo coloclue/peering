@@ -855,11 +855,6 @@ AS51430:
     import: AS51430
     export: AS8283:AS-COLOCLUE
 
-AS44103:
-    description: Bakker IT
-    import: AS-BAKKER-IT
-    export: AS8283:AS-COLOCLUE
-
 AS64050:
     description: BGP Consultancy Pte Ltd
     import: AS64050
