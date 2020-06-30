@@ -925,3 +925,8 @@ AS20495:
     description: WD6.net B.V.
     import: AS-WEDARE
     export: AS8283:AS-COLOCLUE
+
+AS31019:
+    description: Meanie
+    import: AS-MEANIE
+    export: AS8283:AS-COLOCLUE
