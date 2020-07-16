@@ -930,3 +930,8 @@ AS31019:
     description: Meanie
     import: AS-MEANIE
     export: AS8283:AS-COLOCLUE
+
+AS208258:
+    description: Access2.IT Group B.V.
+    import: AS208258
+    export: AS8283:AS-COLOCLUE
