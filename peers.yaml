@@ -155,6 +155,11 @@ AS20940:
     import: AS-AKAMAI
     export: "AS8283:AS-COLOCLUE"
 
+AS20847:
+    description: Previder
+    import: AS-PREVIDER
+    export: "AS8283:AS-COLOCLUE"
+
 AS12654:
     description: RIPE NCC RIS Project
     import: AS12654:RS-RIS
