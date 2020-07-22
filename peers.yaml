@@ -158,7 +158,7 @@ AS20940:
 AS20847:
     description: Previder
     import: AS-PREVIDER
-    export: "AS20847:AS-PREVIDER"
+    export: "AS8283:AS-COLOCLUE"
 
 AS12654:
     description: RIPE NCC RIS Project
