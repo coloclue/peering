@@ -257,11 +257,6 @@ AS2852:
     import: AS-CESNET
     export: "AS8283:AS-COLOCLUE"
 
-AS31334:
-    description: Kabel Deutschland
-    import: AS-KDG
-    export: "AS8283:AS-COLOCLUE"
-
 AS30132:
     description: Internet Systems Consortium, F-Root Operator
     import: AS30132:AS-SET
