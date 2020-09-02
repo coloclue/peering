@@ -13,7 +13,7 @@ AS34307:
     description: NL-IX Routeservers
     import: AS-NL-IX-RS
     export: "AS8283:AS-COLOCLUE"
-    
+
 AS3265:
     description: XS4ALL
     import: AS-ACCESSFORALL
@@ -729,7 +729,7 @@ AS13414:
     description: Twitter
     import: AS-TWITTER
     export: AS8283:AS-COLOCLUE
-    
+
 AS205591:
     description: Stefan6 Network
     import: AS-STEFAN6
@@ -739,27 +739,27 @@ AS41441:
     description: SPEED-IX route server peers
     import: AS-IX
     export: AS8283:AS-COLOCLUE
-    
+
 AS206499:
     description: M&M NETWORKS
     import: AS-MMNETWORKS
     export: AS8283:AS-COLOCLUE
-       
+
 AS206313:
     description: Freifunk Nordwest e.V
     import: AS-FFNW
     export: AS8283:AS-COLOCLUE
-   
+
 AS56662:
     description: e-utp.net
     import: AS-EUTPNET
     export: AS8283:AS-COLOCLUE
-   
+
 AS63541:
     description: Chinacache
     import: AS63541
     export: AS8283:AS-COLOCLUE
-   
+
 AS44901 :
     description: Belcloud
     import: AS44901
@@ -809,12 +809,12 @@ AS34872:
     description: Servperso-Systems
     import: AS-SERVPERSO
     export: AS8283:AS-COLOCLUE
-    
+
 AS200020:
     description: Stichting Nationale Beheersorganisatie Internet Providers (NBIP)
     import: AS-NBIP AS-NBIP6
     export: AS8283:AS-COLOCLUE
-    
+
 AS24940:
     description: Hetzner Online GmbH
     import: AS-Hetzner
@@ -873,12 +873,12 @@ AS64404:
     description: Stichting EventInfra
     import: AS64404
     export: AS8283:AS-COLOCLUE
-    
+
 AS35709:
     description: TRIX
     import: AS-TRIX
     export: AS8283:AS-COLOCLUE
-    
+
 AS15133:
     description: EdgeCast Networks Inc
     import: AS-EDGECAST
@@ -900,7 +900,7 @@ AS37100:
     description: Seacom
     import: AS-SET-SEACOM
     export: AS8283:AS-COLOCLUE
-    
+
 AS59985:
     description: SAM Office B.V.
     import: AS-SAMOFFICE
@@ -939,4 +939,9 @@ AS208258:
 AS39637:
     description: ADES / NetLogics
     import: AS-NETLOGICS
+    export: AS8283:AS-COLOCLUE
+
+AS25182:
+    description: Nederlandse Publieke Omroep - NPO
+    import: AS-PUBLIEKEOMROEP
     export: AS8283:AS-COLOCLUE
