@@ -945,3 +945,8 @@ AS25182:
     description: Nederlandse Publieke Omroep - NPO
     import: AS-PUBLIEKEOMROEP
     export: AS8283:AS-COLOCLUE
+
+AS206064:
+    description: Ambulent
+    import: AS-AMBULENT
+    export: AS8283:AS-COLOCLUE
