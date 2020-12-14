@@ -342,11 +342,6 @@ AS31595:
     import: AS-AWELL
     export: "AS8283:AS-COLOCLUE"
 
-AS8560:
-    description: 1 and 1 internet
-    import: AS-1AND1
-    export: "AS8283:AS-COLOCLUE"
-
 AS16509:
     description: Amazon
     import: AS-AMAZON
