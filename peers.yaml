@@ -942,6 +942,6 @@ AS25182:
     export: AS8283:AS-COLOCLUE
 
 AS206064:
-    description: Ambulent
-    import: AS-AMBULENT
+    description: Alpine North Networks
+    import: AS-ALPINE-NORTH
     export: AS8283:AS-COLOCLUE
