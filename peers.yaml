@@ -145,11 +145,6 @@ AS36692:
     import: AS-OPENDNS
     export: "AS8283:AS-COLOCLUE"
 
-AS286:
-    description: KPN
-    import: AS-KPN
-    export: "AS8283:AS-COLOCLUE"
-
 AS20940:
     description: Akamai
     import: AS-AKAMAI
