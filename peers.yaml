@@ -389,11 +389,6 @@ AS8426:
     import: AS-CLARANET
     export: "AS8283:AS-COLOCLUE"
 
-AS47232:
-    description: ISP Alliance a.s.
-    import: AS-ISPALLIANCE-CZ
-    export: "AS8283:AS-COLOCLUE"
-
 AS8075:
     description: Microsoft
     import: AS-MICROSOFT
@@ -573,11 +568,6 @@ AS31500:
     import: AS-GLOBAL-NET
     export: "AS8283:AS-COLOCLUE"
 
-AS49605:
-    description: Digital Telecommunication Services S.r.l.
-    import: AS-DTSRETEIVO
-    export: "AS8283:AS-COLOCLUE"
-
 AS1103:
     description: SURFnet
     import: AS-SURFNET
@@ -718,11 +708,6 @@ AS41693:
 AS13414:
     description: Twitter
     import: AS-TWITTER
-    export: AS8283:AS-COLOCLUE
-
-AS205591:
-    description: Stefan6 Network
-    import: AS-STEFAN6
     export: AS8283:AS-COLOCLUE
 
 AS41441:
