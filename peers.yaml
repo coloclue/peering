@@ -797,7 +797,7 @@ AS209566:
     ignore_peeringdb: True
     ipv4_limit: 100
     multihop: True
-    only_with:
+    private_peerings:
       - 194.62.129.1
 
 AS24940:
