@@ -813,10 +813,7 @@ AS209566:
     ipv4_limit: 100
     multihop: True
     only_with:
-      - 80.249.211.82
-      - 80.249.208.3
-      - 193.239.118.113
-      - 193.239.118.131
+      - 194.62.129.1
 
 AS24940:
     description: Hetzner Online GmbH
