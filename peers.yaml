@@ -790,16 +790,16 @@ AS200020:
     import: AS-NBIP AS-NBIP6
     export: AS8283:AS-COLOCLUE
 
-AS209566:
-    description: Stichting Nationale Beheersorganisatie Internet Providers (NBIP) lab
-    import: AS209566
-    export: AS8283:AS-COLOCLUE
-    ignore_peeringdb: True
-    ipv4_limit: 100
-    multihop: True
-    disable_multihop_source_map: True
-    private_peerings:
-      - 194.62.129.1
+#AS209566:
+#    description: Stichting Nationale Beheersorganisatie Internet Providers (NBIP) lab
+#    import: AS209566
+#    export: AS8283:AS-COLOCLUE
+#    ignore_peeringdb: True
+#    ipv4_limit: 100
+#    multihop: True
+#    disable_multihop_source_map: True
+#    private_peerings:
+#      - 194.62.129.1
 
 AS24940:
     description: Hetzner Online GmbH
