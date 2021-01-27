@@ -936,3 +936,8 @@ AS206064:
     description: Alpine North Networks
     import: AS-ALPINE-NORTH
     export: AS8283:AS-COLOCLUE
+
+AS47172:
+    description: Greenhost
+    import: AS-GREENHOST
+    export: AS8283:AS-COLOCLUE
