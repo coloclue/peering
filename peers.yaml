@@ -750,9 +750,9 @@ AS34779:
     import: AS-T2-CUST
     export: AS8283:AS-COLOCLUE
 
-AS55195:
+AS394354:
     description: Canadian Internet Registration Authority
-    import: AS55195
+    import: RADB::AS-394354
     export: AS8283:AS-COLOCLUE
 
 AS19679:
