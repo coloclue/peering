@@ -506,7 +506,7 @@ AS1299:
     description: TeliaSonera International Carrier
     import: AS-TELIANET AS-TELIANET-V6
     export: "AS8283:AS-COLOCLUE"
-    ipv4_limit: 450000
+    ipv4_limit: 500000
     ipv6_limit: 60000
     ignore_peeringdb: True
     private_peerings:
