@@ -941,3 +941,8 @@ AS47172:
     description: Greenhost
     import: AS-GREENHOST
     export: AS8283:AS-COLOCLUE
+    
+AS206238:
+    description: Freedom Internet
+    import: AS206238
+    export: AS8283:AS-COLOCLUE
