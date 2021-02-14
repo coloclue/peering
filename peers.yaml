@@ -21,7 +21,6 @@ AS3265:
 
 AS12713:
     description: OTEGLOBE
-    import: AS-OTEGLOBE
     export: "AS8283:AS-COLOCLUE"
 
 AS13285:
@@ -375,7 +374,7 @@ AS15562:
 
 AS47065:
     description: BGPMUX / PEERING TestBed
-    import: AS-PEERING-TESTBED
+    import: RS-PEERING-TESTBED
     export: ANY
     type: downstream
 
