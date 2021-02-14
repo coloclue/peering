@@ -375,7 +375,7 @@ AS15562:
 
 AS47065:
     description: BGPMUX / PEERING TestBed
-    import: AS-PEERING-TESTBED
+    import: RS-PEERING-TESTBED
     export: ANY
     type: downstream
 
