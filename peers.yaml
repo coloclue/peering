@@ -939,5 +939,5 @@ AS47172:
     
 AS206238:
     description: Freedom Internet
-    import: AS-FREEDOMNET
+    import: AS-FREEDOM
     export: AS8283:AS-COLOCLUE
