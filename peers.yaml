@@ -389,11 +389,6 @@ AS8075:
     import: AS-MICROSOFT
     export: "AS8283:AS-COLOCLUE"
 
-AS14413:
-    description: Linkedin
-    import: AS-LINKEDIN
-    export: "AS8283:AS-COLOCLUE"
-
 AS1764:
     description: Nextlayer.at
     import: AS-NEXTLAYER AS-NEXTLAYER-V6
