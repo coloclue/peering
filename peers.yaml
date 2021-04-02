@@ -939,5 +939,5 @@ AS206238:
 
 AS201401:
     description: Unithost Internet BV
-    import: RIPE::AS-NEWVM
+    import: AS-NEWVM
     export: AS8283:AS-COLOCLUE
