@@ -936,3 +936,8 @@ AS206238:
     description: Freedom Internet
     import: AS-FREEDOM
     export: AS8283:AS-COLOCLUE
+
+AS201401:
+    description: Unithost Internet BV
+    import: RIPE::AS-NEWVM
+    export: AS8283:AS-COLOCLUE
