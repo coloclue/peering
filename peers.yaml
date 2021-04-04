@@ -941,3 +941,8 @@ AS201401:
     description: Unithost Internet BV
     import: AS-NEWVM
     export: AS8283:AS-COLOCLUE
+
+AS213050:
+    description: Nedap NV
+    import: AS-NEDAP
+    export: AS8283:AS-COLOCLUE
