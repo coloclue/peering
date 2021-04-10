@@ -665,11 +665,6 @@ AS56647:
     import: AS56647
     export: "AS8283:AS-COLOCLUE"
 
-AS23393:
-    description: ISPrime
-    import: AS-ISPRIME
-    export: "AS8283:AS-COLOCLUE"
-
 AS6762:
     description: Telecom Italia Sparkle
     import: AS-SEABONE
