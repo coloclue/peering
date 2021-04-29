@@ -650,11 +650,6 @@ AS54113:
 #    ipv4_limit: 80000
 #    ipv6_limit: 4000
 
-AS37271:
-    description: Workonline
-    import: AS-WOLCOMM
-    export: "AS8283:AS-COLOCLUE"
-
 AS49206:
     description: PeakFactory
     import: AS-PEAKFACTORY
