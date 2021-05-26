@@ -695,11 +695,6 @@ AS41441:
     import: AS-IX
     export: AS8283:AS-COLOCLUE
 
-AS206499:
-    description: M&M NETWORKS
-    import: AS-MMNETWORKS
-    export: AS8283:AS-COLOCLUE
-
 AS206313:
     description: Freifunk Nordwest e.V
     import: AS-FFNW
