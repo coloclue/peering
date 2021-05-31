@@ -642,6 +642,11 @@ AS54113:
     description: Fastly inc.
     import: AS-FASTLY
     export: "AS8283:AS-COLOCLUE"
+    not_with:
+      - 193.239.118.130
+      - 193.239.118.162
+      - 2001:7f8:13::a505:4113:3
+      - 2001:7f8:13::a505:4113:2
 
 #AS3910:
 #    description: Centurylink
