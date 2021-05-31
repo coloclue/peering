@@ -791,11 +791,6 @@ AS197301:
     import: AS-PARKNET
     export: AS8283:AS-COLOCLUE
 
-AS36459:
-    description: GitHub Inc.
-    import: AS-GITHUB
-    export: AS8283:AS-COLOCLUE
-
 AS44222:
     description: CLOUDITY Network
     import: AS-CLOUDITY
