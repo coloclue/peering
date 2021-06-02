@@ -69,12 +69,6 @@ AS25091:
     import: AS-IP-MAX
     export: "AS8283:AS-COLOCLUE"
 
-AS20953:
-    description: info.nl
-    import: AS-INFO
-    export: "AS8283:AS-COLOCLUE"
-    gtsm: yes
-
 AS61349:
     description: MaxiTEL
     import: AS-MAXITEL
