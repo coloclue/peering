@@ -931,3 +931,8 @@ AS213050:
     description: Nedap NV
     import: AS-NEDAP
     export: AS8283:AS-COLOCLUE
+
+AS213035:
+    description: Serverion B.V.
+    import: AS-SERVERION
+    export: AS8283:AS-COLOCLUE
