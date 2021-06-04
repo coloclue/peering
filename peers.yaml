@@ -919,3 +919,8 @@ AS213035:
     description: Serverion B.V.
     import: AS-SERVERION
     export: AS8283:AS-COLOCLUE
+
+AS56393:
+    description: Frys-IX Route servers
+    import: AS56393
+    export: AS8283:AS-COLOCLUE
