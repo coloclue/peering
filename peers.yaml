@@ -929,3 +929,8 @@ AS49917:
     description: LSIX Route servers
     import: AS-LSIX
     export: AS8283:AS-COLOCLUE
+
+AS50869:
+    description: IPng Networks
+    import: AS-IPNG
+    export: AS8283:AS-COLOCLUE
