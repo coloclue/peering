@@ -924,3 +924,8 @@ AS56393:
     description: Frys-IX Route servers
     import: AS56393
     export: AS8283:AS-COLOCLUE
+
+AS49917:
+    description: LSIX Route servers
+    import: AS-LSIX
+    export: AS8283:AS-COLOCLUE
