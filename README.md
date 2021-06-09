@@ -15,9 +15,9 @@ neutral environment.
 
 ## How to peer? ##
 
-If you are connected to AMS-IX, NL-IX, Asteroid Amsterdam, or SPEED-IX you can set up 
-BGP sessions with AS8283. Make sure you accept `AS8283:AS-COLOCLUE` (100 
-prefixes max).
+If you are connected to AMS-IX, NL-IX, Asteroid Amsterdam, SPEED-IX or DE-CIX
+you can set up BGP sessions with AS8283. Make sure you accept `AS8283:AS-COLOCLUE`
+(100 prefixes max).
 
 Add yourself to the `peers.yaml` file and submit a pull request to this
 repository. Once a network engineer validates your pull request and merges it
@@ -79,6 +79,9 @@ IXP:   Frys-IX
 IPv4:  185.1.203.140
 IPv6:  2001:7f8:10f::205b:140
 
+IXP:   DE-CIX
+IPv4:  80.81.197.51
+IPv6:  2001:7f8::205b:0:1
 ```
 
 ## Routing Policy ##
