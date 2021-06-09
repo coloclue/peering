@@ -934,3 +934,8 @@ AS50869:
     description: IPng Networks
     import: AS-IPNG
     export: AS8283:AS-COLOCLUE
+
+AS6695:
+    description: DE-CIX Route servers
+    import: AS-DECIX AS-DECIX-V6
+    export: AS8283:AS-COLOCLUE
