@@ -16,8 +16,8 @@ neutral environment.
 ## How to peer? ##
 
 If you are connected to AMS-IX, NL-IX, Asteroid Amsterdam, SPEED-IX, LSIX, Speed-IX
-or DE-CIX you can set up BGP sessions with AS8283. Make sure you accept
-`AS8283:AS-COLOCLUE` (100 prefixes max).
+DE-CIX, France-IX or SwissIX you can set up BGP sessions with AS8283. Make sure you
+accept `AS8283:AS-COLOCLUE` (100 prefixes max).
 
 Add yourself to the `peers.yaml` file and submit a pull request to this
 repository. Once a network engineer validates your pull request and merges it
@@ -82,6 +82,14 @@ IPv6:  2001:7f8:10f::205b:140
 IXP:   DE-CIX
 IPv4:  80.81.197.51
 IPv6:  2001:7f8::205b:0:1
+
+IXP:   France-IX
+IPv4:  37.49.238.29
+IPv6:  2001:7f8:54::2:29
+
+IXP:   SwissIX
+IPv4:  91.206.53.24
+IPv6:  2001:7f8:24::118
 ```
 
 ## Routing Policy ##
