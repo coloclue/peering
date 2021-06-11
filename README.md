@@ -79,11 +79,11 @@ IXP:   Frys-IX
 IPv4:  185.1.203.140
 IPv6:  2001:7f8:10f::205b:140
 
-IXP:   DE-CIX
+IXP:   DE-CIX (Frankfurt)
 IPv4:  80.81.197.51
 IPv6:  2001:7f8::205b:0:1
 
-IXP:   France-IX
+IXP:   France-IX (Paris)
 IPv4:  37.49.238.29
 IPv6:  2001:7f8:54::2:29
 
