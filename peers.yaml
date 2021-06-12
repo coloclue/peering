@@ -5,12 +5,12 @@ AS1200:
     export: "AS8283:AS-COLOCLUE"
 
 AS6777:
-    description: AMS-IX Routeservers
+    description: AMS-IX Route Servers
     import: AS-AMS-IX-RS AS-AMS-IX-RS-V6 AS-AMS-IX-RS-SETS AS-AMS-IX-RS-SETS-V6
     export: "AS8283:AS-COLOCLUE"
 
 AS34307:
-    description: NL-IX Routeservers
+    description: NL-IX Route Servers
     import: AS-NL-IX-RS
     export: "AS8283:AS-COLOCLUE"
 
@@ -921,12 +921,12 @@ AS213035:
     export: AS8283:AS-COLOCLUE
 
 AS56393:
-    description: Frys-IX Routeservers
+    description: Frys-IX Route Servers
     import: AS56393
     export: AS8283:AS-COLOCLUE
 
 AS49917:
-    description: LSIX Routeservers
+    description: LSIX Route Servers
     import: AS-LSIX
     export: AS8283:AS-COLOCLUE
 
@@ -936,16 +936,16 @@ AS50869:
     export: AS8283:AS-COLOCLUE
 
 AS6695:
-    description: DE-CIX Frankfurt Routeservers
+    description: DE-CIX Frankfurt Route Servers
     import: AS-DECIX AS-DECIX-V6
     export: AS8283:AS-COLOCLUE
 
 AS51706:
-    description: France-IX Paris Routeservers
+    description: France-IX Paris Route Servers
     import: AS51706:AS-MEMBERS:AS-PAR-RS
     export: AS8283:AS-COLOCLUE
 
 AS42476:
-    description: SwissIX Routeservers
+    description: SwissIX Route Servers
     import: AS-SWISSIX-RS
     export: AS8283:AS-COLOCLUE
