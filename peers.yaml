@@ -921,12 +921,12 @@ AS213035:
     export: AS8283:AS-COLOCLUE
 
 AS56393:
-    description: Frys-IX Route servers
+    description: Frys-IX Routeservers
     import: AS56393
     export: AS8283:AS-COLOCLUE
 
 AS49917:
-    description: LSIX Route servers
+    description: LSIX Routeservers
     import: AS-LSIX
     export: AS8283:AS-COLOCLUE
 
@@ -936,16 +936,16 @@ AS50869:
     export: AS8283:AS-COLOCLUE
 
 AS6695:
-    description: DE-CIX Route servers
+    description: DE-CIX Frankfurt Routeservers
     import: AS-DECIX AS-DECIX-V6
     export: AS8283:AS-COLOCLUE
 
 AS51706:
-    description: France-IX Route servers
+    description: France-IX Paris Routeservers
     import: AS51706:AS-MEMBERS:AS-PAR-RS
     export: AS8283:AS-COLOCLUE
 
 AS42476:
-    description: SwissIX Route servers
+    description: SwissIX Routeservers
     import: AS-SWISSIX-RS
     export: AS8283:AS-COLOCLUE
