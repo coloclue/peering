@@ -939,3 +939,13 @@ AS6695:
     description: DE-CIX Route servers
     import: AS-DECIX AS-DECIX-V6
     export: AS8283:AS-COLOCLUE
+
+AS51706:
+    description: France-IX Route servers
+    import: AS51706:AS-MEMBERS:AS-PAR-RS
+    export: AS8283:AS-COLOCLUE
+
+AS42476:
+    description: SwissIX Route servers
+    import: AS-SWISSIX-RS
+    export: AS8283:AS-COLOCLUE
