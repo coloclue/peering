@@ -33,13 +33,12 @@ AS6939:
     description: Hurricane Electric
     import: AS-HURRICANE
     export: "AS8283:AS-COLOCLUE"
-    only_with:
-        - 80.249.209.150
-        - 2001:7f8:1::a500:6939:1
-        - 193.239.116.14
-        - 2001:7f8:13::a500:6939:1
-        - 185.1.95.6
-        - 2001:7f8:b7::a500:6939:1
+    not_on:
+      - decix
+      - franceix
+      - swissix
+      - asteroid
+      - lsix
 
 AS16298:
     description: InterBox Internet
