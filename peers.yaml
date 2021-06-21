@@ -941,6 +941,11 @@ AS50869:
     description: IPng Networks
     import: AS-IPNG
     export: AS8283:AS-COLOCLUE
+    not_on:
+      - decix
+      - franceix
+      - swissix
+      - nlix
 
 AS6695:
     description: DE-CIX Frankfurt Route Servers
