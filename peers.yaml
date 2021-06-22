@@ -843,8 +843,6 @@ AS49627:
     description: Speakup
     import: AS49627
     export: AS8283:AS-COLOCLUE
-    not_with:
-      - 2001:7f8:b7::a504:9627:1
 
 AS37100:
     description: Seacom
