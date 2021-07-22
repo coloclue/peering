@@ -455,6 +455,13 @@ AS13335:
     description: Cloudflare
     import: AS-CLOUDFLARE
     export: "AS8283:AS-COLOCLUE"
+    only_with:
+        - 80.249.211.140
+        - 2001:7f8:1::a501:3335:1
+        - 193.239.117.114
+        - 2001:7f8:13::a501:3335:1
+        - 185.1.95.191
+        - 2001:7f8:b7::a501:3335:1 
     
 AS32934:
     description: Facebook
