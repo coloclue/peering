@@ -962,7 +962,7 @@ AS42476:
     export: AS8283:AS-COLOCLUE
     
 AS57118:
-    description: communityrak.org
+    description: communityrack.org
     import: AS-COMRACK
     export: AS8283:AS-COLOCLUE    
     
