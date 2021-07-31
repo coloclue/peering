@@ -960,3 +960,9 @@ AS42476:
     description: SwissIX Route Servers
     import: AS-SWISSIX-RS
     export: AS8283:AS-COLOCLUE
+    
+AS57118:
+    description: communityrack.org
+    import: AS-COMRACK
+    export: AS8283:AS-COLOCLUE    
+    
