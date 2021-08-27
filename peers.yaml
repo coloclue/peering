@@ -970,3 +970,8 @@ AS13150:
     description: Cato Networks Ltd
     import: AS13150
     export: AS8283:AS-COLOCLUE
+
+AS38965:
+    description: HostIn
+    import: AS-HOSTIN
+    export: AS8283:AS-COLOCLUE
