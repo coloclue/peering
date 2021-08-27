@@ -966,3 +966,7 @@ AS57118:
     import: AS-COMRACK
     export: AS8283:AS-COLOCLUE    
     
+AS13150:
+    description: Cato Networks Ltd
+    import: AS13150
+    export: AS8283:AS-COLOCLUE
