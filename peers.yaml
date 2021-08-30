@@ -537,8 +537,8 @@ AS41913:
     export: "AS8283:AS-COLOCLUE"
 
 AS31027:
-    description: Nianet A/S
-    import: AS-NIANET
+    description: GlobalConnect Group
+    import: AS31027:AS-GCNET
     export: "AS8283:AS-COLOCLUE"
 
 AS38880:
