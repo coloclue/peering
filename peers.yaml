@@ -976,3 +976,8 @@ AS38965:
     description: HostIn
     import: AS-HOSTIN
     export: AS8283:AS-COLOCLUE
+
+AS25220:
+    description: equada network GmbH
+    import: AS-GLOBALNOC
+    export: AS8283:AS-COLOCLUE
