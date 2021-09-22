@@ -981,3 +981,10 @@ AS25220:
     description: equada network GmbH
     import: AS-GLOBALNOC
     export: AS8283:AS-COLOCLUE
+
+AS36236:
+    description: NetActuate Inc.
+    import: AS-NETACTUATE
+    export: AS8283:AS-COLOCLUE
+    not_on:
+      - nlix
