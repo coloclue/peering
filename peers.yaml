@@ -340,7 +340,7 @@ AS16509:
 
 AS3257:
     description: GTT
-    import: AS-TINET
+    import: AS-GTT
     export: "AS8283:AS-COLOCLUE"
 
 AS5400:
