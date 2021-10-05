@@ -998,3 +998,8 @@ AS211827:
     description: BnPICT
     import: AS211827
     export: AS8283:AS-COLOCLUE
+
+AS204151:
+    description: Kviknet.dk ApS
+    import: AS204151:AS-PEERING
+    export: AS8283:AS-COLOCLUE
