@@ -1,7 +1,7 @@
 Coloclue (AS8283) Peering Relation Repository
 ==============================================
 
-Current Peering Policy: [![Build Status](https://travis-ci.org/coloclue/peering.svg?branch=master)](https://travis-ci.org/coloclue/peering)
+Current Peering Policy: ![peers.yaml status](https://github.com/coloclue/peering/actions/workflows/test_peers.yaml.yml/badge.svg
 
 ## What is Coloclue? ##
 
