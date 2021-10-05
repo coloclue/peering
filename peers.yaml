@@ -412,7 +412,7 @@ AS29140:
 
 AS2635:
     description: Automattic Inc.
-    import: AS2635
+    import: AS-AUTOMATTIC
     export: "AS8283:AS-COLOCLUE"
 
 AS2484:
@@ -675,7 +675,7 @@ AS6762:
 
 AS54825:
     description: packet.net
-    import: AS54825
+    import: AS-PACKET
     export: "AS8283:AS-COLOCLUE"
 
 AS12956:
@@ -720,7 +720,7 @@ AS63541:
 
 AS44901 :
     description: Belcloud
-    import: AS44901
+    import: as-belcloud
     export: AS8283:AS-COLOCLUE
 
 AS201290:
@@ -819,7 +819,7 @@ AS57782:
 
 AS64404:
     description: Stichting EventInfra
-    import: AS64404
+    import: AS-EVENTINFRA
     export: AS8283:AS-COLOCLUE
 
 AS35709:
@@ -879,7 +879,7 @@ AS31019:
 
 AS208258:
     description: Access2.IT Group B.V.
-    import: AS208258
+    import: AS-ACCESS2IT
     export: AS8283:AS-COLOCLUE
 
 AS39637:
@@ -929,7 +929,7 @@ AS213035:
 
 AS56393:
     description: Frys-IX Route Servers
-    import: AS56393
+    import: AS-FRYS-IX-CONNECTED
     export: AS8283:AS-COLOCLUE
 
 AS49917:
