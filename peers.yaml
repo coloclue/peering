@@ -993,3 +993,8 @@ AS209288:
     description: Solutions4xs
     import: AS-SOL4XS
     export: AS8283:AS-COLOCLUE
+
+AS211827:
+    description: BnPICT
+    import: AS211827
+    export: AS8283:AS-COLOCLUE
