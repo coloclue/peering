@@ -3,8 +3,6 @@ name: Test peers.yaml
 
 on:
   push:
-  pull_request:
-    types: [opened, edited, reopened]
 
 jobs:
   test-peers-yaml:
