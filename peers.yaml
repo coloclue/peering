@@ -932,11 +932,6 @@ AS56393:
     import: AS-FRYS-IX-CONNECTED
     export: AS8283:AS-COLOCLUE
 
-AS49917:
-    description: LSIX Route Servers
-    import: AS-LSIX
-    export: AS8283:AS-COLOCLUE
-
 AS50869:
     description: IPng Networks
     import: AS-IPNG
