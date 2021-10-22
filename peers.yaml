@@ -278,11 +278,6 @@ AS43190:
     import: AS-GLIX
     export: "AS8283:AS-COLOCLUE"
 
-AS12041:
-    description: Afilias
-    import: AS12041:AS-AFILIAS
-    export: "AS8283:AS-COLOCLUE"
-
 AS30781:
     description: Jaguar Network
     import: AS-JAGUAR AS-JAGUAR-V6
