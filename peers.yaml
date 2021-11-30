@@ -218,11 +218,6 @@ AS34968:
     import: AS-IUNXI
     export: "AS8283:AS-COLOCLUE"
 
-AS35332:
-    description: Dataweb
-    import: AS-DATAWEB
-    export: "AS8283:AS-COLOCLUE"
-
 AS6724:
     description: Strato
     import: AS-STRATORZ
