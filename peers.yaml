@@ -922,8 +922,8 @@ AS56393:
     import: AS-FRYS-IX-CONNECTED
     export: AS8283:AS-COLOCLUE
 
-AS50869:
-    description: IPng Networks
+AS8298:
+    description: IPng Networks GmbH
     import: AS-IPNG
     export: AS8283:AS-COLOCLUE
     not_on:
