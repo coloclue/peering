@@ -561,12 +561,6 @@ AS24875:
     import: AS-NOVOSERVE
     export: "AS8283:AS-COLOCLUE"
 
-AS2828:
-    description: XO
-    import: AS-XO
-    export: "AS8283:AS-COLOCLUE"
-    irr_order: ARIN,RIPE,AFRINIC,APNIC,NTTCOM,JPIRR,RADB,TC,BELL,LEVEL3,BBOI,ALTDB,RGNET
-
 AS10310:
     description: Yahoo
     import: AS-YAHOO
