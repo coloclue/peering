@@ -229,7 +229,7 @@ AS197731:
     export: "AS8283:AS-COLOCLUE"
 
 AS15435:
-    description: CAIW
+    description: DELTA Fiber Nederland BV
     import: AS-KABELFOON
     export: "AS8283:AS-COLOCLUE"
 
