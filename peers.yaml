@@ -578,6 +578,9 @@ AS15169:
     not_on:
       - asteroid
       - speedix
+      - decix
+      - franceix
+      - swissix
 
 AS59605:
     description: Zain Group
