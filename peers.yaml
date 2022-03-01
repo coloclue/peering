@@ -60,6 +60,8 @@ AS12859:
     description: BIT
     import: AS-BIT AS-BIT6
     export: "AS8283:AS-COLOCLUE"
+    not_on:
+      - decix
 
 AS13101:
     description: TNG
