@@ -47,7 +47,7 @@ connected_ixps = {
              ipaddr.IPNetwork('2001:7f8:13:0:0:0:0:0/64')],
     "asteroid": [ipaddr.IPNetwork('185.1.94.0/24'),
              ipaddr.IPNetwork('2001:7f8:b6:0:0:0:0:0/64')],
-    "speedix": [ipaddr.IPNetwork('185.1.95.0/24'),
+    "speedix": [ipaddr.IPNetwork('185.1.222.0/23'),
                 ipaddr.IPNetwork('2001:7f8:b7:0:0:0:0:0/64')],
     "frysix": [ipaddr.IPNetwork('185.1.203.0/24'),
                 ipaddr.IPNetwork('2001:7f8:10f::205b:0/64')],
