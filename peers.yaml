@@ -783,7 +783,7 @@ AS44684:
 
 AS48886:
     description: CS Net
-    import: AS48886
+    import: AS-CSNET-NL
     export: AS8283:AS-COLOCLUE
 
 AS57782:
