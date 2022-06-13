@@ -785,10 +785,6 @@ AS48886:
     description: CS Net
     import: AS48886
     export: AS8283:AS-COLOCLUE
-    ignore_peeringdb: True
-    only_with:
-      - 193.239.116.209
-      - 193.239.117.19
 
 AS57782:
     description: Cynthia Maja Revstrom
