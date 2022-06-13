@@ -220,11 +220,6 @@ AS34968:
     import: AS-IUNXI
     export: "AS8283:AS-COLOCLUE"
 
-AS6724:
-    description: Strato
-    import: AS-STRATORZ
-    export: "AS8283:AS-COLOCLUE"
-
 AS197731:
     description: Tuxis Internet Engineering
     import: AS-TUXIS
