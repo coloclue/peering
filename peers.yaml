@@ -58,7 +58,7 @@ AS21478:
 
 AS12859:
     description: BIT
-    import: AS-BIT AS-BIT6
+    import: AS-BIT
     export: "AS8283:AS-COLOCLUE"
     not_on:
       - decix
