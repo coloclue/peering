@@ -14,11 +14,6 @@ AS34307:
     import: AS-NL-IX-RS
     export: "AS8283:AS-COLOCLUE"
 
-AS3265:
-    description: XS4ALL
-    import: AS-ACCESSFORALL
-    export: "AS8283:AS-COLOCLUE"
-
 AS12713:
     description: OTEGLOBE
     import: AS-OTEGLOBE
