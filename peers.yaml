@@ -972,3 +972,8 @@ AS1104:
     description: NIKHEF
     import: AS-NIKHEF
     export: AS8283:AS-COLOCLUE
+
+AS23764:
+    description: China Telecom
+    import: AS-CTGNET
+    export: AS8283:AS-COLOCLUE
