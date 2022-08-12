@@ -972,3 +972,8 @@ AS23764:
     description: China Telecom
     import: AS-CTGNET
     export: AS8283:AS-COLOCLUE
+
+AS8560:
+    description: IONOS SE
+    import: AS-IONOS
+    export: AS8283:AS-COLOCLUE
