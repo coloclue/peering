@@ -977,3 +977,8 @@ AS8560:
     description: IONOS SE
     import: AS-IONOS
     export: AS8283:AS-COLOCLUE
+
+AS60051:
+    description: Earthlink Telecommunications Equipment Trading & Services DMCC
+    import: AS-DMCC
+    export: AS8283:AS-COLOCLUE
