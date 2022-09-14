@@ -854,11 +854,6 @@ AS25182:
     import: AS-PUBLIEKEOMROEP
     export: AS8283:AS-COLOCLUE
 
-AS206064:
-    description: Alpine North
-    import: AS-ALPINE-NORTH
-    export: AS8283:AS-COLOCLUE
-
 AS60557:
     description: Alpine North
     import: AS-ALPINE-NORTH
