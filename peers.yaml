@@ -975,3 +975,8 @@ AS60051:
     description: Earthlink Telecommunications Equipment Trading & Services DMCC
     import: AS-DMCC
     export: AS8283:AS-COLOCLUE
+
+AS207176:
+    description: OpenFiber
+    import: AS-OPENFIBER
+    export: AS8283:AS-COLOCLUE
