@@ -978,3 +978,8 @@ AS207176:
     description: OpenFiber
     import: AS-OPENFIBER
     export: AS8283:AS-COLOCLUE
+
+AS48927:
+    description: ESEVEN DevOps
+    import: AS-ESEVEN
+    export: AS8283:AS-COLOCLUE
