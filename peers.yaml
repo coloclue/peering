@@ -983,3 +983,8 @@ AS48927:
     description: ESEVEN DevOps
     import: AS-ESEVEN
     export: AS8283:AS-COLOCLUE
+
+AS209643:
+    description: LOCIX NL Route Servers
+    import: AS-LOCIX
+    export: AS8283:AS-COLOCLUE
