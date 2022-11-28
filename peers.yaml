@@ -896,6 +896,7 @@ AS8298:
       - franceix
       - swissix
       - nlix
+      - locix
 
 AS6695:
     description: DE-CIX Frankfurt Route Servers
