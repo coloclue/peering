@@ -989,3 +989,8 @@ AS209643:
     description: LOCIX NL Route Servers
     import: AS-LOCIX
     export: AS8283:AS-COLOCLUE
+
+AS16278:
+    description: Sentia Labs
+    import: AS16278:AS-SENTIALABS
+    export: AS8283:AS-COLOCLUE
