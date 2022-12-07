@@ -837,11 +837,6 @@ AS31019:
     import: AS-MEANIE
     export: AS8283:AS-COLOCLUE
 
-AS208258:
-    description: Access2.IT Group B.V.
-    import: AS-ACCESS2IT
-    export: AS8283:AS-COLOCLUE
-
 AS39637:
     description: ADES / NetLogics
     import: AS-NETLOGICS
