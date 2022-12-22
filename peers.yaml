@@ -133,7 +133,7 @@ AS12414:
     export: "AS8283:AS-COLOCLUE"
 
 AS29396:
-    description: UNET
+    description: Eurofiber
     import: AS-UNET
     export: "AS8283:AS-COLOCLUE"
 
