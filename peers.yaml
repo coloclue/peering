@@ -118,8 +118,8 @@ AS58291:
     export: "AS8283:AS-COLOCLUE"
 
 AS9150:
-    description: Interconnect Services
-    import: AS-INTERCONNECT
+    description: Interconnect Services B.V.
+    import: "AS9150:AS-INTERCONNECT"
     export: "AS8283:AS-COLOCLUE"
 
 AS20562:
