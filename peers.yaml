@@ -994,3 +994,8 @@ AS41047:
     description: MLaB
     import: AS41047:AS-MLAB
     export: AS8283:AS-COLOCLUE
+
+AS29169:
+    description: Gandi
+    import: AS-GANDI
+    export: AS8283:AS-COLOCLUE
