@@ -999,3 +999,8 @@ AS29169:
     description: Gandi
     import: AS-GANDI
     export: AS8283:AS-COLOCLUE
+
+AS211588:
+    description: Xyphen IT
+    import: AS211588:AS-XYPHEN
+    export: AS8283:AS-COLOCLUE
