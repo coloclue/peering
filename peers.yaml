@@ -632,11 +632,6 @@ AS49206:
     import: AS-PEAKFACTORY
     export: "AS8283:AS-COLOCLUE"
 
-AS56647:
-    description: FusionMediaLimited
-    import: AS56647
-    export: "AS8283:AS-COLOCLUE"
-
 AS6762:
     description: Telecom Italia Sparkle
     import: AS-SEABONE
