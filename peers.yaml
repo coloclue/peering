@@ -534,7 +534,7 @@ AS31500:
     export: "AS8283:AS-COLOCLUE"
 
 AS1103:
-    description: SURFnet
+    description: SURF
     import: AS-SURFNET
     export: "AS8283:AS-COLOCLUE"
 
