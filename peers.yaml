@@ -999,3 +999,10 @@ AS200132:
     description: NetOne NL
     import: AS200132:AS-NETONE-NL
     export: AS8283:AS-COLOCLUE
+
+AS212855:
+    description: LUJE.net
+    import: AS212855:AS-LUJE
+    export: AS8283:AS-COLOCLUE
+    not_on:
+      - nlix
