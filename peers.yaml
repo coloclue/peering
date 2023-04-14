@@ -164,11 +164,6 @@ AS2906:
     import: as-nflx
     export: "AS8283:AS-COLOCLUE"
 
-AS44654:
-    description: Media Network Services
-    import: AS-MNS
-    export: "AS8283:AS-COLOCLUE"
-
 AS8657:
     description: PT Comunicacoes S.A.
     import: AS-CPRM
