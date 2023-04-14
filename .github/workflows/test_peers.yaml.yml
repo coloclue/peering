@@ -3,6 +3,9 @@ name: Test peers.yaml
 
 on:
   push:
+  schedule:
+    # Saturday 04:30 UTC
+    - cron: "30 4 * * 6"
 
 jobs:
   test-peers-yaml:
