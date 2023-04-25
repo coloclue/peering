@@ -698,8 +698,8 @@ AS19679:
     export: AS8283:AS-COLOCLUE
 
 AS8315:
-    description: Sentia Netherlands BV
-    import: AS8315:AS-SENTIA
+    description: Accenture BV
+    import: AS8315:AS-ACNBB
     export: AS8283:AS-COLOCLUE
 
 AS24961:
