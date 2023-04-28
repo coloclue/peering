@@ -6,6 +6,7 @@ on:
   schedule:
     # Saturday 04:30 UTC
     - cron: "30 4 * * 6"
+  workflow_dispatch:
 
 jobs:
   test-peers-yaml:
