@@ -672,7 +672,7 @@ AS56662:
     import: AS-EUTPNET
     export: AS8283:AS-COLOCLUE
 
-AS44901 :
+AS44901:
     description: Belcloud
     import: as-belcloud
     export: AS8283:AS-COLOCLUE
@@ -1001,3 +1001,9 @@ AS212855:
     export: AS8283:AS-COLOCLUE
     not_on:
       - nlix
+
+AS56584:
+    description: INTERIX Route Servers
+# Note: PeeringDB lists non-existing AS-set 'AS-INTERIX'
+    import: AS56584
+    export: AS8283:AS-COLOCLUE
