@@ -975,11 +975,6 @@ AS16278:
     import: AS16278:AS-SENTIALABS
     export: AS8283:AS-COLOCLUE
 
-AS41047:
-    description: MLaB
-    import: AS41047:AS-MLAB
-    export: AS8283:AS-COLOCLUE
-
 AS29169:
     description: Gandi
     import: AS-GANDI
