@@ -92,11 +92,6 @@ AS3856:
     import: AS-PCH
     export: "AS8283:AS-COLOCLUE"
 
-AS3267:
-    description: RUNNet
-    import: AS-RUNNET
-    export: "AS8283:AS-COLOCLUE"
-
 AS30870:
     description: Trans-iX
     import: AS-TRANSIX
