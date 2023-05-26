@@ -997,3 +997,8 @@ AS56584:
 # Note: PeeringDB lists non-existing AS-set 'AS-INTERIX'
     import: AS56584
     export: AS8283:AS-COLOCLUE
+
+AS202427:
+    description: Ursin Filli
+    import: AS-FILLI
+    export: AS8283:AS-COLOCLUE
