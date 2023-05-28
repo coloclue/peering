@@ -87,13 +87,13 @@ IXP:   SwissIX
 IPv4:  91.206.53.24
 IPv6:  2001:7f8:24::118
 
-IXP:    LOCIX
-IPv4:   185.1.138.83
-IPv6:   2a0c:b641:700::a5:8283:1
+IXP:   LOCIX
+IPv4:  185.1.138.83
+IPv6:  2a0c:b641:700::a5:8283:1
 
-IXP:    INTERIX
-IPv4:   185.0.1.16
-IPv6:   2001:7f8:134::16
+IXP:   INTERIX
+IPv4:  185.0.1.16
+IPv6:  2001:7f8:134::16
 ```
 
 ## Routing Policy ##
