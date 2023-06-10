@@ -993,8 +993,7 @@ AS212855:
 
 AS56584:
     description: INTERIX Route Servers
-# Note: PeeringDB lists non-existing AS-set 'AS-INTERIX'
-    import: AS56584
+    import: AS56584:AS-INTERIX
     export: AS8283:AS-COLOCLUE
 
 AS202427:
