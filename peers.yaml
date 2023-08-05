@@ -1000,3 +1000,13 @@ AS202427:
     description: Ursin Filli
     import: AS-FILLI
     export: AS8283:AS-COLOCLUE
+
+AS139901:
+    description: Apple Communications Ltd.
+    import: AS-DTLIIG-139901
+    export: AS8283:AS-COLOCLUE
+
+AS8309:
+    description: Sipartech SAS
+    import: AS-SPH
+    export: AS8283:AS-COLOCLUE
