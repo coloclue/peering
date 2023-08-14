@@ -1010,3 +1010,8 @@ AS8309:
     description: Sipartech SAS
     import: AS-SPH
     export: AS8283:AS-COLOCLUE
+
+AS202585:
+    description: Nick Bouwhuis
+    import: AS-NICK
+    export: AS8283:AS-COLOCLUE
