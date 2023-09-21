@@ -405,13 +405,6 @@ AS12759:
     import: AS-SOCO
     export: "AS8283:AS-COLOCLUE"
 
-AS25596:
-    description: Cambrium
-    import: AS-CAMBRIUM
-    export: "AS8283:AS-COLOCLUE"
-    not_on:
-      - speedix
-
 AS8218:
     description: Zayo France
     import: AS-NEOT AS-NEOT6 AS8218:AS-CUSTOMERS
