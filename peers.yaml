@@ -29,10 +29,10 @@ AS6939:
     import: AS-HURRICANE
     export: "AS8283:AS-COLOCLUE"
     not_on:
-      - decix
-      - franceix
-      - swissix
-      - asteroid
+        - decix
+        - franceix
+        - swissix
+        - asteroid
 
 AS16298:
     description: InterBox Internet
@@ -54,7 +54,7 @@ AS12859:
     import: AS-BIT
     export: "AS8283:AS-COLOCLUE"
     not_on:
-      - decix
+        - decix
 
 AS13101:
     description: TNG
@@ -414,7 +414,7 @@ AS13335:
     description: Cloudflare
     import: AS-CLOUDFLARE
     export: "AS8283:AS-COLOCLUE"
-    
+
 AS32934:
     description: Facebook
     import: AS-FACEBOOK
@@ -439,7 +439,7 @@ AS3320:
     description: Deutsche Telekom
     import: AS3320:AS-DTAG AS3320:AS-CUSTOMERS-V6
     export: "AS8283:AS-COLOCLUE"
-    ignore_peeringdb: True
+    ignore_peeringdb: true
     only_with:
         - 80.249.209.211
         - 2001:7f8:1::a500:3320:1
@@ -450,7 +450,7 @@ AS1299:
     export: "AS8283:AS-COLOCLUE"
     ipv4_limit: 605000
     ipv6_limit: 110000
-    ignore_peeringdb: True
+    ignore_peeringdb: true
     private_peerings:
         - 62.115.144.32
         - 2001:2000:3080:0EBC::1
@@ -465,10 +465,10 @@ AS43350:
     import: AS-NFORCE
     export: "AS8283:AS-COLOCLUE"
     only_with:
-      - 193.239.116.142
-      - 193.239.116.214
-      - 2001:7f8:13::a504:3350:1
-      - 2001:7f8:13::a504:3350:2
+        - 193.239.116.142
+        - 193.239.116.214
+        - 2001:7f8:13::a504:3350:1
+        - 2001:7f8:13::a504:3350:2
 
 AS48519:
     description: Knipp Medien und Kommunikation GmbH
@@ -525,7 +525,7 @@ AS10310:
     import: AS-YAHOO
     export: "AS8283:AS-COLOCLUE"
     not_on:
-      - nlix
+        - nlix
 
 AS48635:
     description: PCextreme
@@ -542,11 +542,11 @@ AS15169:
     import: AS-GOOGLE
     export: "AS8283:AS-COLOCLUE"
     not_on:
-      - asteroid
-      - speedix
-      - decix
-      - franceix
-      - swissix
+        - asteroid
+        - speedix
+        - decix
+        - franceix
+        - swissix
 
 AS59605:
     description: Zain Group
@@ -572,7 +572,7 @@ AS6453:
     description: Tata
     import: AS-GLOBEINTERNET
     export: "AS8283:AS-COLOCLUE"
-    ignore_peeringdb: True
+    ignore_peeringdb: true
     only_with:
         - 80.249.209.167
         - 2001:7f8:1::a500:6453:1
@@ -592,12 +592,12 @@ AS54113:
     import: AS-FASTLY
     export: "AS8283:AS-COLOCLUE"
     not_with:
-      - 193.239.118.130
-      - 193.239.118.162
-      - 2001:7f8:13::a505:4113:3
-      - 2001:7f8:13::a505:4113:2
+        - 193.239.118.130
+        - 193.239.118.162
+        - 2001:7f8:13::a505:4113:3
+        - 2001:7f8:13::a505:4113:2
 
-#AS3910:
+# AS3910:
 #    description: Centurylink
 #    import: AS3919
 #    export: "AS8283:AS-COLOCLUE"
@@ -828,7 +828,7 @@ AS47172:
     description: Greenhost
     import: AS-GREENHOST
     export: AS8283:AS-COLOCLUE
-    
+
 AS206238:
     description: Freedom Internet
     import: AS-FREEDOM
@@ -859,11 +859,11 @@ AS8298:
     import: AS-IPNG
     export: AS8283:AS-COLOCLUE
     not_on:
-      - decix
-      - franceix
-      - swissix
-      - nlix
-      - locix
+        - decix
+        - franceix
+        - swissix
+        - nlix
+        - locix
 
 AS6695:
     description: DE-CIX Frankfurt Route Servers
@@ -879,12 +879,12 @@ AS42476:
     description: SwissIX Route Servers
     import: AS-SWISSIX-RS
     export: AS8283:AS-COLOCLUE
-    
+
 AS57118:
     description: communityrack.org
     import: AS-COMRACK
-    export: AS8283:AS-COLOCLUE    
-    
+    export: AS8283:AS-COLOCLUE
+
 AS13150:
     description: Cato Networks Ltd
     import: AS13150
@@ -905,7 +905,7 @@ AS36236:
     import: AS-NETACTUATE
     export: AS8283:AS-COLOCLUE
     not_on:
-      - nlix
+        - nlix
 
 AS209288:
     description: Solutions4xs
@@ -977,7 +977,7 @@ AS212855:
     import: AS212855:AS-LUJE
     export: AS8283:AS-COLOCLUE
     not_on:
-      - nlix
+        - nlix
 
 AS56584:
     description: INTERIX Route Servers
