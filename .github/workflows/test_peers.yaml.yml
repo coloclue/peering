@@ -25,6 +25,12 @@ jobs:
       run: |
         python -m pip install --upgrade pip
         pip install ipaddr requests pyyaml
+        pip install --user yamllint
 
-    - name: Test peers.yaml
+    - name: Test peers.yaml (YAML syntax)
+      # Allow for longer line lengths
+      run: |
+        yamllint -d "{ extends: default, rules: { line-length: { max: 120 } } }" peers.yaml
+
+    - name: Test peers.yaml validity
       run: python ./tests/test_peering_relations.py
