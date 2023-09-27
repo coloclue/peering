@@ -869,6 +869,12 @@ AS6695:
     description: DE-CIX Frankfurt Route Servers
     import: AS-DECIX AS-DECIX-V6
     export: AS8283:AS-COLOCLUE
+    # https://de-cix.net/en/resources/faqs#Blackholing
+    blackhole_accept: true
+    blackhole_community:
+        - '65535:666'
+        # https://portal.de-cix.net/help-center/article/5355426
+        - 'RT:6695:4200000000'
 
 AS51706:
     description: France-IX Paris Route Servers
@@ -879,6 +885,8 @@ AS42476:
     description: SwissIX Route Servers
     import: AS-SWISSIX-RS
     export: AS8283:AS-COLOCLUE
+    # https://www.swissix.ch/resources/blackholing-guide/
+    blackhole_accept: true
 
 AS57118:
     description: communityrack.org
