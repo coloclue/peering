@@ -1011,3 +1011,8 @@ AS202585:
     description: Nick Bouwhuis
     import: AS-NICK
     export: AS8283:AS-COLOCLUE
+
+AS57758:
+    description: CBWS
+    import: AS57758:AS-CBWS
+    export: AS8283:AS-COLOCLUE
