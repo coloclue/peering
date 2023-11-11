@@ -420,11 +420,6 @@ AS32934:
     import: AS-FACEBOOK
     export: "AS8283:AS-COLOCLUE"
 
-AS8608:
-    description: Esprit Telecom
-    import: AS-QINIP
-    export: "AS8283:AS-COLOCLUE"
-
 AS6830:
     description: Liberty Global
     import: AS-AORTA AS-AORTA6
