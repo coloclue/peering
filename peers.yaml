@@ -44,11 +44,6 @@ AS41692:
     import: AS-OPENCARRIER AS-OPENCARRIER6
     export: "AS8283:AS-COLOCLUE"
 
-AS21478:
-    description: Plex
-    import: AS-PLEX
-    export: "AS8283:AS-COLOCLUE"
-
 AS12859:
     description: BIT
     import: AS-BIT
