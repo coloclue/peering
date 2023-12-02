@@ -384,6 +384,10 @@ AS16276:
     description: OVH
     import: AS-OVH
     export: "AS8283:AS-COLOCLUE"
+    not_on:
+        - decix
+        - franceix
+        - swissix
 
 AS49544:
     description: I3D
@@ -703,6 +707,9 @@ AS24940:
     description: Hetzner Online GmbH
     import: AS-Hetzner
     export: AS8283:AS-COLOCLUE
+    not_on:
+        - decix
+        - franceix
 
 AS32590:
     description: Valve Corporation
