@@ -1013,3 +1013,8 @@ AS57758:
     description: CBWS
     import: AS57758:AS-CBWS
     export: AS8283:AS-COLOCLUE
+
+AS211358:
+    description: Patrizio Palumbo
+    import: AS-IPV6GO
+    export: AS8283:AS-COLOCLUE
