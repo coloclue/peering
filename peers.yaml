@@ -1017,3 +1017,8 @@ AS211358:
     description: Patrizio Palumbo
     import: AS-IPV6GO
     export: AS8283:AS-COLOCLUE
+
+AS216455:
+    description: Sting Alleman
+    import: AS216455:AS-STING
+    export: AS8283:AS-COLOCLUE
