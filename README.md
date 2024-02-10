@@ -15,7 +15,7 @@ neutral environment.
 
 ## How to peer? ##
 
-If you are connected to AMS-IX, NL-IX, Asteroid Amsterdam, SPEED-IX, LSIX, FrysIX,
+If you are connected to AMS-IX, NL-IX, Asteroid Amsterdam, SPEED-IX, InterIX, FrysIX,
 DE-CIX, France-IX or SwissIX you can set up BGP sessions with AS8283. Make sure you
 accept `AS8283:AS-COLOCLUE` (100 prefixes max).
 
@@ -87,7 +87,7 @@ IXP:   SwissIX
 IPv4:  91.206.53.24
 IPv6:  2001:7f8:24::118
 
-IXP:   LOCIX
+IXP:   LocIX Netherlands
 IPv4:  185.1.138.83
 IPv6:  2a0c:b641:700::a5:8283:1
 
