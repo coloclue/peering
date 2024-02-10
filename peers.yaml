@@ -1027,3 +1027,8 @@ AS59645:
     description: Tobias Fiebig
     import: AS59645:AS-WYBT
     export: AS8283:AS-COLOCLUE
+
+AS62105:
+    description: Jonaz B.V.
+    import: AS-JONAZ
+    export: AS8283:AS-COLOCLUE
