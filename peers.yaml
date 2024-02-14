@@ -1032,3 +1032,8 @@ AS62105:
     description: Jonaz B.V.
     import: AS-JONAZ
     export: AS8283:AS-COLOCLUE
+
+AS42184:
+    description: TKRZ Stadtwerke GmbH
+    import: AS-TKRZ
+    export: AS8283:AS-COLOCLUE
