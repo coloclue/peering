@@ -1037,3 +1037,8 @@ AS42184:
     description: TKRZ Stadtwerke GmbH
     import: AS-TKRZ
     export: AS8283:AS-COLOCLUE
+
+AS45102:
+    description: Alibaba Group
+    import: AS-ALIBABA-CN-NET
+    export: AS8283:AS-COLOCLUE
