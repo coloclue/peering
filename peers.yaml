@@ -1042,3 +1042,8 @@ AS45102:
     description: Alibaba Group
     import: AS-ALIBABA-CN-NET
     export: AS8283:AS-COLOCLUE
+
+AS215887:
+    description: Baragoon Networks
+    import: AS215887:AS-BARA
+    export: AS8283:AS-COLOCLUE
