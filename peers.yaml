@@ -488,11 +488,6 @@ AS38880:
     import: AS-M21
     export: "AS8283:AS-COLOCLUE"
 
-AS1239:
-    description: Sprint
-    import: ANY
-    export: "AS8283:AS-COLOCLUE"
-
 AS46489:
     description: Twitch / Justin.tv
     import: AS-TWITCH
