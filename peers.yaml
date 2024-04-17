@@ -1047,3 +1047,7 @@ AS49453:
     description: Global Layer B.V.
     import: AS-49453
     export: AS8283:AS-COLOCLUE
+    not_on:
+        - nlix
+        - nlix-eunetworks-3
+        - interix
