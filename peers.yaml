@@ -1051,3 +1051,8 @@ AS49453:
         - nlix
         - nlix-eunetworks-3
         - interix
+
+AS206221:
+    description: ERA-IX Routeservers
+    import: AS-ERA-IX
+    export: AS8283:AS-COLOCLUE
