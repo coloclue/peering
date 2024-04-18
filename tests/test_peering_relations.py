@@ -61,6 +61,8 @@ connected_ixps = {
               ipaddr.IPNetwork('2a0c:b641:700::/64')],
     "interix": [ ipaddr.IPNetwork('185.0.1.0/24'),
                 ipaddr.IPNetwork('2001:7f8:134::/64')],
+    "eraix": [ ipaddr.IPNetwork('185.1.240.0/24'),
+                ipaddr.IPNetwork('2001:7f8:12a::/64')],
     "private-eun": [ipaddr.IPNetwork('62.115.144.32/31'),
                     ipaddr.IPNetwork('2001:2000:3080:0EBC::/126')],
     "multihop-eun": [ipaddr.IPNetwork('4.68.4.43/32'),
