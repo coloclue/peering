@@ -1056,3 +1056,8 @@ AS206221:
     description: ERA-IX Routeservers
     import: AS-ERA-IX
     export: AS8283:AS-COLOCLUE
+
+AS199524:
+    description: G-Core Labs
+    import: AS-GCORE
+    export: AS8283:AS-COLOCLUE
