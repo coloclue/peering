@@ -287,11 +287,6 @@ AS8359:
     import: AS-MTU
     export: "AS8283:AS-COLOCLUE"
 
-AS31595:
-    description: Redraw Internet
-    import: AS-AWELL
-    export: "AS8283:AS-COLOCLUE"
-
 AS16509:
     description: Amazon
     import: AS-AMAZON
