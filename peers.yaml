@@ -330,7 +330,7 @@ AS47065:
     type: downstream
 
 AS112:
-    description: AS112 Project (Hosted by RIPE NCC at AMS-IX)
+    description: AS112 Project
     import: AS112
     export: "AS8283:AS-COLOCLUE"
 
