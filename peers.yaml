@@ -115,9 +115,9 @@ AS12414:
     import: AS-SOLCON AS-SOLCON6
     export: "AS8283:AS-COLOCLUE"
 
-AS29396:
+AS39686:
     description: Eurofiber
-    import: AS-UNET
+    import: AS-EUROFIBER
     export: "AS8283:AS-COLOCLUE"
 
 AS36692:
