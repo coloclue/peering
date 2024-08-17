@@ -1056,3 +1056,8 @@ AS199524:
     description: G-Core Labs
     import: AS-GCORE
     export: AS8283:AS-COLOCLUE
+
+AS136557:
+    description: Host Universal
+    import: AS-HOSTUNIVERSAL
+    export: AS8283:AS-COLOCLUE
