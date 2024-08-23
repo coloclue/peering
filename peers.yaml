@@ -433,10 +433,10 @@ AS3320:
         - 2001:7f8:1::a500:3320:1
 
 AS1299:
-    description: TeliaSonera International Carrier
+    description: Arelion
     import: AS-TELIANET AS-TELIANET-V6
     export: "AS8283:AS-COLOCLUE"
-    ipv4_limit: 605000
+    ipv4_limit: 650000
     ipv6_limit: 110000
     ignore_peeringdb: true
     private_peerings:
