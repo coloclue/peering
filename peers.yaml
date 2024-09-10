@@ -1061,3 +1061,8 @@ AS136557:
     description: Host Universal
     import: AS-HOSTUNIVERSAL
     export: AS8283:AS-COLOCLUE
+
+AS263998:
+    description: Sim Fibra
+    import: AS-MMTELECOM
+    export: AS8283:AS-COLOCLUE
