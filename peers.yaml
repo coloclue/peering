@@ -441,7 +441,7 @@ AS1299:
     ignore_peeringdb: true
     private_peerings:
         - 62.115.144.32
-        - 2001:2000:3080:0EBC::1
+        - 2001:2035:0:ebc::1
 
 AS61955:
     description: ColocationIX
