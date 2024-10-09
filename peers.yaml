@@ -1066,3 +1066,8 @@ AS263998:
     description: Sim Fibra
     import: AS-MMTELECOM
     export: AS8283:AS-COLOCLUE
+
+AS214380:
+    description: tim427.net
+    import: AS214380:AS-TIM427
+    export: AS8283:AS-COLOCLUE
