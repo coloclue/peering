@@ -1071,3 +1071,8 @@ AS214380:
     description: tim427.net
     import: AS214380:AS-TIM427
     export: AS8283:AS-COLOCLUE
+
+AS200249:
+    description: Productsup
+    import: AS200249:AS-PRODUCTSUP
+    export: AS8283:AS-COLOCLUE
