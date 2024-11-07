@@ -1076,3 +1076,10 @@ AS200249:
     description: Productsup
     import: AS200249:AS-PRODUCTSUP
     export: AS8283:AS-COLOCLUE
+
+AS20326:
+    description: Teraswitch
+    import: AS-TERASWITCH
+    export: "AS8283:AS-COLOCLUE"
+    not_on:
+        - swissix
