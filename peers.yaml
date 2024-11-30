@@ -1083,3 +1083,8 @@ AS20326:
     export: "AS8283:AS-COLOCLUE"
     not_on:
         - swissix
+
+AS214810:
+    description: Mitchell van der Velden
+    import: AS214810:AS-MVDVELDEN
+    export: AS8283:AS-COLOCLUE
