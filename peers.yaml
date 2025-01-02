@@ -1088,3 +1088,8 @@ AS214810:
     description: Mitchell van der Velden
     import: AS214810:AS-MVDVELDEN
     export: AS8283:AS-COLOCLUE
+
+AS215085:
+    description: PixelHosting
+    import: AS215085:AS-PIXELHOSTING
+    export: AS8283:AS-COLOCLUE
