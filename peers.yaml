@@ -1093,3 +1093,8 @@ AS215085:
     description: PixelHosting
     import: AS215085:AS-PIXELHOSTING
     export: AS8283:AS-COLOCLUE
+
+AS48185:
+    description: team.blue
+    import: AS48185:AS-TEAMBLUE
+    export: AS8283:AS-COLOCLUE
