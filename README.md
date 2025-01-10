@@ -94,6 +94,10 @@ IPv6:  2a0c:b641:700::a5:8283:1
 IXP:   INTERIX
 IPv4:  185.0.1.16
 IPv6:  2001:7f8:134::16
+
+IXP:   ERA-IX
+IPv4:  185.1.240.117
+IPv6:  2001:7f8:12a::117
 ```
 
 ## Routing Policy ##
