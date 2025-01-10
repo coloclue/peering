@@ -437,7 +437,7 @@ AS1299:
     import: AS-TELIANET AS-TELIANET-V6
     export: "AS8283:AS-COLOCLUE"
     ipv4_limit: 750000
-    ipv6_limit: 150000
+    ipv6_limit: 175000
     ignore_peeringdb: true
     private_peerings:
         - 62.115.144.32
