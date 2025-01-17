@@ -1099,7 +1099,7 @@ AS48185:
     import: AS48185:AS-TEAMBLUE
     export: AS8283:AS-COLOCLUE
 
-AS80262:
+AS8262:
     description: EVOLINK AD
     import: AS-EVOLINK
     export: AS8283:AS-COLOCLUE
