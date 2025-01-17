@@ -1098,3 +1098,8 @@ AS48185:
     description: team.blue
     import: AS48185:AS-TEAMBLUE
     export: AS8283:AS-COLOCLUE
+
+AS80262:
+    description: EVOLINK AD
+    import: AS-EVOLINK
+    export: AS8283:AS-COLOCLUE
