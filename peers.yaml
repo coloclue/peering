@@ -317,12 +317,6 @@ AS3491:
     import: AS-CAIS
     export: "AS8283:AS-COLOCLUE"
 
-AS15562:
-    description: Job Snijders
-    import: AS15562:AS-SNIJDERS
-    export: ANY
-    type: downstream
-
 AS47065:
     description: BGPMUX / PEERING TestBed
     import: RS-PEERING-TESTBED
@@ -597,11 +591,6 @@ AS6762:
     import: AS-SEABONE
     export: "AS8283:AS-COLOCLUE"
 
-AS54825:
-    description: packet.net
-    import: AS-PACKET
-    export: "AS8283:AS-COLOCLUE"
-
 AS12956:
     description: Telxius
     import: AS-TDATANET
@@ -635,11 +624,6 @@ AS206313:
 AS56662:
     description: e-utp.net
     import: AS-EUTPNET
-    export: AS8283:AS-COLOCLUE
-
-AS44901:
-    description: Belcloud
-    import: as-belcloud
     export: AS8283:AS-COLOCLUE
 
 AS201290:
@@ -745,11 +729,6 @@ AS35709:
     import: AS-TRIX
     export: AS8283:AS-COLOCLUE
 
-AS15133:
-    description: EdgeCast Networks Inc
-    import: AS-EDGECAST
-    export: AS8283:AS-COLOCLUE
-
 AS41887:
     description: Prolocation B.V.
     import: AS-PROLOCATION
@@ -773,11 +752,6 @@ AS59985:
 AS8859:
     description: OSN Online Service Nuernberg GmbH
     import: AS8859:AS-OSN
-    export: AS8283:AS-COLOCLUE
-
-AS132203:
-    description: Tencent Holdings Ltd.
-    import: AS132203:AS-TENCENT
     export: AS8283:AS-COLOCLUE
 
 AS205668:
