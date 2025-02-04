@@ -109,6 +109,15 @@ AS20562:
     description: OpenPeering
     import: AS-OPENPEERING
     export: "AS8283:AS-COLOCLUE"
+    only_with:
+        - 80.249.208.189
+        - 80.249.209.197
+        - 2001:7f8:1::a502:562:1
+        - 2001:7f8:1::a502:562:2
+        - 193.239.116.3
+        - 193.239.116.17
+        - 2001:7f8:13::a502:562:1
+        - 2001:7f8:13::a502:562:2
 
 AS12414:
     description: Solcon
