@@ -66,6 +66,9 @@ AS13101:
     description: TNG
     import: AS-TNG AS-TNG-IPV6
     export: "AS8283:AS-COLOCLUE"
+    not_on:
+        - swissix
+        - franceix
 
 AS48200:
     description: Opteamax
@@ -374,6 +377,10 @@ AS33891:
     description: Core Backbone GmbH
     import: AS-CORE-BACKBONE
     export: "AS8283:AS-COLOCLUE"
+    not_on:
+        - decix
+        - swissix
+        - franceix
 
 AS43996:
     description: Booking.com
@@ -426,6 +433,10 @@ AS1764:
     description: Nextlayer.at
     import: AS-NEXTLAYER AS-NEXTLAYER-V6
     export: "AS8283:AS-COLOCLUE"
+    not_on:
+        - decix
+        - swissix
+        - franceix
 
 AS50673:
     description: Serverius
@@ -554,6 +565,10 @@ AS48519:
     description: Knipp Medien und Kommunikation GmbH
     import: AS-IRONDNS AS-IRONDNS-v6
     export: "AS8283:AS-COLOCLUE"
+    not_on:
+        - decix
+        - swissix
+        - franceix
 
 AS200023:
     description: Qonnected B.V.
@@ -564,6 +579,10 @@ AS41913:
     description: Computerline Group
     import: AS-COMPUTERLINE
     export: "AS8283:AS-COLOCLUE"
+    not_on:
+        - decix
+        - swissix
+        - franceix
 
 AS31027:
     description: GlobalConnect Group
@@ -804,6 +823,10 @@ AS34872:
     description: Servperso-Systems
     import: AS-SERVPERSO
     export: AS8283:AS-COLOCLUE
+    not_on:
+        - decix
+        - swissix
+        - franceix
 
 AS200020:
     description: Stichting Nationale Beheersorganisatie Internet Providers (NBIP)
@@ -882,6 +905,10 @@ AS37100:
     description: Seacom
     import: AS-SET-SEACOM
     export: AS8283:AS-COLOCLUE
+    not_on:
+        - decix
+        - swissix
+        - franceix
 
 AS8859:
     description: OSN Online Service Nuernberg GmbH
