@@ -776,11 +776,6 @@ AS201290:
     import: AS-BlackGATE
     export: AS8283:AS-COLOCLUE
 
-AS34779:
-    description: T-2 d.o.o.
-    import: AS-T2-CUST
-    export: AS8283:AS-COLOCLUE
-
 AS394354:
     description: Canadian Internet Registration Authority
     import: AS-394354
