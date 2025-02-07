@@ -110,6 +110,10 @@ AS8365:
     description: MANDA
     import: AS-MANDA
     export: "AS8283:AS-COLOCLUE"
+    not_on:
+        - decix
+        - swissix
+        - franceix
 
 AS58291:
     description: Colocenter.nl
@@ -183,6 +187,10 @@ AS8657:
     description: PT Comunicacoes S.A.
     import: AS-CPRM
     export: "AS8283:AS-COLOCLUE"
+    not_on:
+        - decix
+        - swissix
+        - franceix
 
 AS2914:
     description: NTT
@@ -353,6 +361,10 @@ AS5400:
     description: BT
     import: AS-BT-EU
     export: "AS8283:AS-COLOCLUE"
+    not_on:
+        - decix
+        - swissix
+        - franceix
 
 AS33891:
     description: Core Backbone GmbH
