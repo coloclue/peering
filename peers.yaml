@@ -306,6 +306,10 @@ AS30781:
     description: Jaguar Network
     import: AS-JAGUAR AS-JAGUAR-V6
     export: "AS8283:AS-COLOCLUE"
+    not_on:
+        - decix
+        - swissix
+        - franceix
 
 AS12552:
     description: IP-Only
