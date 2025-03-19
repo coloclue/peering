@@ -329,11 +329,6 @@ AS8674:
     import: AS-NETNOD
     export: "AS8283:AS-COLOCLUE"
 
-AS20857:
-    description: TransIP
-    import: AS-TRANSIP
-    export: "AS8283:AS-COLOCLUE"
-
 AS6677:
     description: Iceland Telecom Ltd.
     import: AS-ICENET
