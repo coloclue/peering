@@ -643,6 +643,11 @@ AS59605:
     import: AS-ZAINGP
     export: "AS8283:AS-COLOCLUE"
 
+AS8529:
+    description: Zain Omantel International
+    import: AS8529:AS-ZOI
+    export: "AS8283:AS-COLOCLUE"
+
 AS20932:
     description: SIG-Telecom
     import: AS-SIG-TELECOM
