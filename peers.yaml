@@ -1220,3 +1220,8 @@ AS213874:
     description: NS-IX Route Server
     import: AS213874:AS-NSIX-RS
     export: AS8283:AS-COLOCLUE
+
+AS50263:
+    description: 1-IX EU Internet Exchange
+    import: AS50263:AS-1-IX-EU-WORLD
+    export: AS8283:AS-COLOCLUE
