@@ -49,7 +49,7 @@ connected_ixps = {
              ipaddr.IPNetwork('2001:7f8:b6:0:0:0:0:0/64')],
     "speedix": [ipaddr.IPNetwork('185.1.222.0/23'),
                 ipaddr.IPNetwork('2001:7f8:b7:0:0:0:0:0/64')],
-    "frysix": [ipaddr.IPNetwork('185.1.203.0/24'),
+    "frysix": [ipaddr.IPNetwork('185.1.160.0/23'),
                 ipaddr.IPNetwork('2001:7f8:10f::205b:0/64')],
     "decix": [ipaddr.IPNetwork('80.81.192.0/21'),
                 ipaddr.IPNetwork('2001:7f8::/64')],
