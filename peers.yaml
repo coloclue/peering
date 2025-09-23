@@ -1230,3 +1230,8 @@ AS209267:
     description: Velorum B.V.
     import: AS209267:AS-VELORUM
     export: AS8283:AS-COLOCLUE
+
+AS213576:
+    description: ERTIUS-NET
+    import: AS213576:AS-ALL
+    export: AS8283:AS-COLOCLUE
