@@ -1235,3 +1235,8 @@ AS213576:
     description: ERTIUS-NET
     import: AS213576:AS-ALL
     export: AS8283:AS-COLOCLUE
+
+AS65001:
+    description: Earthlink DMCC
+    import: AS-DMCC
+    export: "AS8283:AS-COLOCLUE"
