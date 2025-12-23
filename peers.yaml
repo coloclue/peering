@@ -74,6 +74,8 @@ AS48200:
     description: Opteamax
     import: AS-OPTEAMAX-v4 AS-OPTEAMAX
     export: "AS8283:AS-COLOCLUE"
+    not_on:
+        - decix
 
 AS25091:
     description: IP-Max SA
