@@ -1247,3 +1247,13 @@ AS48408:
     description: Localitel
     import: AS-LOCALITEL
     export: "AS8283:AS-COLOCLUE"
+
+AS214809:
+    description: Stocade
+    import: AS214809:AS-ALL
+    export: "AS8283:AS-COLOCLUE"
+    not_on: 
+        - eraix
+        - frysix
+        - speedix
+        - amsix
