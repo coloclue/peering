@@ -1257,3 +1257,8 @@ AS214809:
         - frysix
         - speedix
         - amsix
+
+AS60900:
+    description: Ssmidge Technologies
+    import: AS-SSMIDGE
+    export: AS8283:AS-COLOCLUE
