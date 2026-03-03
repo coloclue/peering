@@ -1238,11 +1238,6 @@ AS213576:
     import: AS213576:AS-ALL
     export: AS8283:AS-COLOCLUE
 
-AS60051:
-    description: Earthlink DMCC
-    import: AS-DMCC
-    export: "AS8283:AS-COLOCLUE"
-
 AS48408:
     description: Localitel
     import: AS-LOCALITEL
