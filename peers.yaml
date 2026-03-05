@@ -1255,5 +1255,5 @@ AS1299:
     ipv6_limit: 300000
     ignore_peeringdb: true
     private_peerings:
-        - 62.115.151.175
-        - 2001:2035:0:e05::2
+        - 62.115.151.174
+        - 2001:2035:0:e05::1
