@@ -1257,3 +1257,8 @@ AS1299:
     private_peerings:
         - 62.115.151.174
         - 2001:2035:0:e05::1
+
+AS213641:
+    description: AS213641
+    import: AS213641:AS-PASCALVDP
+    export: AS8283:AS-COLOCLUE
