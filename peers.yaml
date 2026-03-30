@@ -1267,3 +1267,8 @@ AS216302:
     description: Kaminot
     import: AS216302:AS-KAMINOT
     export: AS8283:AS-COLOCLUE
+
+AS199839:
+    description: StratoNexus 
+    import: AS199839:AS-ALL
+    export: AS8283:AS-COLOCLUE
