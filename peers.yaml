@@ -1262,3 +1262,8 @@ AS213641:
     description: AS213641
     import: AS213641:AS-PASCALVDP
     export: AS8283:AS-COLOCLUE
+
+AS216302:
+    description: Kaminot
+    import: AS216302:AS-KAMINOT
+    export: AS8283:AS-COLOCLUE
