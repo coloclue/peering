@@ -1247,17 +1247,6 @@ AS60900:
     import: AS-SSMIDGE
     export: AS8283:AS-COLOCLUE
 
-AS1299:
-    description: Arelion
-    import: AS-TELIANET AS-TELIANET-V6
-    export: "AS8283:AS-COLOCLUE"
-    ipv4_limit: 11000000
-    ipv6_limit: 300000
-    ignore_peeringdb: true
-    private_peerings:
-        - 62.115.151.174
-        - 2001:2035:0:e05::1
-
 AS213641:
     description: AS213641
     import: AS213641:AS-PASCALVDP
