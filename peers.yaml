@@ -120,11 +120,6 @@ AS8365:
         - swissix
         - franceix
 
-AS58291:
-    description: Colocenter.nl
-    import: AS-COLOCENTER
-    export: "AS8283:AS-COLOCLUE"
-
 AS9150:
     description: Interconnect Services B.V.
     import: "AS9150:AS-INTERCONNECT"
