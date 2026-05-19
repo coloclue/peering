@@ -1256,3 +1256,8 @@ AS199839:
     description: StratoNexus 
     import: AS199839:AS-ALL
     export: AS8283:AS-COLOCLUE
+
+AS213052:
+    description: BittenBytes
+    import: AS213052:AS-BITTENBYTES
+    export: AS8283:AS-COLOCLUE
