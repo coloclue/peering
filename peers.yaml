@@ -813,15 +813,6 @@ AS24940:
         - franceix
         - swissix
 
-AS32590:
-    description: Valve Corporation
-    import: AS-VALVE
-    export: AS8283:AS-COLOCLUE
-    not_on:
-        - decix
-        - swissix
-        - franceix
-
 AS197301:
     description: Parknet F.M.B.A.
     import: AS-PARKNET
