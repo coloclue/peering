@@ -288,7 +288,7 @@ AS2119:
         - franceix
 
 AS50266:
-    description: T-mobile thuis
+    description: Odido Netherlands bv
     import: AS-PROJECTJAGUAR
     export: "AS8283:AS-COLOCLUE"
 
