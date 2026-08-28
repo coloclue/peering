@@ -785,11 +785,6 @@ AS39647:
     import: AS-REDHOSTING
     export: AS8283:AS-COLOCLUE
 
-AS202365:
-    description: Chronos
-    import: AS-CHRONOS
-    export: AS8283:AS-COLOCLUE
-
 AS34872:
     description: Servperso-Systems
     import: AS-SERVPERSO
