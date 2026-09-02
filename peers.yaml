@@ -1247,3 +1247,8 @@ AS213052:
     description: BittenBytes
     import: AS213052:AS-BITTENBYTES
     export: AS8283:AS-COLOCLUE
+
+AS36231:
+    description: Tempest
+    import: AS-TEMPEST
+    export: AS8283:AS-COLOCLUE    
