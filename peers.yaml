@@ -1252,3 +1252,8 @@ AS36231:
     description: Tempest
     import: AS-TEMPEST
     export: AS8283:AS-COLOCLUE    
+
+AS218836:
+    description: Expeditioner Network
+    import: AS218836:AS-EXPED
+    export: AS8283:AS-COLOCLUE
