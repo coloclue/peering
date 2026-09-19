@@ -1257,3 +1257,8 @@ AS218836:
     description: Expeditioner Network
     import: AS218836:AS-EXPED
     export: AS8283:AS-COLOCLUE
+
+AS209990:
+    description: Karmuz
+    import: AS209990:AS-KARMUZ
+    export: AS8283:AS-COLOCLUE
