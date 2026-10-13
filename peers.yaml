@@ -1262,3 +1262,8 @@ AS209990:
     description: Karmuz
     import: AS209990:AS-KARMUZ
     export: AS8283:AS-COLOCLUE
+
+AS403001:
+    description: Mirage Global Technologies
+    import: AS-MIRAGE
+    export: AS8283:AS-COLOCLUE
