@@ -1262,3 +1262,8 @@ AS209990:
     description: Karmuz
     import: AS209990:AS-KARMUZ
     export: AS8283:AS-COLOCLUE
+
+AS218511:
+    description: Clue-IX Route Server
+    import: AS218511:AS-CLUE-IX
+    export: AS8283:AS-COLOCLUE
