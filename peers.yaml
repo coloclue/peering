@@ -1267,3 +1267,5 @@ AS218511:
     description: Clue-IX Route Server
     import: AS218511:AS-CLUE-IX
     export: AS8283:AS-COLOCLUE
+    gtsm: true
+
